@@ -30,6 +30,12 @@ h2 {
 .rojo {
   color: #bf3f27;
 }
+.azul {
+  color: #28ade3;
+}
+.gris {
+  color: #807f7f;
+}
 .italic {
   font-style: italic;
 }
@@ -45,6 +51,14 @@ h2 {
   width: 80%;
   padding: 20px;
   margin-top: 20px 20px 0px;
+}
+.grande {
+  color: #3aadc1;
+  font-size: 32px !important;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
 /* =========================== NSE */
 div.content-NSE .container.NSE div div h1:first-child {
@@ -122,7 +136,7 @@ div.content-Historias-vida .container.historias_vida div div div.row p span.porc
   font-size: 50px;
   margin-left: 20px;
 }
-div.content-Historias-vida .container.historias_vida div div div.row img {
+div.content-Historias-vida .container.historias_vida div div div.row img.uno {
   width: 100%;
   margin-left: -30px;
 }
@@ -133,9 +147,90 @@ div.content-Historias-vida .container.historias_vida div div img {
 }
 div.content-Historias-vida .container.historias_vida div div div.row img.chica {
   width: 100px;
-  margin-left: 10px;
+  margin: 10px 0px;
 }
 div.content-Historias-vida .container.historias_vida div div div.row ul {
-  margin-left: 29px;
-  font-size: 18px;
+  margin-left: 40px;
+  font-size: 16px;
+  padding-bottom: 20px;
+  list-style: inherit;
+}
+div.content-Historias-vida .container.historias_vida div div div.row ul li {
+  margin-bottom: 10px;
+}
+div.content-Historias-vida .container.historias_vida div div div.row img.chica2 {
+  width: 125px;
+  display: block;
+  margin: 10px -50px;
+}
+div.content-Historias-vida .container.historias_vida div div ul {
+  list-style: inherit;
+  width: 80%;
+  margin: auto;
+}
+div.content-Historias-vida .container.historias_vida div div ul li {
+  padding-bottom: 10px;
+}
+div.content-Historias-vida .container.historias_vida div div img.dos {
+  width: 100%;
+  margin-left: 20px;
+}
+/* =========================== Estado Civil y Educación */
+div.content-C_estado_civil .container.estado_civil div div h1.subCatego {
+  text-align: center;
+}
+div.content-C_estado_civil .container.estado_civil div div div {
+  padding-bottom: 10px;
+}
+div.content-C_estado_civil .container.estado_civil div div div p {
+  text-align: center;
+  font-size: 17px;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border.yellow {
+  border-top: 1px solid #fbdc44;
+  margin-top: 10px;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border.yellow p.spacing {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #807f7f;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle {
+  position: relative;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle p.vive {
+  margin-left: -75px;
+  margin-top: 5px;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle span.azul.nueve {
+  font-size: 20px;
+  font-weight: bold;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle img.flecha {
+  position: absolute;
+  top: -5px;
+  left: 50px;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border-un {
+  border-top: 1px solid #fbdc44;
+  width: 80%;
+  margin: auto;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border-un p.un {
+  color: #807f7f;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border-un p.grande.ocho {
+  text-align: left;
+  margin-left: 15px;
+}
+div.content-C_estado_civil .container.estado_civil div div div.border-un p.sod {
+  margin-left: -45px;
+  text-align: left;
+  font-size: 23px;
+  font-weight: 200;
 }

@@ -1,0 +1,20 @@
+ion-side-menus
+	ion-pane(ion-side-menu-content)
+		ion-nav-bar.bar-stable.nav-title-slide-ios7
+		ion-nav-view(name="menuContent" animation="slide-left-right")
+	ion-side-menu(side="left")
+		header.bar.bar-header.bar-stable
+			h1.title Menú
+		ion-content.has-header
+			ion-list
+				ion-item(nav-clear menu-close href="#/app/nse") NSE
+				ion-item(nav-clear menu-close href="#/app/historias_vida") Historias de vida
+				ion-item(nav-clear menu-close href="#/app/submenuCaracteristicas") Caracteristicas de consumo
+				ion-item(nav-clear menu-close href="#/app/C_estado_civil") Caracteristicas de consumo EC
+					//-ion-item(ng-click="toggleSubmenu('categorias')")-->
+						ion-item(nav-clear menu-close class="submenu" ng-show="categorias" ng-repeat="category in categories" ng-href="#/app/categorias/{{category.id_category}}") {{category.name}}
+				ion-item(nav-clear menu-close href="#/app/actividades") Actividades
+				ion-item(nav-clear menu-close href="#/app/secretos_guardados") Secretos guardados
+					//-ion-item(ng-click="toggleSubmenu('categorias_A')")
+						ion-item(nav-clear menu-close class="submenu" ng-show="categorias_A" ng-repeat="category in categories_A" ng-href="#/app/categorias/{{category_A.id_category_A}}") {{category_A.name}}
+				ion-item(nav-clear menu-close href="#/app/nuevo_lujo") Nuevo lujo
