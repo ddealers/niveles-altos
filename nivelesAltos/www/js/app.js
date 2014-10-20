@@ -65,6 +65,103 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           controller: 'PlaylistCtrl'
         }
       }
+    })
+    .state('app.nse', {
+      url: "/nse",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nse.html",
+        }
+      }
+    })
+    .state('app.C_bancarios', {
+      url: "/C_bancarios",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_bancarios.html",
+        }
+      }
+    })
+    .state('app.C_demograficas', {
+      url: "/C_demograficas",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_demograficas.html",
+
+        }
+      }
+    })
+    .state('app.C_estado_civil', {
+      url: "/C_estado_civil",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_estado_civil.html",
+
+        }
+      }
+    })
+    .state('app.C_hogar', {
+      url: "/C_hogar",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_hogar.html",
+
+        }
+      }
+    })
+    .state('app.C_internet', {
+      url: "/C_internet",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_internet.html",
+
+        }
+      }
+    })
+    .state('app.C_medios', {
+      url: "/C_mediost",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_medios.html",
+
+        }
+      }
+    })
+    .state('app.C_ocupaciones', {
+      url: "/C_ocupaciones",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_ocupaciones.html",
+
+        }
+      }
+    })
+    .state('app.C_tecnologia', {
+      url: "/C_tecnologia",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_tecnologia.html",
+
+        }
+      }
+    })
+    .state('app.C_telefonia', {
+      url: "/C_telefonia",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_telefonia.html",
+
+        }
+      }
+    })
+    .state('app.historias_vida', {
+      url: "/historias_vida",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/historias_vida.html",
+
+        }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
