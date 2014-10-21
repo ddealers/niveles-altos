@@ -1,39 +1,49 @@
-.container.Caracteristicas.ocupaciones
-	div
-		div
-			h1 PRINCIPALES OCUPACIONES 
-			p.grande 5 de cada 10
-			p es dueño de su propia<br>empresa.
-			p.grande 3 de cada 10
-			p es empleado en el sector<br> privado de una empresa<br> no familiar.
-			div
-				p.grande 1 de cada 10
-				p es empleado en el sector público.
-			div.row
-				div.col
-					p Sólo<br> el 5%
-				div.col
-					p es empleado<br> en el sector<br> privado en<br> una mepresa<br> familiar
-			p Giro de la<br> Empresa
-			ul
-				li Servicios
-				li Consultoría
-				li Construcción
-				li Servicios <br>financieros
-				li Venta
-				li Manufactura
-				li Alimentos
-				li Salud
-				li Bienes
-				li Educación
-			ul 
-				li 56%
-				li 5%
-				li 4%
-				li 4%
-				li 10%
-				li 9%
-				li 7%
-				li 6%
-				li 5%
-				li 4%
+div.content-C_ocupaciones
+	ion-view(title="C. ocupaciones")
+		ion-nav-buttons(side="left")
+			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+		ion-content.has-header			
+			.container.ocupaciones
+				div
+					div
+						h1 PRINCIPALES OCUPACIONES 
+						p.grande 5 de cada 10
+						p.p es dueño de su propia<br>empresa.
+						p.grande 3 de cada 10
+						p.p es empleado en el sector<br> privado de una empresa<br> no familiar.
+						div.border-
+							p.grande 1 de cada 10
+							p.-p es empleado en el sector público.
+						div.row
+							div.col-50
+								p.coll Sólo<br> el 
+									span.azul 5%
+									img(src="./img/flecha.png")
+							div.col-50
+								p.sector es empleado<br> en el sector<br> privado en<br> una mepresa<br> familiar.
+						p.giro Giro de la<br> Empresa
+						div.row
+							div.col-75
+								ul
+									li Servicios
+									li Consultoría
+									li Construcción
+									li Servicios financieros
+									li Venta
+									li Manufactura
+									li Alimentos
+									li Salud
+									li Bienes
+									li Educación
+							div.col
+								ul 
+									li 56%
+									li 5%
+									li 4%
+									li 4%
+									li 10%
+									li 9%
+									li 7%
+									li 6%
+									li 5%
+									li 4%

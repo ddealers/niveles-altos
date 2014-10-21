@@ -1,22 +1,30 @@
-.container.Caracteristicas.demográficas_educación
-	div
-		div
-			h1 DEMOGRÁFICOS Y EDUCACIÓN
-			div.row
-				div.col
-					p hijos
-				div.col
-					p Números de<br>hijos
-			div.row
-				div.col
-					img(srec="")
-				div.col
-					img(srec="")
-			p
-				span 63%
-				|tiene hijos que actualmente asiste a la escuela.
-			div
-				p.grande 9 de cada 10
-				p declaró que sus hijos<br> estudian en su país y sólo
-				p.grande 1 de cada 10
-				p mencionó que estudian<br> en el extranjero.
+div.content-C_demograficas
+	ion-view(title="C. demográficas")
+		ion-nav-buttons(side="left")
+			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+		ion-content.has-header			
+			.container.demograficos_edu
+				div
+					div
+						h1 DEMOGRÁFICOS Y EDUCACIÓN
+						div.row
+							div.col-50
+								p.hijo hijos
+							div.col-50
+								p.hijo Números de<br>hijos
+						div.row
+							div.col
+								img.grafica(src="./img/grafica2.png")
+							div.col
+								img.dos(src="./img/dos.png")
+						p.p
+							span.seis-tres.bold 63%
+							|tiene hijos que actualmente asiste a la escuela.
+						div
+							p.grande 9 de cada 10
+							p
+								span.lettering declaró que sus hijos<br> 
+								|estudian en su país y sólo
+							p.grande 1 de cada 10
+							p mencionó que estudian<br> 
+								span.lettering-dos en el extranjero.

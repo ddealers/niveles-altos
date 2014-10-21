@@ -1,55 +1,72 @@
-.container.Caracteristicas.Bancarios
-	div
-		div
-			h1 SERVICIOS BANCARIOS 
-			p El 98%<br>cuenta con servicios bancarios.
-			h2.sub ¿Que servicios tienen?
-			ul 
-				li Tarjeta de crédito
-				li Tarjeta de débito
-				li Cuenta de cheques
-				li Inversiones
-				li Afores
-				li Tarjeta de nómina
-				li Créditos (de auto,<br> hipotecario)
-				li Préstamos, en efectivo
-			ul 
-				li 99
-				li 88
-				li 80
-				li 67
-				li 54
-				li 38
-				li 38
-				li 18
-			p.grande Utilizan 5 servicios
-			p bancarios en promedio.
-			div
-				p En promedio cuentan con
-				p
-					span.grande 4
-					span.negro tarjetas de
-					span.bold crédito y
-					span.grande 2
-					|tarjetas de débito.
-			div
-				p.bold LAS TARJETAS DE CRÉBITO<br>
-					span.p-normal que más utilizan son:<br>
-					|Banamex 
-					span.verde (61%)<br>
-					|AMEX 
-					span.verde (49%)<br>
-					|Bancomer
-					span.verde (41%)
-			div
-				p.bold LAS TARJETAS DE DÉBITO<br>
-					span.p-normal que más utilizan son:<br>
-					|Banamex 
-					span.verde (48%)<br>
-					|Bancomer
-					span.verde (36%)
-			div
-				p.grande 7 de cada 10
-				p operaciones<br> bancarias
-					span.bold las<br> realizan en línea.
-
+div.content-C_bancarios
+	ion-view(title="C. bancarios")
+		ion-nav-buttons(side="left")
+			button.button.button-icon-navicon(menu-toggle="left")
+		ion-content.has-header
+			.container.bancarios
+				div
+					div
+						h1 SERVICIOS BANCARIOS
+						p.te.center El 
+							span.azul 98% <br> 
+							|cuenta con servicios bancarios.
+						h2.sub ¿Que servicios tienen?
+						div.row
+							div.col-75
+								ul
+									li Tarjeta de crédito
+									li Tarjeta de débito
+									li Cuenta de cheques
+									li Inversiones
+									li Afores
+									li Tarjeta de nómina
+									li Créditos (de auto,<br>hipotecario)
+									li Préstamos, en efectivo
+							div.col 
+								ul.azul
+									li 99
+									li 88
+									li 80
+									li 67
+									li 54
+									li 38
+									li 38
+									li 18
+						p.grande Utilizan 5 servicios
+						p.banco bancarios en promedio.
+						div.relative
+							p.promedio En promedio cuentan con
+							p.span
+								span.grande 4 
+								span.negro tarjetas de 
+								span.bold crédito y 
+								span.grande 2 
+								span.ps tarjetas de débito.
+						p.pb.bold LAS TARJETAS DE CRÉBITO
+						p que más utilizan son:
+						div.row
+							div.col-75
+								ul 
+									li Banamex 
+									li AMEX
+									li Bancomer
+							div.col
+								ul.azul 
+									li (61%)
+									li (49%)
+									li (41%)
+						p.pb.bold LAS TARJETAS DE DÉBITO
+						p que más utilizan son:
+						div.row
+							div.col-75
+								ul 
+									li Banamex 
+									li Bancomer
+							div.col
+								ul.azul 
+									li (48%)
+									li (36%)
+						div
+							p.grande.borde 7 de cada 10
+							p.op operaciones<br> bancarias 
+								span.bold.f las<br> realizan en línea.
