@@ -725,3 +725,12 @@ div.content-C_tecnologia .container.tecnologia div div p {
   font-weight: 200;
   margin: 20px;
 }
+div.content-C_tecnologia .container.tecnologia div div div.row {
+  margin-left: 25px;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col ul li img {
+  width: 70%;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li {
+  padding-top: 25.5px;
+}

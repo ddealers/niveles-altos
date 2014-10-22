@@ -159,6 +159,42 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
         }
       }
+    })
+    .state('app.secreto_1', {
+      url: "/secreto_1",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_1.html",
+
+        }
+      }
+    })
+    .state('app.secreto_2', {
+      url: "/secreto_2",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_2.html",
+
+        }
+      }
+    })
+    .state('app.secreto_3', {
+      url: "/secreto_3",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_3.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo', {
+      url: "/nuevo_lujo",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nuevo_lujo.html",
+
+        }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
