@@ -11,9 +11,8 @@ html {
 }
 /* =========================== ESTILO GENERAL */
 h1 {
-  text-align: right;
-  margin-right: 10px;
-  font-size: 20px;
+  text-align: center;
+  font-size: 17px;
 }
 h2 {
   text-align: center;
@@ -511,4 +510,218 @@ div.content-C_bancarios .container.bancarios div div p.grande.borde {
   margin: auto;
   margin-top: 10px;
   padding-bottom: 10px;
+}
+/* =========================== CONSUMO DE MEDIOS */
+div.content-C_medios .container.medios div div p.italic {
+  text-align: center;
+}
+div.content-C_medios .container.medios div div img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+div.content-C_medios .container.medios div div div p {
+  text-align: center;
+  font-size: 16px;
+}
+div.content-C_medios .container.medios div div div p span.bold.p2 {
+  font-size: 28px;
+}
+div.content-C_medios .container.medios div div div p span.bold.esp {
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+div.content-C_medios .container.medios div div div p span.servicio {
+  font-size: 25px;
+}
+div.content-C_medios .container.medios div div div.top {
+  border-top: 1px solid #fbdc44;
+  margin: auto;
+  width: 80%;
+  margin-top: 10px;
+}
+div.content-C_medios .container.medios div div div.top p.left {
+  text-align: left;
+  margin-left: 20px;
+}
+div.content-C_medios .container.medios div div p {
+  text-align: center;
+}
+div.content-C_medios .container.medios div div p.lee {
+  font-style: italic;
+  border-top: 1px solid #fbdc44;
+  margin: auto;
+  width: 80%;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+div.content-C_medios .container.medios div div p.Portada {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+div.content-C_medios .container.medios div div p.sub.back {
+  background: url("../img/Imagen9.png") no-repeat 0px 0px;
+  background-size: cover;
+  height: 52px;
+  margin-bottom: 21px;
+}
+div.content-C_medios .container.medios div div div.row div.col-75 {
+  margin-left: 30px;
+}
+div.content-C_medios .container.medios div div div.row div.col-75 ul li {
+  padding-bottom: 10px;
+}
+div.content-C_medios .container.medios div div div.row div.col {
+  margin-left: -30px;
+}
+div.content-C_medios .container.medios div div div.row div.col ul li {
+  padding-bottom: 10px;
+}
+div.content-C_medios .container.medios div div div.border.amarillo {
+  border-top: 1px solid #fbdc44;
+}
+div.content-C_medios .container.medios div div div.border.amarillo p.pp {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  line-height: 22px;
+}
+/* =========================== INTERNET Y REDES SOCIALES */
+div.content-C_internet .container.internet div div p.grande span.verde {
+  font-size: 16px;
+}
+div.content-C_internet .container.internet div div p.grande span.normal {
+  color: #000;
+  font-weight: 200;
+  font-size: 22px;
+}
+div.content-C_internet .container.internet div div img {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.content-C_internet .container.internet div div p.azul.en {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+div.content-C_internet .container.internet div div div.row {
+  margin-left: 15px;
+}
+div.content-C_internet .container.internet div div div.row div.col {
+  position: relative;
+  margin-right: 225px;
+}
+div.content-C_internet .container.internet div div div.row div.col ul li img {
+  width: 40px;
+}
+div.content-C_internet .container.internet div div div.row div.col ul li img.img {
+  width: 25px;
+  margin-left: 8px;
+}
+div.content-C_internet .container.internet div div div.row div.col-50 {
+  margin-left: -155px;
+}
+div.content-C_internet .container.internet div div div.row div.col-50 ul li {
+  margin-top: 38px;
+  margin-left: -25px;
+}
+div.content-C_internet .container.internet div div div.row div.col.numeros {
+  margin-left: 40px;
+  margin-top: -5px;
+}
+div.content-C_internet .container.internet div div div.row div.col.numeros ul li {
+  margin-top: 38px;
+  margin-left: -25px;
+}
+div.content-C_internet .container.internet div div p {
+  text-align: center;
+}
+div.content-C_internet .container.internet div div p.azul {
+  font-size: 20px;
+}
+div.content-C_internet .container.internet div div p.grande.negro {
+  color: #000;
+  letter-spacing: 2px;
+  margin-top: -10px;
+}
+div.content-C_internet .container.internet div div p.rs {
+  font-size: 25px;
+  font-weight: 200;
+}
+div.content-C_internet .container.internet div div p.sub.back {
+  background: url("../img/Imagen9.png") no-repeat 0px 0px;
+  background-size: cover;
+  height: 52px;
+  margin-top: 30px;
+}
+div.content-C_internet .container.internet div div div.row div.col-50.redesS ul li {
+  margin-top: 10px;
+}
+div.content-C_internet .container.internet div div div.row div.col.por ul {
+  margin-left: -50px;
+  margin-top: -5px;
+}
+div.content-C_internet .container.internet div div div.row div.col.por ul li {
+  margin-top: 10px;
+}
+/* =========================== TELEFONÍA CELULAR */
+div.content-C_telefonia .container.telefonia div div p.azul {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+div.content-C_telefonia .container.telefonia div div p.azul.y {
+  text-align: center;
+  font-weight: 200;
+}
+div.content-C_telefonia .container.telefonia div div div.row div.col img {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 13px;
+}
+div.content-C_telefonia .container.telefonia div div div.row div.col-50 ul li {
+  padding-top: 10px;
+}
+div.content-C_telefonia .container.telefonia div div div.row div.col.por ul li {
+  padding-top: 10px;
+  margin-left: -20px;
+}
+div.content-C_telefonia .container.telefonia div div div.img img {
+  margin: auto;
+  display: block;
+  border-top: 1px solid #fbdc44;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+div.content-C_telefonia .container.telefonia div div div.img p.sub.back {
+  background: url("../img/Imagen9.png") no-repeat 0px 0px;
+  background-size: cover;
+  height: 52px;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+div.content-C_telefonia .container.telefonia div div div.img div.row {
+  margin-left: 20px;
+}
+div.content-C_telefonia .container.telefonia div div div.img div.row div.col-75 ul li {
+  padding-top: 10px;
+}
+div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul {
+  margin-top: -5px;
+}
+div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul li {
+  padding-top: 10px;
+}
+/* =========================== TELEFONÍA CELULAR */
+div.content-C_tecnologia .container.tecnologia div div p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  margin: 20px;
 }

@@ -116,7 +116,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
     .state('app.C_medios', {
-      url: "/C_mediost",
+      url: "/C_medios",
       views: {
         'menuContent' :{
           templateUrl: "templates/C_medios.html",
