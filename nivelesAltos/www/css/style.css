@@ -832,9 +832,26 @@ div.content-secreto_2 .container.secreto_2 div div div img.img {
 div.content-secreto_3 .container.secreto_3 div div h1.azul.italic.bold {
   margin-top: 20px;
 }
-div.content-secreto_3 .container.secreto_3 div div p.nivel {
+div.content-secreto_3 .container.secreto_3 div div p.bold {
   text-align: center;
   font-size: 20px;
   margin-top: -10px;
   font-weight: bold;
 }
+div.content-secreto_3 .container.secreto_3 div div div p {
+  font-weight: 200;
+  padding-top: 15px;
+  width: 200px;
+  margin: auto;
+}
+div.content-secreto_3 .container.secreto_3 div div div h3.pro {
+  font-style: italic;
+  margin-left: 20px;
+  margin-bottom: -15px;
+}
+div.content-secreto_3 .container.secreto_3 div div div h4.h4 {
+  font-style: italic;
+  margin-bottom: -15px;
+  margin-left: 20px;
+}
+/* =========================== SECRETO #4 */
