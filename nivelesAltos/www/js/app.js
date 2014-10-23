@@ -187,11 +187,47 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.nuevo_lujo', {
+    .state('app.secreto_4', {
+      url: "/secreto_4",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_4.html",
+
+        }
+      }
+    })
+    .state('app.secreto_5', {
+      url: "/secreto_5",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_5.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo"', {
       url: "/nuevo_lujo",
       views: {
         'menuContent' :{
           templateUrl: "templates/nuevo_lujo.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo_2', {
+      url: "/nuevo_lujo_2",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nuevo_lujo_2.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo_3', {
+      url: "/nuevo_lujo_3",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nuevo_lujo_3.html",
 
         }
       }
