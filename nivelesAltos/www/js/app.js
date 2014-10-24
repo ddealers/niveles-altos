@@ -71,6 +71,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+    .state('app.submenuCaracteristicas', {
+      url: "/submenuCaracteristicas",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/submenuCaracteristicas.html",
+        }
+      }
+    })
     .state('app.C_bancarios', {
       url: "/C_bancarios",
       views: {
@@ -156,6 +164,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/historias_vida.html",
+
+        }
+      }
+    })
+    .state('app.secretos_guardados', {
+      url: "/secretos_guardados",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secretos_guardados.html",
 
         }
       }

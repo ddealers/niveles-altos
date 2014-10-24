@@ -1184,3 +1184,23 @@ div.content-actividades .container.actividades div div div.row.dos {
 div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul {
   margin-left: 20px;
 }
+/* =========================== MENU CARACTERISTICAS DE CONSUMO */
+div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
+div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul li {
+  padding-bottom: 10px;
+  padding: 10px;
+}
+/* =========================== MENU SECRETOS */
+div.content-secretos_guardados .container.secretos_guardados div div ul {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
+div.content-secretos_guardados .container.secretos_guardados div div ul li {
+  padding-bottom: 10px;
+  padding: 10px;
+}
