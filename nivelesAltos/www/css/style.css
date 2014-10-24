@@ -1140,3 +1140,47 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p span.amarillo {
   font-weight: bold;
   font-style: italic;
 }
+/* =========================== ACTIVIDADES */
+div.content-actividades .container.actividades div div {
+  margin-top: 25px;
+}
+div.content-actividades .container.actividades div div p.p {
+  text-align: center;
+  line-height: 17px;
+  margin-top: -10px;
+}
+div.content-actividades .container.actividades div div p.p span.bold {
+  font-size: 20px;
+}
+div.content-actividades .container.actividades div div div.borde {
+  border-top: 1px solid #fbdc44;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-left: 20px;
+  display: block;
+  width: 85%;
+}
+div.content-actividades .container.actividades div div div.borde p {
+  font-size: 23px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+div.content-actividades .container.actividades div div div.borde div.row {
+  margin-top: -10px;
+}
+div.content-actividades .container.actividades div div div.borde div.row div.col-75 {
+  margin: 0;
+}
+div.content-actividades .container.actividades div div p.azul.bold {
+  text-align: center;
+  margin-top: 20px;
+}
+div.content-actividades .container.actividades div div div.row.dos {
+  margin-top: -10px;
+  margin-left: 15px;
+}
+div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul {
+  margin-left: 20px;
+}
