@@ -1,0 +1,15 @@
+div.content-Login
+	ion-view(title="Niveles Altos")
+		ion-nav-buttons(side="left")
+			//button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+		ion-content.has-header
+			form(ng-submit="doLogin()")
+				div.list
+					label.item.item-input
+						span.input-label Username
+						input(type="text", ng-model="loginData.username")
+					label.item.item-input
+						span.input-label Password
+						input(type="password", ng-model="loginData.password")
+					label.item
+						button.button.button-block.button-positive(type="submit") Login
