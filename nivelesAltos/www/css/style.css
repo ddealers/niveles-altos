@@ -725,3 +725,482 @@ div.content-C_tecnologia .container.tecnologia div div p {
   font-weight: 200;
   margin: 20px;
 }
+div.content-C_tecnologia .container.tecnologia div div div.row {
+  margin-left: 25px;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col ul li img {
+  width: 70%;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li {
+  padding-top: 21.5px;
+}
+/* =========================== SECRETO #1 */
+div.content-secreto_1 .container.secreto_1 div div h1.azul.italic.bold {
+  margin-top: 20px;
+}
+div.content-secreto_1 .container.secreto_1 div div p.bold {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+}
+div.content-secreto_1 .container.secreto_1 div div p.p {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+div.content-secreto_1 .container.secreto_1 div div div p.title {
+  background: #000;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 53%;
+}
+div.content-secreto_1 .container.secreto_1 div div div img {
+  width: 155px;
+  margin: auto;
+  display: block;
+  margin-top: 15px;
+}
+div.content-secreto_1 .container.secreto_1 div div div div {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+div.content-secreto_1 .container.secreto_1 div div div div p {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: -webkit-left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* =========================== SECRETO #2 */
+div.content-secreto_2 .container.secreto_2 div div h1.azul.italic.bold {
+  margin-top: 20px;
+}
+div.content-secreto_2 .container.secreto_2 div div p.bold {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+}
+div.content-secreto_2 .container.secreto_2 div div div h4 {
+  background: #49c3d7;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 53%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.content-secreto_2 .container.secreto_2 div div div p.gris {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+div.content-secreto_2 .container.secreto_2 div div div img {
+  margin: auto;
+  display: block;
+}
+div.content-secreto_2 .container.secreto_2 div div div ul.gris {
+  color: #807f7f;
+  margin-left: 65px;
+  font-weight: 200;
+  list-style: inherit;
+}
+div.content-secreto_2 .container.secreto_2 div div div ul.gris li {
+  padding-bottom: 10px;
+}
+div.content-secreto_2 .container.secreto_2 div div div p.ce {
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 23px;
+  color: #807f7f;
+  margin-left: 0;
+}
+div.content-secreto_2 .container.secreto_2 div div div img.img {
+  width: 185px;
+  margin-top: 35px;
+  border: 1px solid #fbdc44;
+}
+/* =========================== SECRETO #3 */
+div.content-secreto_3 .container.secreto_3 div div h1.azul.italic.bold {
+  margin-top: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div p.bold {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+div.content-secreto_3 .container.secreto_3 div div div p {
+  font-weight: 200;
+  padding-top: 15px;
+  width: 200px;
+  margin: auto;
+}
+div.content-secreto_3 .container.secreto_3 div div div h3.pro {
+  font-style: italic;
+  margin-left: 20px;
+  margin-bottom: -15px;
+}
+div.content-secreto_3 .container.secreto_3 div div div h4.h4 {
+  font-style: italic;
+  margin-bottom: -15px;
+  margin-left: 20px;
+}
+/* =========================== SECRETO #4 */
+div.content-secreto_4 .container.secreto_4 div div h1.azul.italic.bold {
+  margin-top: 20px;
+}
+div.content-secreto_4 .container.secreto_4 div div p.bold {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+div.content-secreto_4 .container.secreto_4 div div img.uno {
+  width: 120px;
+  margin: auto;
+  display: block;
+}
+div.content-secreto_4 .container.secreto_4 div div div p {
+  text-align: center;
+  margin-top: 10px;
+}
+div.content-secreto_4 .container.secreto_4 div div div img.dos {
+  width: 60px;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+div.content-secreto_4 .container.secreto_4 div div div img.tres {
+  width: 60px;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+div.content-secreto_4 .container.secreto_4 div div div p.mex {
+  font-size: 22px;
+  font-weight: 200;
+}
+div.content-secreto_4 .container.secreto_4 div div div p.black {
+  background: #000;
+  margin: auto;
+  color: #fff;
+  width: 200px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 13px;
+}
+/* =========================== SECRETO #5 */
+div.content-secreto_5 .container.secreto_5 div div h1.azul.italic.bold {
+  margin-top: 20px;
+}
+div.content-secreto_5 .container.secreto_5 div div p.bold {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 {
+  margin-top: 25px;
+}
+div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 img {
+  margin: auto;
+  display: block;
+  width: 90px;
+  margin-bottom: 28px;
+}
+div.content-secreto_5 .container.secreto_5 div div div.row div.col-50.adn p {
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  width: 120px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+div.content-secreto_5 .container.secreto_5 div div div.row div.col-50.adn img {
+  width: 80px;
+}
+div.content-secreto_5 .container.secreto_5 div div div.img img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+/* =========================== NUEVO LUJO */
+div.content-nuevo_lujo .container.nuevo_lujo div div p.ellos {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div p.ellos span.bold {
+  font-size: 20px;
+  margin-top: 20px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div p.azul.italic.bold {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div img {
+  margin: auto;
+  display: block;
+  width: 120px;
+  margin-top: 20px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div p {
+  text-align: center;
+  font-size: 16px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div p.bo {
+  text-align: center;
+  font-size: 28px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 25px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div p.bo span.bold {
+  font-size: 20px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div ul {
+  margin-left: 30px;
+  list-style: inherit;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div ul li {
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-size: 13px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div p.fondo {
+  background: #28ade3;
+  padding: 10px;
+  color: #fff;
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div ul {
+  margin: 20px;
+  padding-left: 30px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div img.i {
+  margin: auto;
+  width: 170px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div.row div.col img {
+  margin: auto;
+  width: 75px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div.row div.col-75 p {
+  text-align: left;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div p.back {
+  background: url("../img/flechas.png") no-repeat;
+  height: 100px;
+  padding-top: 37px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-right: 25px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div p.serv {
+  font-weight: 200;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div p.gris.serv {
+  font-size: 13px;
+  text-align: center;
+  margin-left: 0px;
+  font-style: italic;
+}
+/* =========================== NUEVO LUJO 2 */
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.row div.col-50 button {
+  background: #f7e413;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  width: 120px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div h4 {
+  text-align: center;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.italic {
+  margin-left: 20px;
+  color: #f7e413;
+  font-size: 18px;
+  font-weight: bold;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.li {
+  width: 85%;
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 25px;
+  border-top: solid 1px;
+  padding-top: 5px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div input {
+  margin-left: 20px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.lis {
+  width: 85%;
+  margin-left: 20px;
+  font-weight: 200;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div p span.amarillo {
+  color: #f7e413;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+}
+/* =========================== NUEVO LUJO 3 */
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.italic {
+  margin-left: 20px;
+  color: #f7e413;
+  font-size: 18px;
+  font-weight: bold;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.li {
+  width: 85%;
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 25px;
+  border-top: solid 1px;
+  padding-top: 5px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div input {
+  margin-left: 20px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.lis {
+  width: 85%;
+  margin-left: 20px;
+  font-weight: 200;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p span.amarillo {
+  color: #f7e413;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+}
+/* =========================== ACTIVIDADES */
+div.content-actividades .container.actividades div div {
+  margin-top: 25px;
+}
+div.content-actividades .container.actividades div div p.p {
+  text-align: center;
+  line-height: 17px;
+  margin-top: -10px;
+}
+div.content-actividades .container.actividades div div p.p span.bold {
+  font-size: 20px;
+}
+div.content-actividades .container.actividades div div div.borde {
+  border-top: 1px solid #fbdc44;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-left: 20px;
+  display: block;
+  width: 85%;
+}
+div.content-actividades .container.actividades div div div.borde p {
+  font-size: 23px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+div.content-actividades .container.actividades div div div.borde div.row {
+  margin-top: -10px;
+}
+div.content-actividades .container.actividades div div div.borde div.row div.col-75 {
+  margin: 0;
+}
+div.content-actividades .container.actividades div div p.azul.bold {
+  text-align: center;
+  margin-top: 20px;
+}
+div.content-actividades .container.actividades div div div.row.dos {
+  margin-top: -10px;
+  margin-left: 15px;
+}
+div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul {
+  margin-left: 20px;
+}
+/* =========================== MENU CARACTERISTICAS DE CONSUMO */
+div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
+div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul li {
+  padding-bottom: 10px;
+  padding: 10px;
+}
+/* =========================== MENU SECRETOS */
+div.content-secretos_guardados .container.secretos_guardados div div ul {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 200;
+}
+div.content-secretos_guardados .container.secretos_guardados div div ul li {
+  padding-bottom: 10px;
+  padding: 10px;
+}

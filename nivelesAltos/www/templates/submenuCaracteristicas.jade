@@ -1,14 +1,17 @@
-.container.submenuCaracteristicas
-	div
-		div
-			h1 Características de consumo
-		ul
-			li Estado civil y educación
-			li Demogáficos y educación
-			li Hogar
-			li Principales ocupacioes
-			li Servicios bancarios
-			li Consumo en medios
-			li Internet y redes sociales
-			li Telefonía celular
-			li Tecnología
+div.content-submenuCaracteristicas
+	ion-view(title="MENU")
+		ion-nav-buttons(side="left")
+			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+		ion-content.has-header
+			ion-list
+				ion-item(nav-clear menu-close href="#/app")
+				ion-item(nav-clear menu-close href="#/app/C_estado_civil") Características Edo Civ
+				ion-item(nav-clear menu-close href="#/app/C_demograficas") Características Demográficas
+				ion-item(nav-clear menu-close href="#/app/C_hogar") Características Hogar
+				ion-item(nav-clear menu-close href="#/app/C_ocupaciones") Características Ocupaciones
+				ion-item(nav-clear menu-close href="#/app/C_bancarios") Características Bancarios
+				ion-item(nav-clear menu-close href="#/app/C_medios") Características Medios
+				ion-item(nav-clear menu-close href="#/app/C_internet") Características Internet y RS
+				ion-item(nav-clear menu-close href="#/app/C_telefonia") Características Telefonía celular
+				ion-item(nav-clear menu-close href="#/app/C_tecnologia") Características Tecnología
+		

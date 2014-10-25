@@ -174,6 +174,96 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
         }
       }
+    })
+    .state('app.secretos_guardados', {
+      url: "/secretos_guardados",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secretos_guardados.html",
+
+        }
+      }
+    })
+    .state('app.secreto_1', {
+      url: "/secreto_1",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_1.html",
+
+        }
+      }
+    })
+    .state('app.secreto_2', {
+      url: "/secreto_2",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_2.html",
+
+        }
+      }
+    })
+    .state('app.secreto_3', {
+      url: "/secreto_3",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_3.html",
+
+        }
+      }
+    })
+    .state('app.secreto_4', {
+      url: "/secreto_4",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_4.html",
+
+        }
+      }
+    })
+    .state('app.secreto_5', {
+      url: "/secreto_5",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/secreto_5.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo"', {
+      url: "/nuevo_lujo",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nuevo_lujo.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo_2', {
+      url: "/nuevo_lujo_2",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nuevo_lujo_2.html",
+
+        }
+      }
+    })
+    .state('app.nuevo_lujo_3', {
+      url: "/nuevo_lujo_3",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/nuevo_lujo_3.html",
+
+        }
+      }
+    })
+    .state('app.actividades', {
+      url: "/actividades",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/actividades.html",
+
+        }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/login');

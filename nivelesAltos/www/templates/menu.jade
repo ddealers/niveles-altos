@@ -9,18 +9,8 @@ ion-side-menus
 			ion-list
 				ion-item(nav-clear menu-close href="#/app/nse") NSE
 				ion-item(nav-clear menu-close href="#/app/historias_vida") Historias de vida
-				ion-item(nav-clear menu-close href="#/app/caracteristicas") Caracteristicas de consumo
-				//
-					ion-item(nav-clear menu-close href="#/app/C_estado_civil") Caracteristicas Edo Civ
-					ion-item(nav-clear menu-close href="#/app/C_demograficas") Caracteristicas Demográficas
-					ion-item(nav-clear menu-close href="#/app/C_hogar") Caracteristicas Hogar
-					ion-item(nav-clear menu-close href="#/app/C_ocupaciones") Caracteristicas Ocupaciones
-					ion-item(nav-clear menu-close href="#/app/C_bancarios") Caracteristicas Bancarios
-					ion-item(ng-click="toggleSubmenu('categorias')")
-					ion-item(nav-clear menu-close class="submenu" ng-show="categorias" ng-repeat="category in categories" ng-href="#/app/categorias/{{category.id_category}}") {{category.name}}
+				ion-item(nav-clear menu-close href="#/app/submenuCaracteristicas") Características de consumo
 				ion-item(nav-clear menu-close href="#/app/actividades") Actividades
 				ion-item(nav-clear menu-close href="#/app/secretos_guardados") Secretos guardados
-				//
-					ion-item(ng-click="toggleSubmenu('categorias_A')")"
-					ion-item(nav-clear menu-close class="submenu" ng-show="categorias_A" ng-repeat="category in categories_A" ng-href="#/app/categorias/{{category_A.id_category_A}}") {{category_A.name}}
 				ion-item(nav-clear menu-close href="#/app/nuevo_lujo") Nuevo lujo
+				ion-item(nav-clear menu-close href="#/app/nuevo_lujo_2") Termómetro Buy
