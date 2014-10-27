@@ -264,6 +264,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
         }
       }
+    })
+    .state('app.pantalla_inicio', {
+      url: "/pantalla_inicio",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/pantalla_inicio.html",
+
+        }
+      }
+    })
+      .state('app.pantalla_carga', {
+      url: "/pantalla_carga",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/pantalla_carga.html",
+
+        }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/login');

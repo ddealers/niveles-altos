@@ -1,14 +1,25 @@
-.container.boy
-	div 
-		div
-			a(href="")
-			h1 Niveles Altos
-		div
-			ul
-				li NSE
-				li Historias de vida
-				li Actividades
-				li Características de consumo
-				li Nuevo lujo
-				li Secretos
-			img(src="")
+div.content-boy 
+	ion-view(title="Niveles Altos")
+		ion-nav-buttons(side="left")
+			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+		ion-content.has-header
+			.container.boy
+				div 
+					div
+						h1 <br>
+						a(href="")
+						img(src="./img/boy.png")
+						div
+							ul
+								a(href="#/app/nse")
+									li.ns NSE
+								a(href="#/app/historias_vida")
+									li.h Historias<br>de vida
+								a(href="#/app/actividades")
+									li.a Actividades
+								a(href="#/app/submenuCaracteristicas")
+									li.c Características <br>de consumo
+								a(href="#/app/nuevo_lujo")
+									li.n Nuevo <br>lujo
+								a(href="#/app/secretos_guardados")
+									li.s Secretos

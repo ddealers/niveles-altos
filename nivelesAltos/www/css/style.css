@@ -59,6 +59,17 @@ h2 {
   padding-top: 20px;
   margin-bottom: 10px;
 }
+/* =========================== MENU */
+.bar.bar-stable {
+  background: #36bece;
+}
+.bar.bar-stable .button.button-icon {
+  color: #fff;
+}
+.bar.bar-stable .title {
+  color: #fff;
+  font-weight: 200;
+}
 /* =========================== NSE */
 div.content-NSE .container.NSE div div h1:first-child {
   margin-top: 10px;
@@ -1203,4 +1214,48 @@ div.content-secretos_guardados .container.secretos_guardados div div ul {
 div.content-secretos_guardados .container.secretos_guardados div div ul li {
   padding-bottom: 10px;
   padding: 10px;
+}
+/* =========================== PANTALLA INICIO */
+div.content-boy .container.boy div div img {
+  margin: auto;
+  display: block;
+  width: 130px;
+  padding-top: 20px;
+}
+div.content-boy .container.boy div div div ul li {
+  position: absolute;
+  font-weight: 200;
+  color: #000;
+}
+div.content-boy .container.boy div div div ul li.ns {
+  top: 45px;
+  left: 50px;
+  font-size: 25px;
+}
+div.content-boy .container.boy div div div ul li.h {
+  top: 50px;
+  right: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+div.content-boy .container.boy div div div ul li.a {
+  top: 140px;
+  left: 19px;
+  font-size: 18px;
+}
+div.content-boy .container.boy div div div ul li.s {
+  bottom: 90px;
+  right: 20px;
+  font-size: 27px;
+}
+div.content-boy .container.boy div div div ul li.c {
+  top: 110px;
+  right: 20px;
+}
+div.content-boy .container.boy div div div ul li.n {
+  bottom: 32px;
+  font-size: 28px;
+  left: 30px;
+  text-align: right;
+  line-height: 25px;
 }
