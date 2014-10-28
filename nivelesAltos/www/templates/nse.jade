@@ -1,12 +1,14 @@
 div.content-NSE 
 	ion-view(title="NSE")
 		ion-nav-buttons(side="left")
-			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+			button.button.button-icon.icon.ion-ios7-drag(menu-toggle="left")
+		ion-nav-buttons(side="right")
+			button.button.button-icon.icon.ion-person-stalker
 		ion-content.has-header
 			.container.NSE
 				div
 					div
-						h1 ¿QUIÉN ES EL<br>
+						h1.h1t ¿QUIÉN ES EL 
 							span.bold NSE A/B?
 						p.p
 							span.bold A/B 
@@ -15,38 +17,34 @@ div.content-NSE
 						p.normal.bold 
 							span.rojo 7% 
 							| de la población mexicana
-						img.igual(src="./img/llave.png")
 						p.filtro 
 							span.bold 2 FILTROS<br>
 							span.italic AMAI+DLR
-						img.igual(src="./img/igual.png")
 						p.verdadero.center Nos codeamos con <br>el verdadero A/B
-					div
-						ul 
-							li.sueldo.bold 
-								|C+
-								span.espacio $40,600-$98,499
-							li.sueldo.bold 
-								|CT 
-								span.espacio $13,500-$40,599	
-							li.li.center.bold 
-								span.rojo 31% 
-								|de la población mexicana
-							li.sueldo.bold 
-								|C-
-								span.espacio $10,690-$13,499
-							li.sueldo.bold 
-								|D+
-								span.espacio $7,800-$10,689
-							li.sueldo.bold 
-								|D
-								span.espacio $3,130-$7,779
-							li.sueldo.bold 
-								|E
-								span.espacio $0-$3,129
-							li.li.center.bold 
-								span.rojo 61% 
-								|de la población mexicana
+					div.row
+						div.col75
+							ul 
+								li.sueldo.bold |C+
+								li.sueldo.bold |CT 	
+								li.li.center.bold 
+									span.rojo 31% 
+									|de la población mexicana
+								li.sueldo.bold |C-
+								li.sueldo.bold |D+
+								li.sueldo.bold |D
+								li.sueldo.bold |E
+								li.li.center.bold 
+									span.rojo 61% 
+									|de la población mexicana
+						div.col
+							ul
+								li $40,600-$98,499
+								li $13,500-$40,599
+								li <br>
+								li $10,690-$13,499
+								li $7,800-$10,689
+								li $3,130-$7,779
+								li $0-$3,129
 					div
 						img.piramide(src="./img/Imagen1.png")
 						h2 OBJETIVO
@@ -63,16 +61,16 @@ div.content-NSE
 							span.bold 3 METODOLOGÍAS <br>
 							|CORREGIDAS Y AUMENTADAS.
 					div.border
-						p.texto.dos Muestra:
+						p.texto.dos Muestra: 
 							span.bold Hombres 
 							|y <br>
 							span.bold mujeres 
-							|entre
+							|entre 
 							span.bold 18 
 							|y 
 							span.bold 65 
 							|años<br>en 
-							span.bold DF,GDL y MTY; 
+							span.bold DF, GDL y MTY; 
 							|y <br>entrevistaremos a expertos<br> en el mercado de lujo.
 					div.border
 						img.puertas(src="./img/puertas.png")

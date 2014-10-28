@@ -11,8 +11,20 @@ html {
 }
 /* =========================== ESTILO GENERAL */
 h1 {
+  color: #444;
+  font-weight: bold;
+  font-family: 'GothamUltraItalic';
+}
+h1.h1t {
+  margin-top: 7px !important;
+  border: 1px solid #36bece;
+  color: #36bece;
+  padding: 10px;
+  font-size: 22px;
   text-align: center;
-  font-size: 17px;
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
 }
 h2 {
   text-align: center;
@@ -63,20 +75,38 @@ h2 {
 .bar.bar-stable {
   background: #36bece;
 }
-.bar.bar-stable .button.button-icon {
-  color: #fff;
-}
 .bar.bar-stable .title {
-  color: #fff;
   font-weight: 200;
+  font-family: 'GothamUltraItalic';
+  font-style: italic;
+  font-size: 23px;
+}
+.list {
+  background: url("../img/barra.png") no-repeat;
+  padding-left: 44px;
+}
+.list .item {
+  background-color: transparent;
+}
+.list .item-content {
+  background: transparent;
+  font-family: 'GothamUltraItalic';
+  font-style: italic;
+  overflow: visible;
 }
 /* =========================== NSE */
+div.content-NSE .container.NSE {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-NSE .container.NSE div div h1:first-child {
   margin-top: 10px;
 }
 div.content-NSE .container.NSE div div p.p {
   margin-left: 20px;
   font-size: 20px;
+  margin-top: 25px;
 }
 div.content-NSE .container.NSE div div p.p .p_chiquita {
   font-size: 14px;
@@ -88,7 +118,7 @@ div.content-NSE .container.NSE div div p.normal {
   margin: 0px;
 }
 div.content-NSE .container.NSE div div p.filtro {
-  margin: 0;
+  margin: 15px;
   text-align: center;
   font-size: 18px;
 }
@@ -102,6 +132,11 @@ div.content-NSE .container.NSE div div p.verdadero {
 }
 div.content-NSE .container.NSE div div li.li {
   font-size: 17px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+div.content-NSE .container.NSE div div div.col ul li {
+  margin-left: -180px;
   margin-top: 20px;
 }
 div.content-NSE .container.NSE div div .sueldo {
@@ -138,6 +173,11 @@ div.content-NSE .container.NSE div div img.puertas {
   width: 100%;
 }
 /* =========================== HISTORIAS DE VIDA */
+div.content-Historias-vida .container.historias_vida {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-Historias-vida .container.historias_vida div div div.row p {
   padding-top: 55px;
   font-weight: bold;
@@ -186,6 +226,11 @@ div.content-Historias-vida .container.historias_vida div div img.dos {
   margin-left: 20px;
 }
 /* =========================== Estado Civil y Educación */
+div.content-C_estado_civil .container.estado_civil {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-C_estado_civil .container.estado_civil div div h1.subCatego {
   text-align: center;
 }
@@ -746,13 +791,18 @@ div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li 
   padding-top: 21.5px;
 }
 /* =========================== SECRETO #1 */
+div.content-secreto_1 .container.secreto_1 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-secreto_1 .container.secreto_1 div div h1.azul.italic.bold {
   margin-top: 20px;
 }
 div.content-secreto_1 .container.secreto_1 div div p.bold {
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: 20px;
 }
 div.content-secreto_1 .container.secreto_1 div div p.p {
   text-align: center;
@@ -786,13 +836,18 @@ div.content-secreto_1 .container.secreto_1 div div div div p {
   margin-top: 20px;
 }
 /* =========================== SECRETO #2 */
+div.content-secreto_2 .container.secreto_2 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-secreto_2 .container.secreto_2 div div h1.azul.italic.bold {
   margin-top: 20px;
 }
 div.content-secreto_2 .container.secreto_2 div div p.bold {
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: 20px;
 }
 div.content-secreto_2 .container.secreto_2 div div div h4 {
   background: #49c3d7;
@@ -840,13 +895,18 @@ div.content-secreto_2 .container.secreto_2 div div div img.img {
   border: 1px solid #fbdc44;
 }
 /* =========================== SECRETO #3 */
+div.content-secreto_3 .container.secreto_3 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-secreto_3 .container.secreto_3 div div h1.azul.italic.bold {
   margin-top: 20px;
 }
 div.content-secreto_3 .container.secreto_3 div div p.bold {
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: 20px;
   font-weight: bold;
 }
 div.content-secreto_3 .container.secreto_3 div div div p {
@@ -866,13 +926,18 @@ div.content-secreto_3 .container.secreto_3 div div div h4.h4 {
   margin-left: 20px;
 }
 /* =========================== SECRETO #4 */
+div.content-secreto_4 .container.secreto_4 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-secreto_4 .container.secreto_4 div div h1.azul.italic.bold {
   margin-top: 20px;
 }
 div.content-secreto_4 .container.secreto_4 div div p.bold {
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: 20px;
   font-weight: bold;
 }
 div.content-secreto_4 .container.secreto_4 div div img.uno {
@@ -911,13 +976,18 @@ div.content-secreto_4 .container.secreto_4 div div div p.black {
   font-size: 13px;
 }
 /* =========================== SECRETO #5 */
+div.content-secreto_5 .container.secreto_5 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-secreto_5 .container.secreto_5 div div h1.azul.italic.bold {
   margin-top: 20px;
 }
 div.content-secreto_5 .container.secreto_5 div div p.bold {
   text-align: center;
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: 20px;
   font-weight: bold;
 }
 div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 {
@@ -949,13 +1019,16 @@ div.content-secreto_5 .container.secreto_5 div div div.img img {
   display: block;
 }
 /* =========================== NUEVO LUJO */
-div.content-nuevo_lujo .container.nuevo_lujo div div p.ellos {
+div.content-nuevo_lujo .container.nuevo_lujo {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div h1.h1t.ellos {
   font-size: 20px;
-  margin-left: 50px;
-  margin-top: 20px;
   font-weight: 200;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div p.ellos span.bold {
+div.content-nuevo_lujo .container.nuevo_lujo div div h1.h1t.ellos span.bold {
   font-size: 20px;
   margin-top: 20px;
 }
@@ -1051,6 +1124,14 @@ div.content-nuevo_lujo .container.nuevo_lujo div div div p.gris.serv {
   font-style: italic;
 }
 /* =========================== NUEVO LUJO 2 */
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.row {
+  margin-top: 20px;
+}
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.row div.col-50 button {
   background: #f7e413;
   border: none;
@@ -1108,6 +1189,11 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div p span.amarillo {
   font-style: italic;
 }
 /* =========================== NUEVO LUJO 3 */
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.italic {
   margin-left: 20px;
   color: #f7e413;
@@ -1152,8 +1238,10 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p span.amarillo {
   font-style: italic;
 }
 /* =========================== ACTIVIDADES */
-div.content-actividades .container.actividades div div {
-  margin-top: 25px;
+div.content-actividades .container.actividades {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
 }
 div.content-actividades .container.actividades div div p.p {
   text-align: center;
@@ -1195,7 +1283,27 @@ div.content-actividades .container.actividades div div div.row.dos {
 div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul {
   margin-left: 20px;
 }
+div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul li {
+  padding: 10px;
+  border: solid 1px #807f7f;
+  margin-left: -25px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  width: 291px;
+  position: relative;
+}
+div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul li span.position {
+  position: absolute;
+  right: 15px;
+  color: #807f7f;
+}
 /* =========================== MENU CARACTERISTICAS DE CONSUMO */
+div.content-submenuCaracteristicas .container.submenuCaracteristicas {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+}
 div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul {
   padding: 20px;
   font-size: 18px;
@@ -1216,6 +1324,13 @@ div.content-secretos_guardados .container.secretos_guardados div div ul li {
   padding: 10px;
 }
 /* =========================== PANTALLA INICIO */
+div.content-boy .has-header {
+  background: #36bece;
+}
+div.content-boy .container.boy div div {
+  background: url("../img/fondo.png");
+  margin-top: -1px;
+}
 div.content-boy .container.boy div div img {
   margin: auto;
   display: block;
@@ -1226,36 +1341,81 @@ div.content-boy .container.boy div div div ul li {
   position: absolute;
   font-weight: 200;
   color: #000;
+  font-family: 'GothamXLightItalic';
+  font-style: italic;
 }
 div.content-boy .container.boy div div div ul li.ns {
   top: 45px;
-  left: 50px;
-  font-size: 25px;
+  left: 35px;
+  font-size: 40px;
+}
+div.content-boy .container.boy div div div ul li.ns span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 10px;
+  color: #807f7f;
 }
 div.content-boy .container.boy div div div ul li.h {
   top: 50px;
-  right: 40px;
-  font-size: 20px;
+  right: 35px;
+  font-size: 26px;
   text-align: center;
 }
+div.content-boy .container.boy div div div ul li.h span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 40px;
+  color: #807f7f;
+}
 div.content-boy .container.boy div div div ul li.a {
-  top: 140px;
-  left: 19px;
-  font-size: 18px;
+  top: 187px;
+  left: 10px;
+  font-size: 22px;
+}
+div.content-boy .container.boy div div div ul li.a span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 50px;
+  color: #807f7f;
 }
 div.content-boy .container.boy div div div ul li.s {
-  bottom: 90px;
-  right: 20px;
+  bottom: 21px;
+  right: 43px;
   font-size: 27px;
 }
+div.content-boy .container.boy div div div ul li.s span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 40px;
+  color: #807f7f;
+}
 div.content-boy .container.boy div div div ul li.c {
-  top: 110px;
-  right: 20px;
+  top: 140px;
+  right: 8px;
+  font-size: 20px;
+}
+div.content-boy .container.boy div div div ul li.c span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 45px;
+  color: #807f7f;
 }
 div.content-boy .container.boy div div div ul li.n {
   bottom: 32px;
   font-size: 28px;
-  left: 30px;
+  left: 26px;
   text-align: right;
   line-height: 25px;
+}
+div.content-boy .container.boy div div div ul li.n span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  margin-left: 20px;
+  color: #807f7f;
 }
