@@ -31,6 +31,9 @@ h2 {
   font-weight: bold;
   font-size: 18px;
 }
+ion-nav-view {
+  background-color: #fff;
+}
 .sub {
   color: #3cb8ce;
   font-style: italic;
@@ -72,6 +75,10 @@ h2 {
   margin-bottom: 10px;
 }
 /* =========================== MENU */
+.button.button-positive {
+  background: #36bece;
+  border-color: #36cfce;
+}
 .bar.bar-stable {
   background: #36bece;
 }
@@ -81,14 +88,14 @@ h2 {
   font-style: italic;
   font-size: 23px;
 }
-.list {
+.menu .list {
   background: url("../img/barra.png") no-repeat;
   padding-left: 44px;
 }
-.list .item {
+.menu .list .item {
   background-color: transparent;
 }
-.list .item-content {
+.menu .list .item-content {
   background: transparent;
   font-family: 'GothamUltraItalic';
   font-style: italic;
