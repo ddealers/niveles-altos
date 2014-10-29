@@ -63,6 +63,9 @@ ion-nav-view
 .button.button-positive
 	background #36BECE
 	border-color #36CFCE
+	&.activated
+		background #36CFCE
+		border-color #36CFCE
 .bar.bar-stable
 	background #36BECE
 	.title
@@ -1107,7 +1110,7 @@ div.content-nuevo_lujo_2
 					border-top: solid 1px;
 					padding-top: 5px;
 				input
-					margin-left 20px
+					margin 0 5px 0 20px
 				p.lis
 					width: 85%;
 					margin-left: 20px;
@@ -1131,6 +1134,20 @@ div.content-nuevo_lujo_3
 		padding-bottom 20px
 		div
 			div
+				div.row
+					margin-top 20px
+					div.col-50
+						button 
+							background: #F7E413
+							border: none;
+							border-radius: 5px;
+							padding: 10px;
+							margin-left 10px
+							width: 120px;
+							font-size: 14px;
+							margin-bottom 20px
+				h4
+					text-align center
 				p.italic
 					margin-left 20px
 					color #F7E413
@@ -1153,7 +1170,7 @@ div.content-nuevo_lujo_3
 					border-top: solid 1px;
 					padding-top: 5px;
 				input
-					margin-left 20px
+					margin 0 5px 0 20px
 				p.lis
 					width: 85%;
 					margin-left: 20px;
@@ -1200,28 +1217,25 @@ div.content-actividades
 						margin-top -10px
 						div.col-75
 							margin 0
+				h1
+					font-size 26px
+					text-align center
 				p.azul.bold 
 					text-align center
-					margin-top 20px
-				div.row.dos
-					margin-top -10px
-					margin-left: 15px;
-					div.col-75.d
-						ul
-							margin-left 20px
-							li 
-								padding: 10px;
-								border: solid 1px #807f7f;
-								margin-left: -25px;
-								margin-right: 10px;
-								margin-bottom: 5px;
-								font-size: 12px;
-								width: 291px;
-								position relative
-								span.position
-									position absolute
-									right 15px
-									color #807F7F
+					margin 20px 0
+				div.row
+					ul
+						width 100%
+						li 
+							padding: 10px;
+							border: solid 1px #807f7f;
+							margin-bottom: 5px;
+							font-size: 12px;
+							position relative
+							span.position
+								position absolute
+								right 15px
+								color #807F7F
 /* =========================== MENU CARACTERISTICAS DE CONSUMO */
 div.content-submenuCaracteristicas
 	.container.submenuCaracteristicas
@@ -1256,89 +1270,56 @@ div.content-secretos_guardados
 div.content-boy 	
 	.has-header
 		background: #36bece;
+	.scroll
+		height 100%
 	.container.boy
-		div
-			div
-				background url(../img/fondo.png)
-				margin-top: -1px;
-				img 
-					margin auto
-					display block
-					width 130px
-					padding-top 20px
-				div 
-					ul
-						li 
-							position absolute
-							font-weight: 200
-							color #000
-							font-family: 'GothamXLightItalic';
-							font-style: italic;
-						li.ns
-							top: 45px;
-							left: 35px;
-							font-size: 40px;
-							span
-								font-style normal
-								font-size 13px
-								text-align right
-								margin-left 10px
-								color: #807F7F
-						li.h 
-							top: 50px;
-							right: 35px;
-							font-size: 26px;
-							text-align: center;
-							span
-								font-style normal
-								font-size 13px
-								text-align right
-								margin-left 40px
-								color: #807F7F
-						li.a 
-							top: 187px;
-							left: 10px;
-							font-size: 22px;
-							span
-								font-style normal
-								font-size 13px
-								text-align right
-								margin-left 50px
-								color: #807F7F
-						li.s
-							bottom: 41px;
-							right: 43px;
-							font-size: 27px;
-							span
-								font-style normal
-								font-size 13px
-								text-align right
-								margin-left 40px
-								color: #807F7F
-						li.c 
-							top: 140px;
-							right: 4px;
-							font-size 20px
-							span
-								font-style normal
-								font-size 13px
-								text-align right
-								margin-left 45px
-								color: #807F7F
-						li.n 
-							bottom: 32px;
-							font-size: 28px;
-							left: 26px;
-							text-align: right;
-							line-height: 25px;
-							span
-								font-style normal
-								font-size 13px
-								text-align right
-								margin-left 20px
-								color: #807F7F
-
-
-
-
-
+		height 100%
+		background url(../img/fondo.png)
+		img 
+			margin auto
+			display block
+			position absolute
+			top 0
+			left 0
+			right 0
+			bottom 0
+			width 50%
+		ul
+			li 
+				position absolute
+				font-weight 200
+				color #000
+				font-family 'GothamXLightItalic'
+				font-style italic
+				a
+					color #000
+					span
+						font-style normal
+						font-size 13px
+						text-align right
+						color #807F7F
+				&.ns
+					top 10%
+					left 13%
+					font-size 40px
+				&.h
+					top 12%
+					right 6%
+					font-size 26px
+				&.a 
+					top 37%
+					left 5%
+					font-size 22px
+				&.c 
+					top 32%
+					right 1%
+					font-size 20px
+				&.n 
+					bottom 10%
+					font-size 28px
+					left 15%
+					line-height 25px
+				&.s
+					bottom 25%
+					right 13%
+					font-size 27px

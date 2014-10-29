@@ -1,53 +1,72 @@
 angular.module('starter.controllers', [])
 .controller('LoginCtrl', function($scope, $state){
-  $scope.logincode = "";
-  $scope.doLogin = function(){
-    console.log($scope.logincode);
-  }
+	$scope.loginData = {};
+	$scope.doLogin = function(){
+		$state.go('app.inicio');
+		/*
+		if($scope.loginData.code === 'NivelesAltos'){
+			$state.go('app.inicio');
+		}
+		*/
+	}
 })
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
-  // Form data for the login modal
-  $scope.loginData = {};
-
-  // Create the login modal that we will use later
-  $ionicModal.fromTemplateUrl('templates/login.html', {
-    scope: $scope
-  }).then(function(modal) {
-    $scope.modal = modal;
-  });
-
-  // Triggered in the login modal to close it
-  $scope.closeLogin = function() {
-    $scope.modal.hide();
-  };
-
-  // Open the login modal
-  $scope.login = function() {
-    $scope.modal.show();
-  };
-
-  // Perform the login action when the user submits the login form
-  $scope.doLogin = function() {
-    console.log('Doing login', $scope.loginData);
-
-    // Simulate a login delay. Remove this and replace with your login
-    // code if using a login system
-    $timeout(function() {
-      $scope.closeLogin();
-    }, 1000);
-  };
+.controller('CaracteristicasBaseCtrl', function($scope, $ionicNavBarDelegate) {
+	$scope.goBack = function(){
+		$ionicNavBarDelegate.back();
+	}
 })
-
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+.controller('SecretosBaseCtrl', function($scope, $ionicNavBarDelegate) {
+	$scope.goBack = function(){
+		$ionicNavBarDelegate.back();
+	}
 })
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+.controller('TermoCtrl', function($scope, $state) {
+	var getTotal = function(){
+		var a = parseInt($scope.data.artesania),
+			e = parseInt($scope.data.enfoque),
+			h = parseInt($scope.data.historia),
+			r = parseInt($scope.data.rareza);
+		$scope.total = (a + e + h + r)/ 4;
+		console.log($scope.total);
+	}
+	$scope.gotoBuy = function(){
+		$state.go('app.termometro');
+	}
+	$scope.gotoBuyInto = function(){
+		$state.go('app.termometro_into');
+	}
+	$scope.data = {
+		artesania: 0,
+		enfoque: 0,
+		historia: 0,
+		rareza: 0
+	};
+	$scope.$watchCollection('data', function(newName, oldName){
+		getTotal();
+	});
+})
+.controller('TermoIntoCtrl', function($scope, $state) {
+	var getTotal = function(){
+		var a = parseInt($scope.data.tough),
+			e = parseInt($scope.data.tiempo),
+			h = parseInt($scope.data.especial),
+			r = parseInt($scope.data.solucion);
+		$scope.total = (a + e + h + r)/ 4;
+		console.log($scope.total);
+	}
+	$scope.gotoBuy = function(){
+		$state.go('app.termometro');
+	}
+	$scope.gotoBuyInto = function(){
+		$state.go('app.termometro_into');
+	}
+	$scope.data = {
+		tough: 0,
+		tiempo: 0,
+		especial: 0,
+		solucion: 0
+	};
+	$scope.$watchCollection('data', function(newName, oldName){
+		getTotal();
+	});
+})

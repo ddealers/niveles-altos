@@ -79,6 +79,10 @@ ion-nav-view {
   background: #36bece;
   border-color: #36cfce;
 }
+.button.button-positive.activated {
+  background: #36cfce;
+  border-color: #36cfce;
+}
 .bar.bar-stable {
   background: #36bece;
 }
@@ -1246,7 +1250,7 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.li {
   padding-top: 5px;
 }
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div input {
-  margin-left: 20px;
+  margin: 0 5px 0 20px;
 }
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.lis {
   width: 85%;
@@ -1270,6 +1274,22 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 {
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.row {
+  margin-top: 20px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.row div.col-50 button {
+  background: #f7e413;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  width: 120px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div h4 {
+  text-align: center;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.italic {
   margin-left: 20px;
@@ -1296,7 +1316,7 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.li {
   padding-top: 5px;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div input {
-  margin-left: 20px;
+  margin: 0 5px 0 20px;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.lis {
   width: 85%;
@@ -1350,28 +1370,25 @@ div.content-actividades .container.actividades div div div.borde div.row {
 div.content-actividades .container.actividades div div div.borde div.row div.col-75 {
   margin: 0;
 }
+div.content-actividades .container.actividades div div h1 {
+  font-size: 26px;
+  text-align: center;
+}
 div.content-actividades .container.actividades div div p.azul.bold {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
-div.content-actividades .container.actividades div div div.row.dos {
-  margin-top: -10px;
-  margin-left: 15px;
+div.content-actividades .container.actividades div div div.row ul {
+  width: 100%;
 }
-div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul {
-  margin-left: 20px;
-}
-div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul li {
+div.content-actividades .container.actividades div div div.row ul li {
   padding: 10px;
   border: solid 1px #807f7f;
-  margin-left: -25px;
-  margin-right: 10px;
   margin-bottom: 5px;
   font-size: 12px;
-  width: 291px;
   position: relative;
 }
-div.content-actividades .container.actividades div div div.row.dos div.col-75.d ul li span.position {
+div.content-actividades .container.actividades div div div.row ul li span.position {
   position: absolute;
   right: 15px;
   color: #807f7f;
@@ -1406,95 +1423,67 @@ div.content-secretos_guardados .container.secretos_guardados div div ul li {
 div.content-boy .has-header {
   background: #36bece;
 }
-div.content-boy .container.boy div div {
-  background: url("../img/fondo.png");
-  margin-top: -1px;
+div.content-boy .scroll {
+  height: 100%;
 }
-div.content-boy .container.boy div div img {
+div.content-boy .container.boy {
+  height: 100%;
+  background: url("../img/fondo.png");
+}
+div.content-boy .container.boy img {
   margin: auto;
   display: block;
-  width: 130px;
-  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
 }
-div.content-boy .container.boy div div div ul li {
+div.content-boy .container.boy ul li {
   position: absolute;
   font-weight: 200;
   color: #000;
   font-family: 'GothamXLightItalic';
   font-style: italic;
 }
-div.content-boy .container.boy div div div ul li.ns {
-  top: 45px;
-  left: 35px;
+div.content-boy .container.boy ul li a {
+  color: #000;
+}
+div.content-boy .container.boy ul li a span {
+  font-style: normal;
+  font-size: 13px;
+  text-align: right;
+  color: #807f7f;
+}
+div.content-boy .container.boy ul li.ns {
+  top: 10%;
+  left: 13%;
   font-size: 40px;
 }
-div.content-boy .container.boy div div div ul li.ns span {
-  font-style: normal;
-  font-size: 13px;
-  text-align: right;
-  margin-left: 10px;
-  color: #807f7f;
-}
-div.content-boy .container.boy div div div ul li.h {
-  top: 50px;
-  right: 35px;
+div.content-boy .container.boy ul li.h {
+  top: 12%;
+  right: 6%;
   font-size: 26px;
-  text-align: center;
 }
-div.content-boy .container.boy div div div ul li.h span {
-  font-style: normal;
-  font-size: 13px;
-  text-align: right;
-  margin-left: 40px;
-  color: #807f7f;
-}
-div.content-boy .container.boy div div div ul li.a {
-  top: 187px;
-  left: 10px;
+div.content-boy .container.boy ul li.a {
+  top: 37%;
+  left: 5%;
   font-size: 22px;
 }
-div.content-boy .container.boy div div div ul li.a span {
-  font-style: normal;
-  font-size: 13px;
-  text-align: right;
-  margin-left: 50px;
-  color: #807f7f;
-}
-div.content-boy .container.boy div div div ul li.s {
-  bottom: 41px;
-  right: 43px;
-  font-size: 27px;
-}
-div.content-boy .container.boy div div div ul li.s span {
-  font-style: normal;
-  font-size: 13px;
-  text-align: right;
-  margin-left: 40px;
-  color: #807f7f;
-}
-div.content-boy .container.boy div div div ul li.c {
-  top: 140px;
-  right: 4px;
+div.content-boy .container.boy ul li.c {
+  top: 32%;
+  right: 1%;
   font-size: 20px;
 }
-div.content-boy .container.boy div div div ul li.c span {
-  font-style: normal;
-  font-size: 13px;
-  text-align: right;
-  margin-left: 45px;
-  color: #807f7f;
-}
-div.content-boy .container.boy div div div ul li.n {
-  bottom: 32px;
+div.content-boy .container.boy ul li.n {
+  bottom: 10%;
   font-size: 28px;
-  left: 26px;
-  text-align: right;
+  left: 15%;
   line-height: 25px;
 }
-div.content-boy .container.boy div div div ul li.n span {
-  font-style: normal;
-  font-size: 13px;
-  text-align: right;
-  margin-left: 20px;
-  color: #807f7f;
+div.content-boy .container.boy ul li.s {
+  bottom: 25%;
+  right: 13%;
+  font-size: 27px;
 }

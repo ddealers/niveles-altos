@@ -32,37 +32,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       abstract: true,
       templateUrl: "templates/menu.html",
     })
-    .state('app.search', {
-      url: "/search",
+    .state('app.inicio', {
+      url: "/inicio",
       views: {
         'menuContent' :{
-          templateUrl: "templates/search.html"
-        }
-      }
-    })
-
-    .state('app.browse', {
-      url: "/browse",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/browse.html"
-        }
-      }
-    })
-    .state('app.playlists', {
-      url: "/playlists",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/playlists.html",
-        }
-      }
-    })
-
-    .state('app.single', {
-      url: "/playlists/:playlistId",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/playlist.html",
+          templateUrl: "templates/pantalla_inicio.html",
         }
       }
     })
@@ -74,28 +48,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.submenuCaracteristicas', {
-      url: "/submenuCaracteristicas",
+    .state('app.caracteristicas', {
+      url: "/caracteristicas",
       views: {
         'menuContent' :{
           templateUrl: "templates/submenuCaracteristicas.html"
-        }
-      }
-    })
-    .state('app.C_bancarios', {
-      url: "/C_bancarios",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/C_bancarios.html",
-        }
-      }
-    })
-    .state('app.C_demograficas', {
-      url: "/C_demograficas",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/C_demograficas.html",
-
         }
       }
     })
@@ -104,7 +61,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/C_estado_civil.html",
-
+          controller: "CaracteristicasBaseCtrl"
+        }
+      }
+    })
+    .state('app.C_demograficas', {
+      url: "/C_demograficas",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_demograficas.html",
+          controller: "CaracteristicasBaseCtrl"
         }
       }
     })
@@ -113,25 +79,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/C_hogar.html",
-
-        }
-      }
-    })
-    .state('app.C_internet', {
-      url: "/C_internet",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/C_internet.html",
-
-        }
-      }
-    })
-    .state('app.C_medios', {
-      url: "/C_medios",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/C_medios.html",
-
+          controller: "CaracteristicasBaseCtrl"
         }
       }
     })
@@ -140,16 +88,34 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/C_ocupaciones.html",
-
+          controller: "CaracteristicasBaseCtrl"
         }
       }
     })
-    .state('app.C_tecnologia', {
-      url: "/C_tecnologia",
+    .state('app.C_bancarios', {
+      url: "/C_bancarios",
       views: {
         'menuContent' :{
-          templateUrl: "templates/C_tecnologia.html",
-
+          templateUrl: "templates/C_bancarios.html",
+          controller: "CaracteristicasBaseCtrl"
+        }
+      }
+    })
+    .state('app.C_medios', {
+      url: "/C_medios",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_medios.html",
+          controller: "CaracteristicasBaseCtrl"
+        }
+      }
+    })
+    .state('app.C_internet', {
+      url: "/C_internet",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_internet.html",
+          controller: "CaracteristicasBaseCtrl"
         }
       }
     })
@@ -158,7 +124,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/C_telefonia.html",
-
+          controller: "CaracteristicasBaseCtrl"
+        }
+      }
+    })
+    .state('app.C_tecnologia', {
+      url: "/C_tecnologia",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/C_tecnologia.html",
+          controller: "CaracteristicasBaseCtrl"
         }
       }
     })
@@ -167,7 +142,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/historias_vida.html",
-
         }
       }
     })
@@ -176,7 +150,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/secretos_guardados.html",
-
         }
       }
     })
@@ -185,7 +158,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/secreto_1.html",
-
+          controller: "SecretosBaseCtrl"
         }
       }
     })
@@ -194,7 +167,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/secreto_2.html",
-
+          controller: "SecretosBaseCtrl"
         }
       }
     })
@@ -203,7 +176,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/secreto_3.html",
-
+          controller: "SecretosBaseCtrl"
         }
       }
     })
@@ -212,7 +185,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/secreto_4.html",
-
+          controller: "SecretosBaseCtrl"
         }
       }
     })
@@ -221,7 +194,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/secreto_5.html",
-
+          controller: "SecretosBaseCtrl"
         }
       }
     })
@@ -230,25 +203,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/nuevo_lujo.html",
-
         }
       }
     })
-    .state('app.nuevo_lujo_2', {
-      url: "/nuevo_lujo_2",
+    .state('app.termometro', {
+      url: "/termometro",
       views: {
         'menuContent' :{
-          templateUrl: "templates/nuevo_lujo_2.html",
-
+          templateUrl: "templates/termometro.html",
+          controller: "TermoCtrl"
         }
       }
     })
-    .state('app.nuevo_lujo_3', {
-      url: "/nuevo_lujo_3",
+    .state('app.termometro_into', {
+      url: "/termometro_into",
       views: {
         'menuContent' :{
-          templateUrl: "templates/nuevo_lujo_3.html",
-
+          templateUrl: "templates/termometro_buy_into.html",
+          controller: "TermoIntoCtrl"
         }
       }
     })
@@ -257,25 +229,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/actividades.html",
-
-        }
-      }
-    })
-    .state('app.pantalla_inicio', {
-      url: "/pantalla_inicio",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/pantalla_inicio.html",
-
-        }
-      }
-    })
-      .state('app.pantalla_carga', {
-      url: "/pantalla_carga",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/pantalla_carga.html",
-
         }
       }
     });
