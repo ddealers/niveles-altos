@@ -1,17 +1,33 @@
 div.content-submenuCaracteristicas
-	ion-view(title="MENU")
+	ion-view(title="Características de consumo")
 		ion-nav-buttons(side="left")
-			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+			button.button.button-icon.icon.ion-ios7-drag(menu-toggle="left")
 		ion-content.has-header
-			ion-list
-				ion-item(nav-clear menu-close href="#/app")
-				ion-item(nav-clear menu-close href="#/app/C_estado_civil") Características Edo Civ
-				ion-item(nav-clear menu-close href="#/app/C_demograficas") Características Demográficas
-				ion-item(nav-clear menu-close href="#/app/C_hogar") Características Hogar
-				ion-item(nav-clear menu-close href="#/app/C_ocupaciones") Características Ocupaciones
-				ion-item(nav-clear menu-close href="#/app/C_bancarios") Características Bancarios
-				ion-item(nav-clear menu-close href="#/app/C_medios") Características Medios
-				ion-item(nav-clear menu-close href="#/app/C_internet") Características Internet y RS
-				ion-item(nav-clear menu-close href="#/app/C_telefonia") Características Telefonía celular
-				ion-item(nav-clear menu-close href="#/app/C_tecnologia") Características Tecnología
-		
+			.list
+				a.item.item-icon-right(href="#/app/C_estado_civil")
+					|Estado civil y educación
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_demograficas")
+					|Demográficas y educación
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_hogar")
+					|Hogar
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_ocupaciones")
+					|Principales ocupaciones
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_bancarios")
+					|Servicios bancarios
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_medios")
+					|Consumo de medios
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_internet")
+					|Internet y redes sociales
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_telefonia")
+					|Telefonía celular
+					i.icon.ion-ios7-arrow-right
+				a.item.item-icon-right(href="#/app/C_tecnologia")
+					|Tecnología
+					i.icon.ion-ios7-arrow-right		

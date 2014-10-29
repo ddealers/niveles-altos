@@ -79,11 +79,19 @@ h2 {
   font-weight: 200;
   font-family: 'GothamUltraItalic';
   font-style: italic;
-  font-size: 23px;
+  font-size: 21px;
+  overflow: visible;
 }
 .list {
   background: url("../img/barra.png") no-repeat;
   padding-left: 44px;
+}
+.list a.item {
+  color: #807f7f;
+  text-decoration: none;
+  font-style: italic;
+  font-family: GothamXLightItalic;
+  overflow: visible;
 }
 .list .item {
   background-color: transparent;
@@ -99,6 +107,7 @@ div.content-NSE .container.NSE {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-NSE .container.NSE div div h1:first-child {
   margin-top: 10px;
@@ -177,6 +186,7 @@ div.content-Historias-vida .container.historias_vida {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-Historias-vida .container.historias_vida div div div.row p {
   padding-top: 55px;
@@ -230,6 +240,7 @@ div.content-C_estado_civil .container.estado_civil {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-C_estado_civil .container.estado_civil div div h1.subCatego {
   text-align: center;
@@ -332,10 +343,19 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   bottom: 10px;
 }
 /* =========================== DEMOGRÁFICOS Y EDUCACIÓN */
+div.content-C_demograficas .container.demograficos_edu {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_demograficas .container.demograficos_edu div div p {
   text-align: center;
   font-size: 16px;
   letter-spacing: 1px;
+}
+div.content-C_demograficas .container.demograficos_edu div div div.row {
+  margin-top: 20px;
 }
 div.content-C_demograficas .container.demograficos_edu div div p.hijo {
   background: #e6c11f;
@@ -376,6 +396,12 @@ div.content-C_demograficas .container.demograficos_edu div div p span.lettering-
   font-size: 25px;
 }
 /* =========================== HOGAR */
+div.content-C_hogar .container.hogar {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_hogar .container.hogar div div p {
   text-align: center;
   font-size: 18px;
@@ -428,6 +454,12 @@ div.content-C_hogar .container.hogar div div div.col-75 ul {
   margin-top: 20px;
 }
 /* =========================== OCUPACIONES */
+div.content-C_ocupaciones .container.ocupaciones {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_ocupaciones .container.ocupaciones div div p.p {
   padding-left: 65px;
   font-size: 18px;
@@ -488,6 +520,12 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col ul {
   font-weight: bold;
 }
 /* =========================== SERVICIOS BANCARIOS */
+div.content-C_bancarios .container.bancarios {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_bancarios .container.bancarios div div p.te.center {
   text-align: center;
   font-size: 16px;
@@ -568,8 +606,15 @@ div.content-C_bancarios .container.bancarios div div p.grande.borde {
   padding-bottom: 10px;
 }
 /* =========================== CONSUMO DE MEDIOS */
+div.content-C_medios .container.medios {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_medios .container.medios div div p.italic {
   text-align: center;
+  margin-top: 20px;
 }
 div.content-C_medios .container.medios div div img {
   width: 50%;
@@ -646,6 +691,12 @@ div.content-C_medios .container.medios div div div.border.amarillo p.pp {
   line-height: 22px;
 }
 /* =========================== INTERNET Y REDES SOCIALES */
+div.content-C_internet .container.internet {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_internet .container.internet div div p.grande span.verde {
   font-size: 16px;
 }
@@ -726,6 +777,12 @@ div.content-C_internet .container.internet div div div.row div.col.por ul li {
   margin-top: 10px;
 }
 /* =========================== TELEFONÍA CELULAR */
+div.content-C_telefonia .container.telefonia {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_telefonia .container.telefonia div div p.azul {
   text-align: center;
   margin-top: 20px;
@@ -775,6 +832,12 @@ div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul 
   padding-top: 10px;
 }
 /* =========================== TELEFONÍA CELULAR */
+div.content-C_tecnologia .container.tecnologia {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
 div.content-C_tecnologia .container.tecnologia div div p {
   text-align: center;
   font-size: 16px;
@@ -795,6 +858,7 @@ div.content-secreto_1 .container.secreto_1 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-secreto_1 .container.secreto_1 div div h1.azul.italic.bold {
   margin-top: 20px;
@@ -840,6 +904,7 @@ div.content-secreto_2 .container.secreto_2 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-secreto_2 .container.secreto_2 div div h1.azul.italic.bold {
   margin-top: 20px;
@@ -899,6 +964,7 @@ div.content-secreto_3 .container.secreto_3 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-secreto_3 .container.secreto_3 div div h1.azul.italic.bold {
   margin-top: 20px;
@@ -930,6 +996,7 @@ div.content-secreto_4 .container.secreto_4 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-secreto_4 .container.secreto_4 div div h1.azul.italic.bold {
   margin-top: 20px;
@@ -980,6 +1047,7 @@ div.content-secreto_5 .container.secreto_5 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-secreto_5 .container.secreto_5 div div h1.azul.italic.bold {
   margin-top: 20px;
@@ -1023,6 +1091,7 @@ div.content-nuevo_lujo .container.nuevo_lujo {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-nuevo_lujo .container.nuevo_lujo div div h1.h1t.ellos {
   font-size: 20px;
@@ -1128,6 +1197,7 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.row {
   margin-top: 20px;
@@ -1193,6 +1263,7 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.italic {
   margin-left: 20px;
@@ -1242,6 +1313,7 @@ div.content-actividades .container.actividades {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-actividades .container.actividades div div p.p {
   text-align: center;
@@ -1303,6 +1375,7 @@ div.content-submenuCaracteristicas .container.submenuCaracteristicas {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul {
   padding: 20px;
@@ -1382,7 +1455,7 @@ div.content-boy .container.boy div div div ul li.a span {
   color: #807f7f;
 }
 div.content-boy .container.boy div div div ul li.s {
-  bottom: 21px;
+  bottom: 41px;
   right: 43px;
   font-size: 27px;
 }
@@ -1395,7 +1468,7 @@ div.content-boy .container.boy div div div ul li.s span {
 }
 div.content-boy .container.boy div div div ul li.c {
   top: 140px;
-  right: 8px;
+  right: 4px;
   font-size: 20px;
 }
 div.content-boy .container.boy div div div ul li.c span {

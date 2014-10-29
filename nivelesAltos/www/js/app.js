@@ -78,11 +78,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.caracteristicas', {
-      url: "/caracteristicas",
+    .state('app.submenuCaracteristicas', {
+      url: "/submenuCaracteristicas",
       views: {
         'menuContent' :{
-          templateUrl: "templates/caracteristicas.html"
+          templateUrl: "templates/submenuCaracteristicas.html"
         }
       }
     })
