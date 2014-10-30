@@ -243,7 +243,7 @@ div.content-Historias-vida .container.historias_vida div div ul li {
 }
 div.content-Historias-vida .container.historias_vida div div img.dos {
   width: 100%;
-  margin-left: 20px;
+  margin-left: -30px;
 }
 /* =========================== Estado Civil y Educación */
 div.content-C_estado_civil .container.estado_civil {
@@ -1394,20 +1394,10 @@ div.content-actividades .container.actividades div div div.row ul li span.positi
   color: #807f7f;
 }
 /* =========================== MENU CARACTERISTICAS DE CONSUMO */
-div.content-submenuCaracteristicas .container.submenuCaracteristicas {
-  border: 1px solid #36bece;
-  margin: 10px;
-  border-radius: 10px;
-  padding-bottom: 20px;
-}
-div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul {
-  padding: 20px;
-  font-size: 18px;
-  font-weight: 200;
-}
-div.content-submenuCaracteristicas .container.submenuCaracteristicas div div ul li {
-  padding-bottom: 10px;
-  padding: 10px;
+a.item {
+  color: #36bece;
+  font-style: italic;
+  font-family: GothamXLightItalic;
 }
 /* =========================== MENU SECRETOS */
 div.content-secretos_guardados .container.secretos_guardados div div ul {
@@ -1457,8 +1447,8 @@ div.content-boy .container.boy ul li a span {
   color: #807f7f;
 }
 div.content-boy .container.boy ul li.ns {
-  top: 10%;
-  left: 13%;
+  top: 7%;
+  left: 9%;
   font-size: 40px;
 }
 div.content-boy .container.boy ul li.h {
@@ -1469,17 +1459,17 @@ div.content-boy .container.boy ul li.h {
 div.content-boy .container.boy ul li.a {
   top: 37%;
   left: 5%;
-  font-size: 22px;
+  font-size: 20px;
 }
 div.content-boy .container.boy ul li.c {
   top: 32%;
   right: 1%;
-  font-size: 20px;
+  font-size: 18px;
 }
 div.content-boy .container.boy ul li.n {
   bottom: 10%;
-  font-size: 28px;
-  left: 15%;
+  font-size: 32px;
+  left: 7%;
   line-height: 25px;
 }
 div.content-boy .container.boy ul li.s {
