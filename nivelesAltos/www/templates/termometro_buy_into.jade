@@ -1,0 +1,83 @@
+div.content-nuevo_lujo_3
+	ion-view(title="Termómetro buy")
+		ion-nav-buttons(side="left")
+			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+		ion-nav-buttons(side="right")
+			button.button.button-icon.icon.ion-thermometer
+		ion-content.has-header
+			.container.nuevo_lujo_3
+				div
+					div
+						h1.h1t TERMÓMETRO BUY INTO 
+						div.row
+							div.col-50
+								button(ng-click="gotoBuy()") TERMÓMETRO<br>BUY
+							div.col-50
+								button(ng-click="gotoBuyInto()") TERMÓMETRO<br>BUY INTO
+						h4 TERMÓMETRO BUY INTO
+						p.italic Ubica los atributos de la <br>arquitectura de la marca que<br> hay que fortalecer, mantener o<br>afinar.
+						p.p ATRIBUTOS BUY INTO 
+						p.li
+							span.bold TOUGH & ROUGH<br>
+							|Mi marca convierte al cliente en un explorador fuera<br>de su burbuja socioeconómica tradicional, tanto a<br>nivel objetual como.
+							p
+								input(value="1",type="radio",name="g1",ng-model="data.tough")
+								| 1
+								input(value="2",type="radio",name="g1",ng-model="data.tough")
+								| 2
+								input(value="3",type="radio",name="g1",ng-model="data.tough")
+								| 3
+								input(value="4",type="radio",name="g1",ng-model="data.tough")
+								| 4
+						p.li
+							span.bold TIEMPO<br>
+							|	Mi marca rompe la rutina, prioriza el tiempo libre y<br>propone nuevos momentos de disfrute.
+							p
+								input(value="1",type="radio",name="g2",ng-model="data.tiempo")
+								| 1
+								input(value="2",type="radio",name="g2",ng-model="data.tiempo")
+								| 2
+								input(value="3",type="radio",name="g2",ng-model="data.tiempo")
+								| 3
+								input(value="4",type="radio",name="g2",ng-model="data.tiempo")
+								| 4
+						p.li
+							span.bold ESPECIALIZACIÓN<br>
+							|Mi marca convierte al cliente en un experto refinado<br>en una categoría. Es una herramienta para<br>profundizar en conocimiento.
+							p
+								input(value="1",type="radio",name="g3",ng-model="data.especial")
+								| 1
+								input(value="2",type="radio",name="g3",ng-model="data.especial")
+								| 2
+								input(value="3",type="radio",name="g3",ng-model="data.especial")
+								| 3
+								input(value="4",type="radio",name="g3",ng-model="data.especial")
+								| 4
+						p.li
+							span.bold SOLUCIÓN<br>
+							|Mi marca es una solución sorpresiva para el cliente.<br>Conjugara su individualidad con el<br>crear o recrear una oferta o experiencia única.
+							p
+								input(value="1",type="radio",name="g4",ng-model="data.solucion")
+								| 1
+								input(value="2",type="radio",name="g4",ng-model="data.solucion")
+								| 2
+								input(value="3",type="radio",name="g4",ng-model="data.solucion")
+								| 3
+								input(value="4",type="radio",name="g4",ng-model="data.solucion")
+								| 4
+						p.li.lis 
+							span.bold PROMEDIO: 
+							|Suma los puntos y dividelos entre 4.
+						p.bold.lis TOTAL {{ total }}.
+						div
+							p.gris
+								span.amarillo 3, 4 
+								|Nuevo lujo
+							p.gris
+								span.amarillo 2 ó más 
+								|Afinar para <br> ser nuevo lujo
+							p.gris
+								span.amarillo 2 ó menos 
+								|Replantear<br> para ser<br>nuevo lujo 
+
+
