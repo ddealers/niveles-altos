@@ -72,7 +72,8 @@ ion-nav-view
 		font-weight 200
 		font-family: 'GothamUltraItalic';
 		font-style: italic;
-		font-size: 23px;
+		font-size: 20px;
+		overflow visible
 .menu
 	.list 
 		background: url(../img/barra.png)no-repeat;
@@ -90,6 +91,9 @@ ion-nav-view
 			font-family: 'GothamUltraItalic';
 			font-style: italic;
 			overflow: visible;
+		.icon.ion-ios7-arrow-right
+			font-size 20px
+			color: #278B96;
 /* =========================== NSE */
 div.content-NSE 
 	.container.NSE
@@ -175,36 +179,40 @@ div.content-Historias-vida
 							margin-left: 20px;
 					img.uno
 						width 100%
-						margin-left: -30px;
+						margin-left: -15px;
 				img
 					margin: auto
 					display block
 					padding 10px
-				div.row
-					img.chica
-						width: 100px;
-						margin: 10px 0px;
-					ul
-						margin-left: 40px;
-						font-size: 16px
-						padding-bottom: 20px;
-						list-style: inherit;
-						li 
-							margin-bottom: 10px;
-					img.chica2
-						width 125px
+				div.none
+					display none
+					div.block
 						display block
-						margin: 10px -50px;
-				ul
-					list-style: inherit;
-					width: 80%;
-					margin: auto;
-					li 
-						padding-bottom 10px
-
+						div.row
+							img.chica
+								width: 100px;
+								margin: 10px 0px;
+							ul
+								margin-left: 40px;
+								font-size: 16px
+								padding-bottom: 20px;
+								list-style: inherit;
+								li 
+									margin-bottom: 10px;
+					
+							img.chica2
+								width 125px
+								display block
+								margin: 10px -50px;
+						ul
+							list-style: inherit;
+							width: 80%;
+							margin: auto;
+							li 
+								padding-bottom 10px
 				img.dos
 					width: 100%;
-					margin-left: -30px;
+					margin-left: -15px;
 /* =========================== Estado Civil y Educación */
 div.content-C_estado_civil
 	.container.estado_civil
@@ -393,6 +401,16 @@ div.content-C_hogar
 						padding-bottom: 10px;
 						margin-bottom: 30px;
 						margin-top 20px
+						width: 227px;
+						li 
+							position relative
+							border: 1px solid #807f7f;
+							padding: 10px;
+							margin: 5px;
+							width: 210px;
+							span.position
+								position absolute
+								left 180px 
 /* =========================== OCUPACIONES */
 div.content-C_ocupaciones
 	.container.ocupaciones
@@ -469,6 +487,13 @@ div.content-C_bancarios
 							color #807F7F
 							li 
 								padding-top 10px
+								padding-top 10px
+								position relative
+								span.position
+									left 200px
+									position: absolute;
+									color: #3cb8ce;
+									font-weight: bold;
 					div.col
 						margin-left -30px
 						ul
@@ -576,8 +601,9 @@ div.content-C_medios
 				p.sub.back
 					background: url("../img/Imagen9.png") no-repeat 0px 0px;
 					background-size: cover;
-					height: 52px;
+					height: 48px;
 					margin-bottom: 21px;
+					padding-top: 4px;
 				div.row
 					div.col-75
 						margin-left 30px
@@ -605,7 +631,10 @@ div.content-C_internet
 		padding-bottom 20px
 		div
 			div
-				p.grande
+				p.grande.text 
+					width 90%
+					margin auto
+					margin-top 10px
 					span.verde 
 						font-size 16px
 					span.normal
@@ -622,7 +651,7 @@ div.content-C_internet
 					font-size 20px
 					margin-top 30px
 				div.row
-					margin-left 15px
+					margin-left 10px
 					div.col
 						position relative
 						margin-right: 225px;
@@ -660,8 +689,9 @@ div.content-C_internet
 				p.sub.back
 					background: url("../img/Imagen9.png") no-repeat 0px 0px;
 					background-size: cover;
-					height: 52px;
-					margin-top 30px
+					height: 48px;
+					margin-top: 30px;
+					padding-top: 4px;
 				div.row
 					div.col-50.redesS
 						ul
@@ -714,7 +744,7 @@ div.content-C_telefonia
 					p.sub.back
 						background: url("../img/Imagen9.png") no-repeat 0px 0px;
 						background-size: cover;
-						height: 52px;
+						height: 48px;
 						margin-top 30px
 						text-align center
 						padding-top 5px
@@ -970,11 +1000,14 @@ div.content-secreto_5
 						display: block;
 /* =========================== NUEVO LUJO */
 div.content-nuevo_lujo
+	div.scroll
+		height 100%
 	.container.nuevo_lujo
 		border: 1px solid #36bece;
 		margin: 10px;
 		border-radius: 10px;
 		padding-bottom 20px
+		height: 96%;
 		div
 			div
 				h1.h1t.ellos
@@ -988,83 +1021,87 @@ div.content-nuevo_lujo
 					margin-top 20px
 					font-size: 20px;
 					margin-bottom: 20px;
-				div
-					img 
-						margin auto
+				div.none
+					display none
+					div.block
 						display block
-						width 120px
-						margin-top 20px
-					p
-						text-align center
-						font-size 16px
-				p.bo
-					text-align: center;
-					font-size: 28px;
-					border-top: 1px solid;
-					border-bottom: 1px solid;
-					padding: 10px;
-					font-weight: 200;
-					letter-spacing: 2px;
-					line-height: 25px;
-					width: 80%;
-					margin: auto;
-					margin-top: 20px;
-					margin-bottom: 20px;
-					span.bold
-						font-size 20px
-				ul
-					margin-left 30px
-					list-style inherit
-					li
-						margin-bottom 10px
-						font-weight 200
-						font-size 13px
-				div
-					p.fondo
-						background: #28ADE3;
-						padding: 10px;
-						color: #fff;
-						margin: auto;
-						width: 200px;
-						text-align: center;
-						margin-bottom: 20px;
-					ul
-						margin 20px
-						padding-left 30px
-					img.i 
-						margin auto 
-						width 170px
-				div.row
-					div.col
-						img
-							margin auto
-							width 75px
-					div.col-75
-						p
-							text-align: left;
-							font-size: 13px;
-							margin-left: 20px;
-							margin-top: 25px;
-				div
-					p.back
-						background: url(../img/flechas.png)no-repeat;
-						height: 100px;
-						padding-top: 37px;
-						font-size: 15px;
-						letter-spacing: 2px;
-						text-align: center;	
-						padding-right 25px
-					p.serv
-						font-weight: 200;
-						margin-left: 20px;
-						text-align: left;
-						font-size: 15px;
-						margin-bottom: 10px;
-					p.gris.serv
-						font-size: 13px;
-						text-align: center;
-						margin-left: 0px;
-						font-style: italic;
+						div
+							img 
+								margin auto
+								display block
+								width 120px
+								margin-top 20px
+							p
+								text-align center
+								font-size 16px
+						p.bo
+							text-align: center;
+							font-size: 28px;
+							border-top: 1px solid;
+							border-bottom: 1px solid;
+							padding: 10px;
+							font-weight: 200;
+							letter-spacing: 2px;
+							line-height: 25px;
+							width: 80%;
+							margin: auto;
+							margin-top: 20px;
+							margin-bottom: 20px;
+							span.bold
+								font-size 20px
+						ul
+							margin-left 30px
+							list-style inherit
+							li
+								margin-bottom 10px
+								font-weight 200
+								font-size 13px
+						div
+							p.fondo
+								background: #28ADE3;
+								padding: 10px;
+								color: #fff;
+								margin: auto;
+								width: 200px;
+								text-align: center;
+								margin-bottom: 20px;
+							ul
+								margin 20px
+								padding-left 30px
+							img.i 
+								margin auto 
+								width 170px
+						div.row
+							div.col
+								.button.button-icon.icon.ion-trophy
+									padding-top 30px
+									margin-left 20px
+							div.col-75
+								p
+									text-align: left;
+									font-size: 13px;
+									margin-left: 20px;
+									margin-top: 25px;
+						div
+							p.back
+								background: url(../img/flechas.png)no-repeat;
+								height: 100px;
+								padding-top: 37px;
+								font-size: 15px;
+								letter-spacing: 2px;
+								text-align: center;	
+								padding-right 25px
+							p.serv
+								font-weight: 200;
+								margin-left: 20px;
+								text-align: left;
+								font-size: 15px;
+								margin-bottom: 10px;
+							p.gris.serv
+								font-size: 13px;
+								text-align: center;
+								margin-left: 0px;
+								font-style: italic;
 /* =========================== NUEVO LUJO 2 */
 div.content-nuevo_lujo_2
 	.container.nuevo_lujo_2
@@ -1111,10 +1148,30 @@ div.content-nuevo_lujo_2
 					padding-top: 5px;
 				input
 					margin 0 5px 0 20px
-				p.lis
-					width: 85%;
-					margin-left: 20px;
-					font-weight: 200;	
+				div.total
+					width: 80%;
+					margin: auto;
+					border-radius: 10px;
+					height: 63px;
+					padding-top: 1px;
+					border: 1px solid #36bece;
+					p.lis
+						width: 85%;
+						margin-left: 20px;
+						font-weight: 200;
+						&.t 
+							padding: 10px;
+							color: #36bece;
+							font-size: 26px;
+							padding-right: 22px;
+							width: 168px;
+							margin-left: 37px;
+							margin-top: 10px;
+							width: 210px;
+					.button.button-icon.icon.ion-checkmark-circled
+						bottom: 43px;
+						left: 17px;
+						color: #36bece;					
 				div
 					p 
 						text-align center
@@ -1171,10 +1228,30 @@ div.content-nuevo_lujo_3
 					padding-top: 5px;
 				input
 					margin 0 5px 0 20px
-				p.lis
-					width: 85%;
-					margin-left: 20px;
-					font-weight: 200;	
+				div.total
+					width: 80%;
+					margin: auto;
+					border-radius: 10px;
+					height: 63px;
+					padding-top: 1px;
+					border: 1px solid #36bece;
+					p.lis
+						width: 85%;
+						margin-left: 20px;
+						font-weight: 200;
+						&.t 
+							padding: 10px;
+							color: #36bece;
+							font-size: 26px;
+							padding-right: 22px;
+							width: 168px;
+							margin-left: 37px;
+							margin-top: 10px;
+							width: 210px;
+					.button.button-icon.icon.ion-checkmark-circled
+						bottom: 43px;
+						left: 17px;
+						color: #36bece;	
 				div
 					p 
 						text-align center
@@ -1237,23 +1314,39 @@ div.content-actividades
 								right 15px
 								color #807F7F
 /* =========================== MENU CARACTERISTICAS DE CONSUMO */
-a.item
-	color: #36bece;
-	font-style: italic;
-	font-family: GothamXLightItalic;
+div.content-submenuCaracteristicas
+	ion-view
+		.button.button-icon.icon
+			left: 0px;
+			color: #807f85;
+			border-right: 1px solid #ddd
+			width: 50px;
+		a.item
+			font-style: italic;
+			font-family: GothamXLightItalic;
+			padding-left 60px
+			color: #807f7f;
+		.icon.ion-ios7-arrow-right
+			font-size 20px
+			color: #278b96
 /* =========================== MENU SECRETOS */
 div.content-secretos_guardados
-	.container.secretos_guardados
-		
-		div
-			div
-				ul
-					padding: 20px;
-					font-size: 18px;
-					font-weight: 200;
-					li 
-						padding-bottom 10px
-						padding: 10px;
+	ion-view
+		.has-header
+			background: #F8EDEB;
+			.button.button-icon.icon
+				left: 0px;
+				color: #807f85;
+				border-right: 1px solid #ddd
+				width: 50px;
+			a.item
+				font-style: italic;
+				font-family: GothamXLightItalic;
+				padding-left 60px
+				color: #807f7f;
+			.icon.ion-ios7-arrow-right
+				font-size 20px
+				color: #278b96
 /* =========================== PANTALLA INICIO */
 div.content-boy 	
 	.has-header
@@ -1281,6 +1374,7 @@ div.content-boy
 				font-style italic
 				a
 					color #000
+					text-decoration none
 					span
 						font-style normal
 						font-size 13px

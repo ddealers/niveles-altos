@@ -90,7 +90,8 @@ ion-nav-view {
   font-weight: 200;
   font-family: 'GothamUltraItalic';
   font-style: italic;
-  font-size: 23px;
+  font-size: 20px;
+  overflow: visible;
 }
 .menu .list {
   background: url("../img/barra.png") no-repeat;
@@ -111,6 +112,10 @@ ion-nav-view {
   font-family: 'GothamUltraItalic';
   font-style: italic;
   overflow: visible;
+}
+.menu .list .icon.ion-ios7-arrow-right {
+  font-size: 20px;
+  color: #278b96;
 }
 /* =========================== NSE */
 div.content-NSE .container.NSE {
@@ -208,42 +213,48 @@ div.content-Historias-vida .container.historias_vida div div div.row p span.porc
 }
 div.content-Historias-vida .container.historias_vida div div div.row img.uno {
   width: 100%;
-  margin-left: -30px;
+  margin-left: -15px;
 }
 div.content-Historias-vida .container.historias_vida div div img {
   margin: auto;
   display: block;
   padding: 10px;
 }
-div.content-Historias-vida .container.historias_vida div div div.row img.chica {
+div.content-Historias-vida .container.historias_vida div div div.none {
+  display: none;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div.block {
+  display: block;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica {
   width: 100px;
   margin: 10px 0px;
 }
-div.content-Historias-vida .container.historias_vida div div div.row ul {
+div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul {
   margin-left: 40px;
   font-size: 16px;
   padding-bottom: 20px;
   list-style: inherit;
 }
-div.content-Historias-vida .container.historias_vida div div div.row ul li {
+div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul li {
   margin-bottom: 10px;
 }
-div.content-Historias-vida .container.historias_vida div div div.row img.chica2 {
+div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica2 {
   width: 125px;
   display: block;
   margin: 10px -50px;
 }
-div.content-Historias-vida .container.historias_vida div div ul {
+div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
   list-style: inherit;
   width: 80%;
   margin: auto;
 }
-div.content-Historias-vida .container.historias_vida div div ul li {
+div.content-Historias-vida .container.historias_vida div div div.none div.block ul li {
   padding-bottom: 10px;
 }
 div.content-Historias-vida .container.historias_vida div div img.dos {
   width: 100%;
-  margin-left: -30px;
+  margin-left: -15px;
 }
 /* =========================== Estado Civil y Educación */
 div.content-C_estado_civil .container.estado_civil {
@@ -462,6 +473,18 @@ div.content-C_hogar .container.hogar div div div.col-75 ul {
   padding-bottom: 10px;
   margin-bottom: 30px;
   margin-top: 20px;
+  width: 227px;
+}
+div.content-C_hogar .container.hogar div div div.col-75 ul li {
+  position: relative;
+  border: 1px solid #807f7f;
+  padding: 10px;
+  margin: 5px;
+  width: 210px;
+}
+div.content-C_hogar .container.hogar div div div.col-75 ul li span.position {
+  position: absolute;
+  left: 180px;
 }
 /* =========================== OCUPACIONES */
 div.content-C_ocupaciones .container.ocupaciones {
@@ -549,6 +572,14 @@ div.content-C_bancarios .container.bancarios div div div.row div.col-75 ul {
 }
 div.content-C_bancarios .container.bancarios div div div.row div.col-75 ul li {
   padding-top: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+div.content-C_bancarios .container.bancarios div div div.row div.col-75 ul li span.position {
+  left: 200px;
+  position: absolute;
+  color: #3cb8ce;
+  font-weight: bold;
 }
 div.content-C_bancarios .container.bancarios div div div.row div.col {
   margin-left: -30px;
@@ -676,8 +707,9 @@ div.content-C_medios .container.medios div div p.Portada {
 div.content-C_medios .container.medios div div p.sub.back {
   background: url("../img/Imagen9.png") no-repeat 0px 0px;
   background-size: cover;
-  height: 52px;
+  height: 48px;
   margin-bottom: 21px;
+  padding-top: 4px;
 }
 div.content-C_medios .container.medios div div div.row div.col-75 {
   margin-left: 30px;
@@ -707,10 +739,15 @@ div.content-C_internet .container.internet {
   border-radius: 10px;
   padding-bottom: 20px;
 }
-div.content-C_internet .container.internet div div p.grande span.verde {
+div.content-C_internet .container.internet div div p.grande.text {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+div.content-C_internet .container.internet div div p.grande.text span.verde {
   font-size: 16px;
 }
-div.content-C_internet .container.internet div div p.grande span.normal {
+div.content-C_internet .container.internet div div p.grande.text span.normal {
   color: #000;
   font-weight: 200;
   font-size: 22px;
@@ -727,7 +764,7 @@ div.content-C_internet .container.internet div div p.azul.en {
   margin-top: 30px;
 }
 div.content-C_internet .container.internet div div div.row {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 div.content-C_internet .container.internet div div div.row div.col {
   position: relative;
@@ -773,8 +810,9 @@ div.content-C_internet .container.internet div div p.rs {
 div.content-C_internet .container.internet div div p.sub.back {
   background: url("../img/Imagen9.png") no-repeat 0px 0px;
   background-size: cover;
-  height: 52px;
+  height: 48px;
   margin-top: 30px;
+  padding-top: 4px;
 }
 div.content-C_internet .container.internet div div div.row div.col-50.redesS ul li {
   margin-top: 10px;
@@ -824,7 +862,7 @@ div.content-C_telefonia .container.telefonia div div div.img img {
 div.content-C_telefonia .container.telefonia div div div.img p.sub.back {
   background: url("../img/Imagen9.png") no-repeat 0px 0px;
   background-size: cover;
-  height: 52px;
+  height: 48px;
   margin-top: 30px;
   text-align: center;
   padding-top: 5px;
@@ -1097,11 +1135,15 @@ div.content-secreto_5 .container.secreto_5 div div div.img img {
   display: block;
 }
 /* =========================== NUEVO LUJO */
+div.content-nuevo_lujo div.scroll {
+  height: 100%;
+}
 div.content-nuevo_lujo .container.nuevo_lujo {
   border: 1px solid #36bece;
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+  height: 96%;
 }
 div.content-nuevo_lujo .container.nuevo_lujo div div h1.h1t.ellos {
   font-size: 20px;
@@ -1117,17 +1159,23 @@ div.content-nuevo_lujo .container.nuevo_lujo div div p.azul.italic.bold {
   font-size: 20px;
   margin-bottom: 20px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div img {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none {
+  display: none;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block {
+  display: block;
+}
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div img {
   margin: auto;
   display: block;
   width: 120px;
   margin-top: 20px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div p {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p {
   text-align: center;
   font-size: 16px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div p.bo {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block p.bo {
   text-align: center;
   font-size: 28px;
   border-top: 1px solid;
@@ -1141,19 +1189,19 @@ div.content-nuevo_lujo .container.nuevo_lujo div div p.bo {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div p.bo span.bold {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block p.bo span.bold {
   font-size: 20px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div ul {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block ul {
   margin-left: 30px;
   list-style: inherit;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div ul li {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block ul li {
   margin-bottom: 10px;
   font-weight: 200;
   font-size: 13px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div p.fondo {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.fondo {
   background: #28ade3;
   padding: 10px;
   color: #fff;
@@ -1162,25 +1210,25 @@ div.content-nuevo_lujo .container.nuevo_lujo div div div p.fondo {
   text-align: center;
   margin-bottom: 20px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div ul {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div ul {
   margin: 20px;
   padding-left: 30px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div img.i {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div img.i {
   margin: auto;
   width: 170px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div.row div.col img {
-  margin: auto;
-  width: 75px;
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div.row div.col .button.button-icon.icon.ion-trophy {
+  padding-top: 30px;
+  margin-left: 20px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div.row div.col-75 p {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div.row div.col-75 p {
   text-align: left;
   font-size: 13px;
   margin-left: 20px;
   margin-top: 25px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div p.back {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.back {
   background: url("../img/flechas.png") no-repeat;
   height: 100px;
   padding-top: 37px;
@@ -1189,14 +1237,14 @@ div.content-nuevo_lujo .container.nuevo_lujo div div div p.back {
   text-align: center;
   padding-right: 25px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div p.serv {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.serv {
   font-weight: 200;
   margin-left: 20px;
   text-align: left;
   font-size: 15px;
   margin-bottom: 10px;
 }
-div.content-nuevo_lujo .container.nuevo_lujo div div div p.gris.serv {
+div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.gris.serv {
   font-size: 13px;
   text-align: center;
   margin-left: 0px;
@@ -1252,10 +1300,33 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.li {
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div input {
   margin: 0 5px 0 20px;
 }
-div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.lis {
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  height: 63px;
+  padding-top: 1px;
+  border: 1px solid #36bece;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total p.lis {
   width: 85%;
   margin-left: 20px;
   font-weight: 200;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total p.lis.t {
+  padding: 10px;
+  color: #36bece;
+  font-size: 26px;
+  padding-right: 22px;
+  width: 168px;
+  margin-left: 37px;
+  margin-top: 10px;
+  width: 210px;
+}
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total .button.button-icon.icon.ion-checkmark-circled {
+  bottom: 43px;
+  left: 17px;
+  color: #36bece;
 }
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div p {
   text-align: center;
@@ -1318,10 +1389,33 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.li {
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div input {
   margin: 0 5px 0 20px;
 }
-div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.lis {
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  height: 63px;
+  padding-top: 1px;
+  border: 1px solid #36bece;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total p.lis {
   width: 85%;
   margin-left: 20px;
   font-weight: 200;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total p.lis.t {
+  padding: 10px;
+  color: #36bece;
+  font-size: 26px;
+  padding-right: 22px;
+  width: 168px;
+  margin-left: 37px;
+  margin-top: 10px;
+  width: 210px;
+}
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total .button.button-icon.icon.ion-checkmark-circled {
+  bottom: 43px;
+  left: 17px;
+  color: #36bece;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p {
   text-align: center;
@@ -1394,20 +1488,41 @@ div.content-actividades .container.actividades div div div.row ul li span.positi
   color: #807f7f;
 }
 /* =========================== MENU CARACTERISTICAS DE CONSUMO */
-a.item {
-  color: #36bece;
+div.content-submenuCaracteristicas ion-view .button.button-icon.icon {
+  left: 0px;
+  color: #807f85;
+  border-right: 1px solid #ddd;
+  width: 50px;
+}
+div.content-submenuCaracteristicas ion-view a.item {
   font-style: italic;
   font-family: GothamXLightItalic;
+  padding-left: 60px;
+  color: #807f7f;
+}
+div.content-submenuCaracteristicas ion-view .icon.ion-ios7-arrow-right {
+  font-size: 20px;
+  color: #278b96;
 }
 /* =========================== MENU SECRETOS */
-div.content-secretos_guardados .container.secretos_guardados div div ul {
-  padding: 20px;
-  font-size: 18px;
-  font-weight: 200;
+div.content-secretos_guardados ion-view .has-header {
+  background: #f8edeb;
 }
-div.content-secretos_guardados .container.secretos_guardados div div ul li {
-  padding-bottom: 10px;
-  padding: 10px;
+div.content-secretos_guardados ion-view .has-header .button.button-icon.icon {
+  left: 0px;
+  color: #807f85;
+  border-right: 1px solid #ddd;
+  width: 50px;
+}
+div.content-secretos_guardados ion-view .has-header a.item {
+  font-style: italic;
+  font-family: GothamXLightItalic;
+  padding-left: 60px;
+  color: #807f7f;
+}
+div.content-secretos_guardados ion-view .has-header .icon.ion-ios7-arrow-right {
+  font-size: 20px;
+  color: #278b96;
 }
 /* =========================== PANTALLA INICIO */
 div.content-boy .has-header {
@@ -1439,6 +1554,7 @@ div.content-boy .container.boy ul li {
 }
 div.content-boy .container.boy ul li a {
   color: #000;
+  text-decoration: none;
 }
 div.content-boy .container.boy ul li a span {
   font-style: normal;

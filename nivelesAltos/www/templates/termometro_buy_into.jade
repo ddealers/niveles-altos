@@ -1,7 +1,7 @@
 div.content-nuevo_lujo_3
 	ion-view(title="Termómetro buy")
 		ion-nav-buttons(side="left")
-			button.button.button-icon.icon.ion-navicon(menu-toggle="left")
+			button.button.button-icon.icon.ion-ios7-drag(menu-toggle="left")
 		ion-nav-buttons(side="right")
 			button.button.button-icon.icon.ion-thermometer
 		ion-content.has-header
@@ -68,7 +68,9 @@ div.content-nuevo_lujo_3
 						p.li.lis 
 							span.bold PROMEDIO: 
 							|Suma los puntos y dividelos entre 4.
-						p.bold.lis TOTAL {{ total }}.
+						div.total
+							p.bold.lis.t TOTAL {{ total }}.
+							button.button.button-icon.icon.ion-checkmark-circled
 						div
 							p.gris
 								span.amarillo 3, 4 
@@ -78,6 +80,6 @@ div.content-nuevo_lujo_3
 								|Afinar para <br> ser nuevo lujo
 							p.gris
 								span.amarillo 2 ó menos 
-								|Replantear<br> para ser<br>nuevo lujo 
+								|Replantear<br> para ser nuevo lujo 
 
 
