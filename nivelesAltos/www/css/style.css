@@ -177,11 +177,14 @@ div.content-NSE .container.NSE div div img.piramide {
 div.content-NSE .container.NSE div div p.texto {
   width: 80%;
   margin: auto;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  padding-bottom: 10px;
 }
 div.content-NSE .container.NSE div div p.texto.dos {
-  font-weight: 200;
+  font-weight: 20;
+}
+div.content-NSE .container.NSE div div p.texto.dos.letter {
+  font-size: 12px;
 }
 div.content-NSE .container.NSE div div div.line {
   border-top: solid 1px #3cb8ce;
@@ -202,6 +205,13 @@ div.content-Historias-vida .container.historias_vida {
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+}
+div.content-Historias-vida .container.historias_vida div div div.border {
+  padding: 0px;
+  margin-bottom: 15px;
+}
+div.content-Historias-vida .container.historias_vida div div div.border.border.d {
+  margin-top: 20px;
 }
 div.content-Historias-vida .container.historias_vida div div div.row p {
   padding-top: 55px;
@@ -226,35 +236,98 @@ div.content-Historias-vida .container.historias_vida div div div.none {
 div.content-Historias-vida .container.historias_vida div div div.none div.block {
   display: block;
 }
+div.content-Historias-vida .container.historias_vida div div div.none div.block div ul {
+  width: 84%;
+  margin-left: 25px;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div.block div ul li {
+  padding-bottom: 5px;
+  list-style: initial;
+  font-size: 12px;
+}
 div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica {
   width: 100px;
-  margin: 10px 0px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul {
   margin-left: 40px;
   font-size: 16px;
   padding-bottom: 20px;
   list-style: inherit;
+  width: 150px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul li {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  font-size: 12px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica2 {
-  width: 125px;
+  width: 100px;
   display: block;
-  margin: 10px -50px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
   list-style: inherit;
-  width: 80%;
+  width: 84%;
   margin: auto;
+  padding-bottom: 20px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div.block ul li {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  font-size: 12px;
 }
 div.content-Historias-vida .container.historias_vida div div img.dos {
   width: 100%;
   margin-left: -15px;
+}
+@media (min-width: 500px) {
+  div.content-Historias-vida .container.historias_vida div div div.row img.uno {
+    width: 70%;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.row img.dos {
+    width: 70%;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.row p {
+    padding-top: 130px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.row p span.porcentaje {
+    font-size: 100px;
+    margin-left: 120px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block {
+    margin-top: -100px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
+    width: 425px;
+    margin-left: 55px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block ul li {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica {
+    width: 135px;
+    margin-top: -40px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica2 {
+    width: 165px;
+    margin-top: -40px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul {
+    width: 550px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul li {
+    font-size: 20px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block div.vc {
+    margin-top: -100px;
+    margin-left: 40px;
+    padding-bottom: 120px;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none div.block div.vc ul li {
+    font-size: 20px;
+    width: 58%;
+    margin-bottom: 15px;
+  }
 }
 /* =========================== Estado Civil y Educación */
 div.content-C_estado_civil .container.estado_civil {
@@ -290,10 +363,13 @@ div.content-C_estado_civil .container.estado_civil div div div.border.yellow div
 div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle p.vive {
   margin-left: -75px;
   margin-top: 5px;
+  line-height: 23px;
 }
 div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle span.azul.nueve {
-  font-size: 20px;
+  font-size: 32px;
   font-weight: bold;
+  color: #3aadc1;
+  margin-left: -15px;
 }
 div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle img.flecha {
   position: absolute;
@@ -313,7 +389,7 @@ div.content-C_estado_civil .container.estado_civil div div div.border-un p.un {
 }
 div.content-C_estado_civil .container.estado_civil div div div.border-un p.grande.ocho {
   text-align: left;
-  margin-left: 15px;
+  margin-left: 3px;
 }
 div.content-C_estado_civil .container.estado_civil div div div.border-un p.sod {
   margin-left: -45px;
@@ -388,15 +464,14 @@ div.content-C_demograficas .container.demograficos_edu div div p.hijo {
   font-size: 15px;
 }
 div.content-C_demograficas .container.demograficos_edu div div img.grafica {
-  width: 85%;
+  width: 65%;
   margin: auto;
   display: block;
 }
 div.content-C_demograficas .container.demograficos_edu div div img.dos {
-  width: 75%;
+  width: 65%;
   margin: auto;
   display: block;
-  margin-top: 10px;
 }
 div.content-C_demograficas .container.demograficos_edu div div p.p {
   font-size: 19px;
@@ -415,6 +490,18 @@ div.content-C_demograficas .container.demograficos_edu div div p span.lettering 
 }
 div.content-C_demograficas .container.demograficos_edu div div p span.lettering-dos {
   font-size: 25px;
+}
+@media (min-width: 500px) {
+  div.content-C_demograficas .container.demograficos_edu div div p.hijo {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  div.content-C_demograficas .container.demograficos_edu div div img.grafica {
+    width: 40%;
+  }
+  div.content-C_demograficas .container.demograficos_edu div div img.dos {
+    width: 40%;
+  }
 }
 /* =========================== HOGAR */
 div.content-C_hogar .container.hogar {
@@ -1039,6 +1126,111 @@ div.content-secreto_3 .container.secreto_3 div div div h4.h4 {
   margin-bottom: -15px;
   margin-left: 20px;
 }
+div.content-secreto_3 .container.secreto_3 div div h1.h1t.ellos {
+  font-size: 20px;
+  font-weight: 200;
+}
+div.content-secreto_3 .container.secreto_3 div div h1.h1t.ellos span.bold {
+  font-size: 20px;
+  margin-top: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div p.azul.italic.bold {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none {
+  display: none;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block {
+  display: block;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div img {
+  margin: auto;
+  display: block;
+  width: 120px;
+  margin-top: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div p {
+  text-align: center;
+  font-size: 16px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block p.bo {
+  text-align: center;
+  font-size: 28px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 25px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block p.bo span.bold {
+  font-size: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block ul {
+  margin-left: 30px;
+  list-style: inherit;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block ul li {
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-size: 13px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.fondo {
+  background: #28ade3;
+  padding: 10px;
+  color: #fff;
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div ul {
+  margin: 20px;
+  padding-left: 30px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div img.i {
+  margin: auto;
+  width: 170px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row div.col .button.button-icon.icon.ion-trophy {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row div.col-75 p {
+  text-align: left;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.back {
+  background: url("../img/flechas.png") no-repeat;
+  height: 100px;
+  padding-top: 37px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-right: 25px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.serv {
+  font-weight: 200;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris.serv {
+  font-size: 13px;
+  text-align: center;
+  margin-left: 0px;
+  font-style: italic;
+}
 /* =========================== SECRETO #4 */
 div.content-secreto_4 .container.secreto_4 {
   border: 1px solid #36bece;
@@ -1133,122 +1325,6 @@ div.content-secreto_5 .container.secreto_5 div div div.img img {
   width: 90%;
   margin: auto;
   display: block;
-}
-/* =========================== NUEVO LUJO */
-div.content-nuevo_lujo div.scroll {
-  height: 100%;
-}
-div.content-nuevo_lujo .container.nuevo_lujo {
-  border: 1px solid #36bece;
-  margin: 10px;
-  border-radius: 10px;
-  padding-bottom: 20px;
-  height: 96%;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div h1.h1t.ellos {
-  font-size: 20px;
-  font-weight: 200;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div h1.h1t.ellos span.bold {
-  font-size: 20px;
-  margin-top: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div p.azul.italic.bold {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none {
-  display: none;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block {
-  display: block;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div img {
-  margin: auto;
-  display: block;
-  width: 120px;
-  margin-top: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p {
-  text-align: center;
-  font-size: 16px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block p.bo {
-  text-align: center;
-  font-size: 28px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  padding: 10px;
-  font-weight: 200;
-  letter-spacing: 2px;
-  line-height: 25px;
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block p.bo span.bold {
-  font-size: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block ul {
-  margin-left: 30px;
-  list-style: inherit;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block ul li {
-  margin-bottom: 10px;
-  font-weight: 200;
-  font-size: 13px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.fondo {
-  background: #28ade3;
-  padding: 10px;
-  color: #fff;
-  margin: auto;
-  width: 200px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div ul {
-  margin: 20px;
-  padding-left: 30px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div img.i {
-  margin: auto;
-  width: 170px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div.row div.col .button.button-icon.icon.ion-trophy {
-  padding-top: 30px;
-  margin-left: 20px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div.row div.col-75 p {
-  text-align: left;
-  font-size: 13px;
-  margin-left: 20px;
-  margin-top: 25px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.back {
-  background: url("../img/flechas.png") no-repeat;
-  height: 100px;
-  padding-top: 37px;
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-align: center;
-  padding-right: 25px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.serv {
-  font-weight: 200;
-  margin-left: 20px;
-  text-align: left;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-div.content-nuevo_lujo .container.nuevo_lujo div div div.none div.block div p.gris.serv {
-  font-size: 13px;
-  text-align: center;
-  margin-left: 0px;
-  font-style: italic;
 }
 /* =========================== NUEVO LUJO 2 */
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 {
@@ -1533,7 +1609,9 @@ div.content-boy .scroll {
 }
 div.content-boy .container.boy {
   height: 100%;
-  background: url("../img/fondo.png");
+  background: #36bece;
+/*background url(../img/fondo.png)*/
+  background: #36bece url("../img/fondoazul.png");
 }
 div.content-boy .container.boy img {
   margin: auto;
@@ -1553,14 +1631,16 @@ div.content-boy .container.boy ul li {
   font-style: italic;
 }
 div.content-boy .container.boy ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 div.content-boy .container.boy ul li a span {
   font-style: normal;
   font-size: 13px;
   text-align: right;
-  color: #807f7f;
+  color: #fff;
+  font-weight: 200;
 }
 div.content-boy .container.boy ul li.ns {
   top: 7%;
@@ -1573,8 +1653,8 @@ div.content-boy .container.boy ul li.h {
   font-size: 26px;
 }
 div.content-boy .container.boy ul li.a {
-  top: 37%;
-  left: 5%;
+  top: 30%;
+  left: 3%;
   font-size: 20px;
 }
 div.content-boy .container.boy ul li.c {
@@ -1589,7 +1669,63 @@ div.content-boy .container.boy ul li.n {
   line-height: 25px;
 }
 div.content-boy .container.boy ul li.s {
-  bottom: 25%;
+  bottom: 27%;
   right: 13%;
   font-size: 27px;
+}
+div.content-boy .container.boy ul li.t {
+  bottom: 10%;
+  right: 2%;
+  font-size: 20px;
+}
+div.content-boy .container.boy ul li.i {
+  top: 47%;
+  left: 3%;
+  font-size: 20px;
+}
+/* =========================== dlR group */
+div.content-dlr_group .container.dlr_group {
+  border: 1px solid #36bece;
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+div.content-dlr_group .container.dlr_group div div p {
+  margin: auto;
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin-top: 30px;
+  color: #000;
+  font-size: 13px;
+}
+div.content-dlr_group .container.dlr_group div div p.direccion {
+  color: #807f7f;
+  font-style: italic;
+}
+div.content-dlr_group .container.dlr_group div div p.www {
+  color: #28ade3;
+  margin-top: 5px;
+}
+div.content-dlr_group .container.dlr_group div div p.t {
+  margin-top: 0px;
+  color: #28ade3;
+}
+div.content-dlr_group .container.dlr_group div div p.t button {
+  color: #28ade3;
+  font-size: 22px;
+  margin-top: -10px;
+  bottom: 5px;
+}
+div.content-dlr_group .container.dlr_group div div p.t button span {
+  font-size: 13px;
+}
+div.content-dlr_group .container.dlr_group div div p.con {
+  margin-top: -10px;
+  color: #807f7f;
+  font-style: italic;
+}
+div.content-dlr_group .container.dlr_group div div p.con span.name {
+  font-style: normal;
+  font-weight: bold;
 }

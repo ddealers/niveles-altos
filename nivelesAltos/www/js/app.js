@@ -231,6 +231,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           templateUrl: "templates/actividades.html",
         }
       }
+    })
+     .state('app.dlr_group', {
+      url: "/dlr_group",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/dlr_group.html",
+        }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/login');
