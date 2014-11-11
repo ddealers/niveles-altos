@@ -292,7 +292,7 @@ div.content-Historias-vida .container.historias_vida div div img.dos {
     margin-left: 120px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block {
-    margin-top: -100px;
+    margin-top: 0px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
     width: 425px;
@@ -311,7 +311,7 @@ div.content-Historias-vida .container.historias_vida div div img.dos {
     margin-top: -40px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul {
-    width: 550px;
+    width: 450px;
     margin-left: 40px;
     margin-bottom: 25px;
   }
@@ -319,9 +319,9 @@ div.content-Historias-vida .container.historias_vida div div img.dos {
     font-size: 20px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block div.vc {
-    margin-top: -100px;
+    margin-top: 0px;
     margin-left: 40px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block div.vc ul li {
     font-size: 20px;
@@ -571,7 +571,7 @@ div.content-C_hogar .container.hogar div div div.col-75 ul li {
 }
 div.content-C_hogar .container.hogar div div div.col-75 ul li span.position {
   position: absolute;
-  left: 180px;
+  left: 170px;
 }
 /* =========================== OCUPACIONES */
 div.content-C_ocupaciones .container.ocupaciones {
