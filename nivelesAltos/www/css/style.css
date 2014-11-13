@@ -573,6 +573,14 @@ div.content-C_hogar .container.hogar div div div.col-75 ul li span.position {
   position: absolute;
   left: 170px;
 }
+@media (min-width: 500px) {
+  div.content-C_hogar .container.hogar div div p.bold.grande.negro {
+    margin-left: 230px;
+  }
+  div.content-C_hogar .container.hogar div div p.left {
+    margin-left: 279px;
+  }
+}
 /* =========================== OCUPACIONES */
 div.content-C_ocupaciones .container.ocupaciones {
   border: 1px solid #36bece;
@@ -581,7 +589,7 @@ div.content-C_ocupaciones .container.ocupaciones {
   padding-bottom: 20px;
 }
 div.content-C_ocupaciones .container.ocupaciones div div p.p {
-  padding-left: 65px;
+  padding-left: 50px;
   font-size: 18px;
 }
 div.content-C_ocupaciones .container.ocupaciones div div div.border- {
@@ -593,7 +601,7 @@ div.content-C_ocupaciones .container.ocupaciones div div div.border- {
   width: 80%;
 }
 div.content-C_ocupaciones .container.ocupaciones div div p.-p {
-  padding-left: 28px;
+  padding-left: 18px;
   font-size: 18px;
 }
 div.content-C_ocupaciones .container.ocupaciones div div div.col-50 {
@@ -638,6 +646,18 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col {
 div.content-C_ocupaciones .container.ocupaciones div div div.col ul {
   color: #28ade3;
   font-weight: bold;
+}
+@media (min-width: 500px) {
+  div.content-C_ocupaciones .container.ocupaciones div div p.p {
+    padding-left: 275px;
+  }
+  div.content-C_ocupaciones .container.ocupaciones div div p.-p {
+    padding-left: 200px;
+    width: 465px;
+  }
+  div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
+    left: 255px;
+  }
 }
 /* =========================== SERVICIOS BANCARIOS */
 div.content-C_bancarios .container.bancarios {
@@ -733,7 +753,7 @@ div.content-C_bancarios .container.bancarios div div p.grande.borde {
   margin-top: 10px;
   padding-bottom: 10px;
 }
-/* =========================== CONSUMO DE MEDIOS */
+/* ===========================  MEDIOS */
 div.content-C_medios .container.medios {
   border: 1px solid #36bece;
   margin: 10px;
@@ -819,6 +839,33 @@ div.content-C_medios .container.medios div div div.border.amarillo p.pp {
   font-weight: 200;
   line-height: 22px;
 }
+@media (min-width: 500px) {
+  div.content-C_medios .container.medios div div p.sub.back {
+    background: url("../img/Imagen9.png") no-repeat 200px 1px;
+    height: 105px;
+    margin-bottom: 15px;
+    padding-top: 18px;
+    font-size: 20px;
+  }
+  div.content-C_medios .container.medios div div div.top p.left {
+    margin-left: 305px;
+  }
+  div.content-C_medios .container.medios div div div.row div.col-75 ul.gris {
+    margin-left: 300px;
+  }
+  div.content-C_medios .container.medios div div div.row div.col-75 ul.gris li {
+    padding-bottom: 10px;
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 335px;
+  }
+  div.content-C_medios .container.medios div div div.row div.col ul li {
+    margin-left: -125px;
+    margin-bottom: 17px;
+    margin-top: 5px;
+  }
+}
 /* =========================== INTERNET Y REDES SOCIALES */
 div.content-C_internet .container.internet {
   border: 1px solid #36bece;
@@ -901,15 +948,44 @@ div.content-C_internet .container.internet div div p.sub.back {
   margin-top: 30px;
   padding-top: 4px;
 }
-div.content-C_internet .container.internet div div div.row div.col-50.redesS ul li {
-  margin-top: 10px;
+div.content-C_internet .container.internet div div div.row.red {
+  margin-left: 15px;
 }
-div.content-C_internet .container.internet div div div.row div.col.por ul {
-  margin-left: -50px;
+div.content-C_internet .container.internet div div div.row.red div.col-50.redesS ul li {
+  margin-top: 30px;
+  position: relative;
+}
+div.content-C_internet .container.internet div div div.row.red div.col-50.redesS ul li img.rs {
+  width: 25%;
+  position: absolute;
+  left: -55px;
+  top: -31px;
+}
+div.content-C_internet .container.internet div div div.row.red div.col.por ul {
+  margin-left: -35px;
   margin-top: -5px;
 }
-div.content-C_internet .container.internet div div div.row div.col.por ul li {
-  margin-top: 10px;
+div.content-C_internet .container.internet div div div.row.red div.col.por ul li {
+  margin-top: 30px;
+}
+@media (min-width: 500px) {
+  div.content-C_internet .container.internet div div p.sub.back {
+    background: url("../img/Imagen9.png") no-repeat 85px 0px;
+    height: 115px;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  div.content-C_internet .container.internet div div div.row div.col ul li img.img {
+    margin-left: 5px;
+  }
+  div.content-C_internet .container.internet div div div.row.red div.col-50.redesS ul li {
+    margin-left: 100px;
+    padding-left: 40px;
+  }
+  div.content-C_internet .container.internet div div div.row.red div.col-50.redesS ul li img.rs {
+    width: 18%;
+  }
 }
 /* =========================== TELEFONÍA CELULAR */
 div.content-C_telefonia .container.telefonia {
@@ -939,12 +1015,21 @@ div.content-C_telefonia .container.telefonia div div div.row div.col.por ul li {
   padding-top: 10px;
   margin-left: -20px;
 }
+div.content-C_telefonia .container.telefonia div div div.img p.center {
+  border-top: 1px solid #fbdc44;
+  margin-top: 20px;
+  padding-top: 25px;
+  width: 80%;
+  margin: auto;
+  color: #28ade3;
+  font-weight: bold;
+}
 div.content-C_telefonia .container.telefonia div div div.img img {
   margin: auto;
   display: block;
-  border-top: 1px solid #fbdc44;
   margin-top: 20px;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 div.content-C_telefonia .container.telefonia div div div.img p.sub.back {
   background: url("../img/Imagen9.png") no-repeat 0px 0px;
@@ -966,6 +1051,16 @@ div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul 
 div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul li {
   padding-top: 10px;
 }
+@media (min-width: 500px) {
+  div.content-C_telefonia .container.telefonia div div div.img p.sub.back {
+    background: url("../img/Imagen9.png") no-repeat 200px 0px;
+    height: 100px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+}
 /* =========================== TELEFONÍA CELULAR */
 div.content-C_tecnologia .container.tecnologia {
   border: 1px solid #36bece;
@@ -986,7 +1081,42 @@ div.content-C_tecnologia .container.tecnologia div div div.row div.col ul li img
   width: 70%;
 }
 div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li {
-  padding-top: 21.5px;
+  padding-top: 25.5px;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.u {
+  padding-top: 10.5px;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.d {
+  padding-top: 30.5px;
+}
+div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.s {
+  padding-top: 8.5px;
+}
+@media (min-width: 500px) {
+  div.content-C_tecnologia .container.tecnologia div div p {
+    font-size: 20px;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li {
+    font-size: 20px;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.u {
+    padding-top: 44.5px !important;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.d {
+    padding-top: 115.5px !important;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.c {
+    padding-top: 140.5px !important;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.s {
+    padding-top: 95.5px !important;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.ci {
+    padding-top: 100.5px !important;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.si {
+    padding-top: 100.5px !important;
+  }
 }
 /* =========================== SECRETO #1 */
 div.content-secreto_1 .container.secreto_1 {
@@ -1017,7 +1147,6 @@ div.content-secreto_1 .container.secreto_1 div div div p.title {
   width: 53%;
 }
 div.content-secreto_1 .container.secreto_1 div div div img {
-  width: 155px;
   margin: auto;
   display: block;
   margin-top: 15px;
@@ -1033,6 +1162,30 @@ div.content-secreto_1 .container.secreto_1 div div div div p {
   text-align: -webkit-left;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+@media (min-width: 500px) {
+  div.content-secreto_1 .container.secreto_1 div div div.content-uno {
+    position: absolute;
+    width: 30%;
+    top: 220px;
+    left: 30px;
+  }
+  div.content-secreto_1 .container.secreto_1 div div div.content-dos {
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 220px;
+  }
+  div.content-secreto_1 .container.secreto_1 div div div.content-tres {
+    position: absolute;
+    width: 30%;
+    right: 30px;
+    top: 220px;
+  }
 }
 /* =========================== SECRETO #2 */
 div.content-secreto_2 .container.secreto_2 {
@@ -1065,19 +1218,25 @@ div.content-secreto_2 .container.secreto_2 div div div p.gris {
   letter-spacing: 1px;
   line-height: 25px;
   margin-left: 65px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 div.content-secreto_2 .container.secreto_2 div div div img {
   margin: auto;
   display: block;
+  width: 80%;
 }
-div.content-secreto_2 .container.secreto_2 div div div ul.gris {
+div.content-secreto_2 .container.secreto_2 div div div div.row div.col-5 h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+div.content-secreto_2 .container.secreto_2 div div div div.row ul.gris {
   color: #807f7f;
-  margin-left: 65px;
+  margin-left: 25px;
   font-weight: 200;
   list-style: inherit;
+  font-size: 12px;
 }
-div.content-secreto_2 .container.secreto_2 div div div ul.gris li {
+div.content-secreto_2 .container.secreto_2 div div div div.row ul.gris li {
   padding-bottom: 10px;
 }
 div.content-secreto_2 .container.secreto_2 div div div p.ce {
@@ -1092,7 +1251,6 @@ div.content-secreto_2 .container.secreto_2 div div div p.ce {
 div.content-secreto_2 .container.secreto_2 div div div img.img {
   width: 185px;
   margin-top: 35px;
-  border: 1px solid #fbdc44;
 }
 /* =========================== SECRETO #3 */
 div.content-secreto_3 .container.secreto_3 {
@@ -1231,6 +1389,21 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris
   margin-left: 0px;
   font-style: italic;
 }
+@media (min-width: 500px) {
+  div.content-secreto_3 .container.secreto_3 div div div div.contenido {
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-bottom: 30px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div div p {
+    width: 380px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div img {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+  }
+}
 /* =========================== SECRETO #4 */
 div.content-secreto_4 .container.secreto_4 {
   border: 1px solid #36bece;
@@ -1263,7 +1436,7 @@ div.content-secreto_4 .container.secreto_4 div div div img.dos {
   margin-bottom: 20px;
 }
 div.content-secreto_4 .container.secreto_4 div div div img.tres {
-  width: 60px;
+  width: 240px;
   margin: auto;
   display: block;
   margin-bottom: 20px;
@@ -1307,6 +1480,13 @@ div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 img {
   width: 90px;
   margin-bottom: 28px;
 }
+div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 img.marca {
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 img.marca.top {
+  margin-top: 60px;
+}
 div.content-secreto_5 .container.secreto_5 div div div.row div.col-50.adn p {
   color: #fff;
   background: #000;
@@ -1320,6 +1500,19 @@ div.content-secreto_5 .container.secreto_5 div div div.row div.col-50.adn p {
 }
 div.content-secreto_5 .container.secreto_5 div div div.row div.col-50.adn img {
   width: 80px;
+  margin-right: 50px;
+}
+div.content-secreto_5 .container.secreto_5 div div div.img p {
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  margin-left: 160px;
+  display: block;
+  width: 120px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 div.content-secreto_5 .container.secreto_5 div div div.img img {
   width: 90%;

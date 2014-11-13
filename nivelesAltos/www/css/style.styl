@@ -6,7 +6,7 @@ p
 	/*font-family 'Gotham Medium'*/
 body
 html
-	size 100%
+	 size 100%
 /* =========================== ESTILO GENERAL */
 h1
 	color: #444;
@@ -487,6 +487,13 @@ div.content-C_hogar
 							span.position
 								position absolute
 								left 170px 
+		@media(min-width: 500px)
+			div
+				div
+					p.bold.grande.negro
+						margin-left 230px
+					p.left
+						margin-left 279px
 /* =========================== OCUPACIONES */
 div.content-C_ocupaciones
 	.container.ocupaciones
@@ -497,7 +504,7 @@ div.content-C_ocupaciones
 		div
 			div
 				p.p
-					padding-left 65px
+					padding-left 50px
 					font-size 18px
 				div.border-
 					border-bottom 1px solid #FBDC44
@@ -507,7 +514,7 @@ div.content-C_ocupaciones
 					margin-top 20px
 					width 80%
 				p.-p
-					padding-left 28px
+					padding-left 18px
 					font-size 18px
 				div.col-50
 					position relative
@@ -543,6 +550,18 @@ div.content-C_ocupaciones
 					ul
 						color #28ADE3
 						font-weight bold
+		@media(min-width: 500px)
+			div
+				div
+					p.p
+						padding-left 275px
+					p.-p
+						padding-left 200px
+						width 465px
+					div.col-50
+						p.coll
+							img
+								left 255px
 /* =========================== SERVICIOS BANCARIOS */
 div.content-C_bancarios
 	.container.bancarios
@@ -624,7 +643,7 @@ div.content-C_bancarios
 					margin auto
 					margin-top 10px
 					padding-bottom: 10px;
-/* =========================== CONSUMO DE MEDIOS */
+/* ===========================  MEDIOS */
 div.content-C_medios
 	.container.medios 
 		border: 1px solid #36bece;
@@ -698,6 +717,35 @@ div.content-C_medios
 						letter-spacing: 2px;
 						font-weight: 200;
 						line-height: 22px;
+		@media(min-width: 500px)
+			div
+				div
+					p.sub.back
+						background: url("../img/Imagen9.png") no-repeat 200px 1px;
+						height: 105px;
+						margin-bottom: 15px;
+						padding-top: 18px;
+						font-size 20px
+					div.top
+						p.left
+							margin-left 305px
+					div.row
+						div.col-75
+							ul.gris
+								margin-left 300px
+								li
+									padding-bottom: 10px;
+									border: solid 1px;
+									padding: 10px;
+									margin-bottom: 5px;
+									width: 335px;
+						div.col 
+							ul
+								li
+									margin-left -125px
+									margin-bottom: 17px;
+									margin-top: 5px;
+						
 /* =========================== INTERNET Y REDES SOCIALES */
 div.content-C_internet
 	.container.internet
@@ -768,17 +816,47 @@ div.content-C_internet
 					height: 48px;
 					margin-top: 30px;
 					padding-top: 4px;
-				div.row
+				div.row.red
+					margin-left 15px
 					div.col-50.redesS
 						ul
 							li 
-								margin-top 10px
+								margin-top 30px
+								position relative
+								img.rs
+									width 25%
+									position absolute
+									left: -55px;
+									top -31px
 					div.col.por
 						ul
-							margin-left -50px
+							margin-left -35px
 							margin-top -5px
 							li 
-								margin-top 10px
+								margin-top 30px
+		@media(min-width: 500px)
+			div
+				div
+					p.sub.back
+						background: url("../img/Imagen9.png") no-repeat 85px 0px;
+						height: 115px;
+						margin-top: 30px;
+						padding-top: 15px;
+						font-size: 20px;
+					div.row
+						div.col 
+							ul 
+								li 
+									img.img 
+										margin-left 5px
+					div.row.red
+						div.col-50.redesS
+							ul 
+								li
+									margin-left: 100px;
+									padding-left: 40px;
+									img.rs
+										width 18%
 /* =========================== TELEFONÍA CELULAR */
 div.content-C_telefonia
 	.container.telefonia
@@ -811,12 +889,20 @@ div.content-C_telefonia
 								padding-top 10px
 								margin-left -20px
 				div.img
+					p.center
+						border-top: 1px solid #fbdc44;
+						margin-top: 20px;
+						padding-top: 25px;
+						width: 80%;
+						margin: auto;
+						color: #28ade3;
+						font-weight bold
 					img
 						margin auto
 						display block
-						border-top: 1px solid #FBDC44 
 						margin-top 20px
 						padding-top 10px
+						padding-bottom 20px
 					p.sub.back
 						background: url("../img/Imagen9.png") no-repeat 0px 0px;
 						background-size: cover;
@@ -835,6 +921,17 @@ div.content-C_telefonia
 								margin-top -5px
 								li
 									padding-top 10px
+		@media(min-width: 500px)
+			div
+				div
+					div.img
+						p.sub.back
+							background: url("../img/Imagen9.png") no-repeat 200px 0px;
+							height: 100px;
+							margin-top: 30px;
+							text-align: center;
+							padding-top: 15px;
+							font-size: 20px;
 /* =========================== TELEFONÍA CELULAR */
 div.content-C_tecnologia
 	.container.tecnologia
@@ -859,7 +956,36 @@ div.content-C_tecnologia
 					div.col-75
 						ul
 							li
-								padding-top 21.5px
+								padding-top 25.5px
+								&.u
+									padding-top 10.5px
+								&.d 
+									padding-top 30.5px
+								&.s 
+									padding-top 8.5px
+		@media(min-width: 500px)
+			div
+				div
+					p
+						font-size 20px
+					div.col-75
+						ul
+							li
+								font-size 20px
+								&.u
+									padding-top 44.5px !important
+								&.d 
+									padding-top 115.5px !important
+								&.c 
+									padding-top 140.5px !important
+								&.s 
+									padding-top 95.5px !important
+								&.ci 
+									padding-top 100.5px !important
+								&.si
+									padding-top 100.5px !important
+								
+					
 /* =========================== SECRETO #1 */
 div.content-secreto_1
 	.container.secreto_1
@@ -888,7 +1014,6 @@ div.content-secreto_1
 						margin auto
 						width 53%
 					img
-						width 155px
 						margin auto
 						display block
 						margin-top 15px
@@ -902,6 +1027,28 @@ div.content-secreto_1
 							text-align: -webkit-left;
 							margin-bottom: 20px;
 							margin-top: 20px;
+		@media(min-width: 500px)
+			div
+				div
+					div.content-uno
+						position absolute
+						width 30%
+						top 220px
+						left 30px
+					div.content-dos
+						position absolute
+						margin auto
+						display block
+						width 30%
+						left 0
+						right 0
+						bottom 0
+						top 220px
+					div.content-tres
+						position absolute
+						width: 30%;
+						right: 30px;
+						top: 220px;		
 /* =========================== SECRETO #2 */
 div.content-secreto_2
 	.container.secreto_2
@@ -933,17 +1080,24 @@ div.content-secreto_2
 						letter-spacing: 1px;
 						line-height: 25px;
 						margin-left 65px
-						margin-top: 10px;
+						margin-top: 25px;
 					img
 						margin auto
 						display block
-					ul.gris
-						color: #807f7f;
-						margin-left: 65px;
-						font-weight: 200;
-						list-style: inherit;
-						li
-							padding-bottom 10px
+						width 80%
+					div.row
+						div.col-5	
+							h2
+								text-align left
+								margin-left 10px
+						ul.gris
+							color: #807f7f;
+							margin-left: 25px;
+							font-weight: 200;
+							list-style: inherit;
+							font-size 12px
+							li
+								padding-bottom 10px
 					p.ce
 						text-align center
 						font-weight: 200;
@@ -955,7 +1109,6 @@ div.content-secreto_2
 					img.img
 						width: 185px;
 						margin-top: 35px;
-						border: 1px solid #FBDC44;
 /* =========================== SECRETO #3 */
 div.content-secreto_3
 	.container.secreto_3
@@ -1078,6 +1231,20 @@ div.content-secreto_3
 								text-align: center;
 								margin-left: 0px;
 								font-style: italic;
+		@media(min-width: 500px)
+			div
+				div
+					div
+						div.contenido
+							margin-top 50px
+							margin-left 270px
+							margin-bottom 30px
+						p
+							width 380px
+					img
+						position absolute
+						top: 200px;
+						left: 30px;
 /* =========================== SECRETO #4 */
 div.content-secreto_4
 	.container.secreto_4
@@ -1108,7 +1275,7 @@ div.content-secreto_4
 						display block
 						margin-bottom: 20px;
 					img.tres
-						width 60px
+						width 240px
 						margin auto
 						display block
 						margin-bottom: 20px;
@@ -1148,6 +1315,11 @@ div.content-secreto_5
 							display block
 							width 90px
 							margin-bottom 28px
+							&.marca
+								margin-bottom 10px
+								margin-left 45px
+							&.marca.top
+								margin-top 60px
 					div.col-50.adn
 						p 
 							color #fff
@@ -1161,7 +1333,19 @@ div.content-secreto_5
 							font-weight bold
 						img 
 							width 80px
+							margin-right 50px
 				div.img 
+					p
+						color #fff
+						background #000
+						padding 10px
+						margin-left 160px
+						display block
+						width 120px
+						text-align center
+						font-style italic
+						font-weight bold
+						margin-bottom 20px
 					img 
 						width: 90%;
 						margin: auto;
