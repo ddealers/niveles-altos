@@ -142,6 +142,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/historias_vida.html",
+          controller: "HistoriasVidaCtrl"
         }
       }
     })

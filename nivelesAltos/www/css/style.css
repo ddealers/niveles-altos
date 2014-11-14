@@ -225,6 +225,12 @@ div.content-Historias-vida .container.historias_vida div div div.row img.uno {
   width: 100%;
   margin-left: -15px;
 }
+div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
+  left: 80px;
+  bottom: 25px;
+  font-size: 25px;
+  color: #f00;
+}
 div.content-Historias-vida .container.historias_vida div div img {
   margin: auto;
   display: block;
@@ -649,14 +655,17 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col ul {
 }
 @media (min-width: 500px) {
   div.content-C_ocupaciones .container.ocupaciones div div p.p {
-    padding-left: 275px;
+    padding-left: 405px;
   }
   div.content-C_ocupaciones .container.ocupaciones div div p.-p {
-    padding-left: 200px;
-    width: 465px;
+    padding-left: 325px;
+    width: 485px;
+  }
+  div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll {
+    margin-left: 200px;
   }
   div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
-    left: 255px;
+    left: 405px;
   }
 }
 /* =========================== SERVICIOS BANCARIOS */
@@ -696,6 +705,10 @@ div.content-C_bancarios .container.bancarios div div div.row div.col ul li {
 }
 div.content-C_bancarios .container.bancarios div div p {
   text-align: center;
+}
+div.content-C_bancarios .container.bancarios div div p.pb.bold.border {
+  padding-bottom: 0px;
+  border-top: #fbdc44 1px solid;
 }
 div.content-C_bancarios .container.bancarios div div p.banco {
   font-size: 26px;
@@ -1164,13 +1177,17 @@ div.content-secreto_1 .container.secreto_1 div div div div p {
   margin-top: 20px;
 }
 @media (min-width: 500px) {
-  div.content-secreto_1 .container.secreto_1 div div div.content-uno {
+  div.content-secreto_1 .container.secreto_1 div div div.contenido {
+    position: relative;
+    height: 735px;
+  }
+  div.content-secreto_1 .container.secreto_1 div div div.contenido div.content-uno {
     position: absolute;
     width: 30%;
-    top: 220px;
+    top: 20px;
     left: 30px;
   }
-  div.content-secreto_1 .container.secreto_1 div div div.content-dos {
+  div.content-secreto_1 .container.secreto_1 div div div.contenido div.content-dos {
     position: absolute;
     margin: auto;
     display: block;
@@ -1178,13 +1195,13 @@ div.content-secreto_1 .container.secreto_1 div div div div p {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 220px;
+    top: 20px;
   }
-  div.content-secreto_1 .container.secreto_1 div div div.content-tres {
+  div.content-secreto_1 .container.secreto_1 div div div.contenido div.content-tres {
     position: absolute;
     width: 30%;
     right: 30px;
-    top: 220px;
+    top: 20px;
   }
 }
 /* =========================== SECRETO #2 */
@@ -1296,7 +1313,18 @@ div.content-secreto_3 .container.secreto_3 div div p.azul.italic.bold {
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: -10px;
+}
+div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-plus-circled {
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  right: 0px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  font-size: 20px;
+  color: #28ade3;
 }
 div.content-secreto_3 .container.secreto_3 div div div.none {
   display: none;
@@ -1312,7 +1340,7 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div img {
 }
 div.content-secreto_3 .container.secreto_3 div div div.none div.block div p {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
 }
 div.content-secreto_3 .container.secreto_3 div div div.none div.block p.bo {
   text-align: center;
@@ -1368,25 +1396,24 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row di
   margin-top: 25px;
 }
 div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.back {
-  background: url("../img/flechas.png") no-repeat;
+  background: url("../img/flechas.png") no-repeat -15px;
   height: 100px;
-  padding-top: 37px;
+  padding-top: 30px;
   font-size: 15px;
   letter-spacing: 2px;
   text-align: center;
-  padding-right: 25px;
 }
 div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.serv {
   font-weight: 200;
-  margin-left: 20px;
-  text-align: left;
+  width: 300px;
+  text-align: center;
   font-size: 15px;
   margin-bottom: 10px;
 }
 div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris.serv {
   font-size: 13px;
   text-align: center;
-  margin-left: 0px;
+  margin: auto;
   font-style: italic;
 }
 @media (min-width: 500px) {

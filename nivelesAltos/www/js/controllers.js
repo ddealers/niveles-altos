@@ -15,9 +15,27 @@ angular.module('starter.controllers', [])
 		$ionicNavBarDelegate.back();
 	}
 })
+.controller('HistoriasVidaCtrl', function($scope, $ionicNavBarDelegate) {
+	$scope.abre=function(index){
+		var Contenido=angular.element(document.querySelector("#hv_cont"+index));
+		if(Contenido.css('display')=='block'){
+			Contenido.css('display','none');
+		}else{
+			Contenido.css('display','block');
+		}
+	}
+})
 .controller('SecretosBaseCtrl', function($scope, $ionicNavBarDelegate) {
 	$scope.goBack = function(){
 		$ionicNavBarDelegate.back();
+	}
+	$scope.muestra=function(index){
+		var Contenido=angular.element(document.querySelector("#nl_cont"+index));
+		if(Contenido.css('display')=='block'){
+			Contenido.css('display','none');
+		}else{
+			Contenido.css('display','block');
+		}
 	}
 })
 .controller('TermoCtrl', function($scope, $state) {
