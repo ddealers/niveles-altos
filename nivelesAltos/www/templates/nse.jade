@@ -6,46 +6,73 @@ div.content-NSE
 			button.button.button-icon.icon.ion-person-stalker
 		ion-content.has-header
 			.container.NSE
+				script(type="text/ng-template" , id="popoverAB")
+					ion-popover-view
+						ion-content
+							div.row
+								div.col-25
+									ul
+										li.sueldo.bold A/B 
+								div.col
+									ul
+										li 
+										| $98,500 
+										span.in.p_chiquita ó más ingreso familiar
+							div.row
+								div.col
+									p.normal.bold 
+										span.rojo 7% 
+										| de la población mexicana
+				script(type="text/ng-template" , id="popoverC")
+					ion-popover-view
+						ion-content
+							div.row
+								div.col-25
+									ul 
+										li.sueldo.bold C+
+										li.sueldo.bold CT 	
+								div.col
+									ul
+										li $40,600-$98,499
+										li $13,500-$40,599
+							div.row
+								div.col
+									p.normal.bold 
+										span.rojo 31% 
+										| de la población mexicana
+				script(type="text/ng-template" , id="popoverCMin")
+					ion-popover-view
+						ion-content
+							div.row
+								div.col-25
+									ul 
+										li.sueldo.bold C-
+										li.sueldo.bold D+
+										li.sueldo.bold D
+										li.sueldo.bold E		
+								div.col
+									ul
+										li $10,690-$13,499
+										li $7,800-$10,689
+										li $3,130-$7,779
+										li $0-$3,129
+							div.row
+								div.col
+									p.normal.bold
+											span.rojo 61% 
+											| de la población mexicana
 				div
 					div
 						h1.h1t ¿QUIÉN ES EL 
 							span.bold NSE A/B?
-						p.p
-							span.bold A/B 
-							|$98,500 <br>
-							span.in.p_chiquita ó más ingreso familiar
-						p.normal.bold 
-							span.rojo 7% 
-							| de la población mexicana
 						p.filtro 
 							span.bold 2 FILTROS<br>
 							span.italic AMAI+DLR
 						p.verdadero.center Nos codeamos con <br>el verdadero A/B
-					div.row
-						div.col75
-							ul 
-								li.sueldo.bold |C+
-								li.sueldo.bold |CT 	
-								li.li.center.bold 
-									span.rojo 31% 
-									|de la población mexicana
-								li.sueldo.bold |C-
-								li.sueldo.bold |D+
-								li.sueldo.bold |D
-								li.sueldo.bold |E
-								li.li.center.bold 
-									span.rojo 61% 
-									|de la población mexicana
-						div.col
-							ul
-								li $40,600-$98,499
-								li $13,500-$40,599
-								li <br>
-								li $10,690-$13,499
-								li $7,800-$10,689
-								li $3,130-$7,779
-								li $0-$3,129
 					div
+						button.button.button-icon.ion-plus-circled.btnA(ng-click="openPopover($event,'popoverAB')")
+						button.button.button-icon.ion-plus-circled.btnC(ng-click="openPopover($event,'popoverC')")
+						button.button.button-icon.ion-plus-circled.btnCMin(ng-click="openPopover($event,'popoverCMin')")
 						img.piramide(src="./img/Imagen1.png")
 						h2 OBJETIVO
 						p.texto Entender el concepto de lujo y el papel que interpretan las marcas en el estilo de vida del nivel socioeconómico más alto del país. Encontrar códigos y valores apropiables:<br><br> 

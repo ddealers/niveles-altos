@@ -7,6 +7,8 @@ p
 body
 html
 	 size 100%
+.popover
+	max-height 160px
 /* =========================== ESTILO GENERAL */
 h1
 	color: #444;
@@ -103,6 +105,7 @@ div.content-NSE
 		padding-bottom 20px
 		div
 			div
+				position relative
 				h1:first-child
 					margin-top 10px
 				p.p 
@@ -139,6 +142,19 @@ div.content-NSE
 					margin-left 37px
 					font-size 18px
 					margin-top 20px
+				button
+					position absolute
+					font-size 25px
+					color #f00
+					&.btnA
+						left 50%
+						top 10px
+					&.btnC
+						left 65%
+						top 90px
+					&.btnCMin
+						left 75%
+						top 135px
 				img.piramide
 					width 230px
 					display block

@@ -9,6 +9,9 @@ body,
 html {
   size: 100%;
 }
+.popover {
+  max-height: 160px;
+}
 /* =========================== ESTILO GENERAL */
 h1 {
   color: #444;
@@ -124,6 +127,9 @@ div.content-NSE .container.NSE {
   border-radius: 10px;
   padding-bottom: 20px;
 }
+div.content-NSE .container.NSE div div {
+  position: relative;
+}
 div.content-NSE .container.NSE div div h1:first-child {
   margin-top: 10px;
 }
@@ -167,6 +173,23 @@ div.content-NSE .container.NSE div div .sueldo {
   margin-left: 37px;
   font-size: 18px;
   margin-top: 20px;
+}
+div.content-NSE .container.NSE div div button {
+  position: absolute;
+  font-size: 25px;
+  color: #f00;
+}
+div.content-NSE .container.NSE div div button.btnA {
+  left: 50%;
+  top: 10px;
+}
+div.content-NSE .container.NSE div div button.btnC {
+  left: 65%;
+  top: 90px;
+}
+div.content-NSE .container.NSE div div button.btnCMin {
+  left: 75%;
+  top: 135px;
 }
 div.content-NSE .container.NSE div div img.piramide {
   width: 230px;

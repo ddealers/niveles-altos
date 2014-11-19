@@ -32,8 +32,11 @@ div.content-C_telefonia
 									li.azul (6%)
 									li.azul (5%)
 						div.img
-							p.center MÉTODO DE PAGO
-							img(src="./img/grafica7.png")
+							p.center MÉTODO DE PAGO(%)
+							div.row
+								div.col-offset-10.col-80
+									canvas(barchart options="options" data="chart7" width="100" height="100")
+							//img(src="./img/grafica7.png")
 							p.sub.back Usos que le dan al celular 
 							div.row
 								div.col-75

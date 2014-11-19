@@ -45,7 +45,10 @@ div.content-C_estado_civil
 						p.ext El  
 							span.azul 60% 
 							|realizó alguno de sus estudios<br>en el extranjero
-						img.grafica(src="./img/grafica.png")
+							div.row
+								div.col-offset-10.col-80
+									canvas(piechart options="options" data="chart0" width="100" height="100")
+						//img.grafica(src="./img/grafica.png")
 						ul 
 							li Maestría			
 							li Diplomado		
