@@ -218,14 +218,16 @@ div.content-Historias-vida
 					display none
 					div.block
 						display block
-						div
-							ul
-								width 84%
-								margin-left 25px
-								li
-									padding-bottom 5px
-									list-style: initial;
-									font-size: 12px;
+						img 
+							width 100%
+					div
+						ul
+							width 84%
+							margin-left 25px
+							li
+								padding-bottom 5px
+								list-style: initial;
+								font-size: 12px;
 						div.row
 							img.chica
 								width: 100px;
@@ -315,6 +317,11 @@ div.content-C_estado_civil
 					p 
 						text-align center 
 						font-size 17px
+						&.espacio 
+							margin-left: -35px;
+							width: 150px;
+						&.grande.ocho
+							margin-left 20px !important
 				div.border.yellow
 					border-top 1px solid #FBDC44
 					margin-top 10px	
@@ -390,6 +397,20 @@ div.content-C_estado_civil
 						position absolute
 						left: 230px;
 						bottom 10px
+		@media(min-width: 500px)
+			div
+				div
+					div.border.yellow
+						div.col-50.fle
+							text-align center
+							img.flecha 
+								left: 200px;
+							p.vive 
+								margin-left -18px
+					div.border-un 
+						p.grande.ocho
+							margin-left 150px !important
+							text-align center
 /* =========================== DEMOGRÁFICOS Y EDUCACIÓN */
 div.content-C_demograficas
 	.container.demograficos_edu
@@ -465,6 +486,8 @@ div.content-C_hogar
 					font-weight bold
 					font-style italic
 					padding-top 20px
+				h2.es
+					margin-bottom -20px
 				img
 					margin: auto;
 					display: block;
@@ -508,7 +531,8 @@ div.content-C_hogar
 							width: 210px;
 							span.position
 								position absolute
-								left 170px 
+								left 170px
+				
 		@media(min-width: 500px)
 			div
 				div
@@ -549,7 +573,7 @@ div.content-C_ocupaciones
 						img
 							position: absolute;
 							top: 23px;
-							left: 95px;						
+							left: 90px;						
 					p.sector
 						font-size 23px
 						font-weight 200
@@ -576,15 +600,16 @@ div.content-C_ocupaciones
 			div
 				div
 					p.p
-						padding-left 405px
+						padding-left 274px
+						width 500px	
 					p.-p
-						padding-left 325px
-						width 485px
+						padding-left 202px
+						width 411px
 					div.col-50
 						p.coll
 							margin-left 200px
 							img
-								left 405px
+								left 313px
 /* =========================== SERVICIOS BANCARIOS */
 div.content-C_bancarios
 	.container.bancarios
@@ -669,6 +694,23 @@ div.content-C_bancarios
 					margin auto
 					margin-top 10px
 					padding-bottom: 10px;
+		@media(min-width: 500px)
+			div
+				div
+					div.relative
+						p.span 
+							padding-bottom 55px
+							span.ps 
+								top 80px
+								
+					div.col 
+						margin-left -335px !important
+					div.col-75 
+						margin-left 230px !important
+						ul 
+							li 
+								span.position 
+									left 240px !important
 /* ===========================  MEDIOS */
 div.content-C_medios
 	.container.medios 
@@ -747,7 +789,7 @@ div.content-C_medios
 			div
 				div
 					p.sub.back
-						background: url("../img/Imagen9.png") no-repeat 200px 1px;
+						background: url("../img/Imagen9.png") no-repeat 80px 1px;
 						height: 105px;
 						margin-bottom: 15px;
 						padding-top: 18px;
@@ -952,7 +994,7 @@ div.content-C_telefonia
 				div
 					div.img
 						p.sub.back
-							background: url("../img/Imagen9.png") no-repeat 200px 0px;
+							background: url("../img/Imagen9.png") no-repeat 80px 0px;
 							height: 100px;
 							margin-top: 30px;
 							text-align: center;
@@ -1678,7 +1720,7 @@ div.content-boy
 				&.h
 					top 12%
 					right 6%
-					font-size 26px
+					font-size 26px 
 				&.a 
 					top 30%
 					left 3%
@@ -1693,16 +1735,16 @@ div.content-boy
 					left 7%
 					line-height 25px
 				&.s
-					bottom 27%
-					right 13%
-					font-size 27px
+					top 47%
+					left 3%
+					font-size 30px
 				&.t
-					bottom: 10%;
+					bottom: 4%;
 					right: 2%;
 					font-size: 20px;
 				&.i
-					top 47%
-					left 3%
+					bottom 22%
+					right 5%
 					font-size 20px
 /* =========================== dlR group */
 div.content-dlr_group
@@ -1755,7 +1797,7 @@ li.italic
 		
 .fix
 	display inline-block!important
-	position absolute
+	position relative
 	top 23%!important
 .fixd
 	position relative

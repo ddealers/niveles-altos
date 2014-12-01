@@ -266,40 +266,43 @@ div.content-Historias-vida .container.historias_vida div div div.none {
 div.content-Historias-vida .container.historias_vida div div div.none div.block {
   display: block;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block div ul {
+div.content-Historias-vida .container.historias_vida div div div.none div.block img {
+  width: 100%;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div ul {
   width: 84%;
   margin-left: 25px;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block div ul li {
+div.content-Historias-vida .container.historias_vida div div div.none div ul li {
   padding-bottom: 5px;
   list-style: initial;
   font-size: 12px;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica {
+div.content-Historias-vida .container.historias_vida div div div.none div div.row img.chica {
   width: 100px;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul {
+div.content-Historias-vida .container.historias_vida div div div.none div div.row ul {
   margin-left: 40px;
   font-size: 16px;
   padding-bottom: 20px;
   list-style: inherit;
   width: 150px;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul li {
+div.content-Historias-vida .container.historias_vida div div div.none div div.row ul li {
   margin-bottom: 0px;
   font-size: 12px;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica2 {
+div.content-Historias-vida .container.historias_vida div div div.none div div.row img.chica2 {
   width: 100px;
   display: block;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
+div.content-Historias-vida .container.historias_vida div div div.none div ul {
   list-style: inherit;
   width: 84%;
   margin: auto;
   padding-bottom: 20px;
 }
-div.content-Historias-vida .container.historias_vida div div div.none div.block ul li {
+div.content-Historias-vida .container.historias_vida div div div.none div ul li {
   padding-bottom: 0px;
   font-size: 12px;
 }
@@ -375,6 +378,13 @@ div.content-C_estado_civil .container.estado_civil div div div {
 div.content-C_estado_civil .container.estado_civil div div div p {
   text-align: center;
   font-size: 17px;
+}
+div.content-C_estado_civil .container.estado_civil div div div p.espacio {
+  margin-left: -35px;
+  width: 150px;
+}
+div.content-C_estado_civil .container.estado_civil div div div p.grande.ocho {
+  margin-left: 20px !important;
 }
 div.content-C_estado_civil .container.estado_civil div div div.border.yellow {
   border-top: 1px solid #fbdc44;
@@ -469,6 +479,21 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   left: 230px;
   bottom: 10px;
 }
+@media (min-width: 500px) {
+  div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle {
+    text-align: center;
+  }
+  div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle img.flecha {
+    left: 200px;
+  }
+  div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle p.vive {
+    margin-left: -18px;
+  }
+  div.content-C_estado_civil .container.estado_civil div div div.border-un p.grande.ocho {
+    margin-left: 150px !important;
+    text-align: center;
+  }
+}
 /* =========================== DEMOGRÁFICOS Y EDUCACIÓN */
 div.content-C_demograficas .container.demograficos_edu {
   border: 1px solid #36bece;
@@ -550,6 +575,9 @@ div.content-C_hogar .container.hogar div div p.p {
   font-weight: bold;
   font-style: italic;
   padding-top: 20px;
+}
+div.content-C_hogar .container.hogar div div h2.es {
+  margin-bottom: -20px;
 }
 div.content-C_hogar .container.hogar div div img {
   margin: auto;
@@ -647,7 +675,7 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll {
 div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
   position: absolute;
   top: 23px;
-  left: 95px;
+  left: 90px;
 }
 div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.sector {
   font-size: 23px;
@@ -679,17 +707,18 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col ul {
 }
 @media (min-width: 500px) {
   div.content-C_ocupaciones .container.ocupaciones div div p.p {
-    padding-left: 405px;
+    padding-left: 274px;
+    width: 500px;
   }
   div.content-C_ocupaciones .container.ocupaciones div div p.-p {
-    padding-left: 325px;
-    width: 485px;
+    padding-left: 202px;
+    width: 411px;
   }
   div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll {
     margin-left: 200px;
   }
   div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
-    left: 405px;
+    left: 313px;
   }
 }
 /* =========================== SERVICIOS BANCARIOS */
@@ -790,6 +819,23 @@ div.content-C_bancarios .container.bancarios div div p.grande.borde {
   margin-top: 10px;
   padding-bottom: 10px;
 }
+@media (min-width: 500px) {
+  div.content-C_bancarios .container.bancarios div div div.relative p.span {
+    padding-bottom: 55px;
+  }
+  div.content-C_bancarios .container.bancarios div div div.relative p.span span.ps {
+    top: 80px;
+  }
+  div.content-C_bancarios .container.bancarios div div div.col {
+    margin-left: -335px !important;
+  }
+  div.content-C_bancarios .container.bancarios div div div.col-75 {
+    margin-left: 230px !important;
+  }
+  div.content-C_bancarios .container.bancarios div div div.col-75 ul li span.position {
+    left: 240px !important;
+  }
+}
 /* ===========================  MEDIOS */
 div.content-C_medios .container.medios {
   border: 1px solid #36bece;
@@ -878,7 +924,7 @@ div.content-C_medios .container.medios div div div.border.amarillo p.pp {
 }
 @media (min-width: 500px) {
   div.content-C_medios .container.medios div div p.sub.back {
-    background: url("../img/Imagen9.png") no-repeat 200px 1px;
+    background: url("../img/Imagen9.png") no-repeat 80px 1px;
     height: 105px;
     margin-bottom: 15px;
     padding-top: 18px;
@@ -1090,7 +1136,7 @@ div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul 
 }
 @media (min-width: 500px) {
   div.content-C_telefonia .container.telefonia div div div.img p.sub.back {
-    background: url("../img/Imagen9.png") no-repeat 200px 0px;
+    background: url("../img/Imagen9.png") no-repeat 80px 0px;
     height: 100px;
     margin-top: 30px;
     text-align: center;
@@ -1913,18 +1959,18 @@ div.content-boy .container.boy ul li.n {
   line-height: 25px;
 }
 div.content-boy .container.boy ul li.s {
-  bottom: 27%;
-  right: 13%;
-  font-size: 27px;
+  top: 47%;
+  left: 3%;
+  font-size: 30px;
 }
 div.content-boy .container.boy ul li.t {
-  bottom: 10%;
+  bottom: 4%;
   right: 2%;
   font-size: 20px;
 }
 div.content-boy .container.boy ul li.i {
-  top: 47%;
-  left: 3%;
+  bottom: 22%;
+  right: 5%;
   font-size: 20px;
 }
 /* =========================== dlR group */
@@ -1984,7 +2030,7 @@ li.italic {
 }
 .fix {
   display: inline-block !important;
-  position: absolute;
+  position: relative;
   top: 23% !important;
 }
 .fixd {
