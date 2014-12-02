@@ -324,12 +324,17 @@ div.content-Historias-vida .container.historias_vida div div img.dos {
     font-size: 100px;
     margin-left: 120px;
   }
+  div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
+    left: 165px !important;
+  }
+  div.content-Historias-vida .container.historias_vida div div div.none .vc ul {
+    margin-left: 50px !important;
+  }
   div.content-Historias-vida .container.historias_vida div div div.none div.block {
     margin-top: 0px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
-    width: 425px;
-    margin-left: 55px;
+    width: 325px;
   }
   div.content-Historias-vida .container.historias_vida div div div.none div.block ul li {
     font-size: 20px;
@@ -2080,6 +2085,7 @@ li.italic {
 }
 .tres {
   width: 180px !important;
+  margin-left: -36px !important;
 }
 .cuatro {
   width: 147px !important;
