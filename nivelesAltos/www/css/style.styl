@@ -1241,6 +1241,11 @@ div.content-secreto_3
 								display block
 								width 120px
 								margin-top 20px
+								&.ci
+									margin-bottom 10px
+								&.hoja
+									width 35px
+									margin-top 0px
 							p
 								text-align center
 								font-size 15px
@@ -1282,6 +1287,7 @@ div.content-secreto_3
 								margin auto 
 								width 170px
 						div.row
+							margin-top -35px
 							div.col
 								.button.button-icon.icon.ion-trophy
 									padding-top 30px
@@ -1314,17 +1320,36 @@ div.content-secreto_3
 		@media(min-width: 500px)
 			div
 				div
-					div
+					div.none
+						div.block
+							ul
+								margin auto
+								width 250px	
+							div
+								p.back
+									padding-right 135px
+								ul
+									margin auto
+									width 250px
+							div.row
+								div.col 
+									.button.button-icon.icon.ion-trophy
+										margin-left 270px
+								div.col-75
+									p 
+										margin-left 140px
 						div.contenido
 							margin-top 50px
 							margin-left 270px
 							margin-bottom 30px
 						p
 							width 380px
-					img
+					img.cas
 						position absolute
 						top: 200px;
 						left: 30px;
+					button.button.button-icon.ion-plus-circled.plus
+						top 11px
 /* =========================== SECRETO #4 */
 div.content-secreto_4
 	.container.secreto_4
@@ -1345,6 +1370,7 @@ div.content-secreto_4
 					width 120px
 					margin auto
 					display block
+					margin-top 15px
 				div
 					p
 						text-align center
@@ -1371,6 +1397,12 @@ div.content-secreto_4
 						padding 10px
 						font-style italic
 						font-size: 13px;
+		@media(min-width: 500px)
+			div
+				div
+					img.tres 
+						margin auto !important
+						padding 20px
 /* =========================== SECRETO #5 */
 div.content-secreto_5
 	.container.secreto_5
@@ -1430,6 +1462,24 @@ div.content-secreto_5
 						width: 90%;
 						margin: auto;
 						display: block;
+		@media(min-width: 500px)
+			div
+				div
+					div.img 
+						p 
+							margin-left 510px
+							margin-top 50px
+						img 
+							width 70%
+							margin-top 25px
+					div.row 
+						div.col-50
+							img 
+								margin-left 400px !important
+								&.adn
+									margin-left 0px !important
+							p 
+								margin-left 0px !important
 /* =========================== NUEVO LUJO 2 */
 div.content-nuevo_lujo_2
 	.container.nuevo_lujo_2
@@ -1813,10 +1863,6 @@ li.italic
 		padding-bottom: 0px!important;
 		ul
 			width: 400px!important;
-
-@media(max-width: 420px)
-	img.tres
-		margin-left: -25%!important;
 @media(min-width: 766px)
 	.fix
 		top 25%!important

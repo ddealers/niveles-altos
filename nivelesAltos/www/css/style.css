@@ -1408,6 +1408,13 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div img {
   width: 120px;
   margin-top: 20px;
 }
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div img.ci {
+  margin-bottom: 10px;
+}
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div img.hoja {
+  width: 35px;
+  margin-top: 0px;
+}
 div.content-secreto_3 .container.secreto_3 div div div.none div.block div p {
   text-align: center;
   font-size: 15px;
@@ -1455,6 +1462,9 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div img.i 
   margin: auto;
   width: 170px;
 }
+div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row {
+  margin-top: -35px;
+}
 div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row div.col .button.button-icon.icon.ion-trophy {
   padding-top: 30px;
   margin-left: 20px;
@@ -1487,18 +1497,38 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris
   font-style: italic;
 }
 @media (min-width: 500px) {
-  div.content-secreto_3 .container.secreto_3 div div div div.contenido {
+  div.content-secreto_3 .container.secreto_3 div div div.none div.block ul {
+    margin: auto;
+    width: 250px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.back {
+    padding-right: 135px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div div.none div.block div ul {
+    margin: auto;
+    width: 250px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row div.col .button.button-icon.icon.ion-trophy {
+    margin-left: 270px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div div.none div.block div.row div.col-75 p {
+    margin-left: 140px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div div.none div.contenido {
     margin-top: 50px;
     margin-left: 270px;
     margin-bottom: 30px;
   }
-  div.content-secreto_3 .container.secreto_3 div div div p {
+  div.content-secreto_3 .container.secreto_3 div div div.none p {
     width: 380px;
   }
-  div.content-secreto_3 .container.secreto_3 div div img {
+  div.content-secreto_3 .container.secreto_3 div div img.cas {
     position: absolute;
     top: 200px;
     left: 30px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-plus-circled.plus {
+    top: 11px;
   }
 }
 /* =========================== SECRETO #4 */
@@ -1521,6 +1551,7 @@ div.content-secreto_4 .container.secreto_4 div div img.uno {
   width: 120px;
   margin: auto;
   display: block;
+  margin-top: 15px;
 }
 div.content-secreto_4 .container.secreto_4 div div div p {
   text-align: center;
@@ -1551,6 +1582,12 @@ div.content-secreto_4 .container.secreto_4 div div div p.black {
   padding: 10px;
   font-style: italic;
   font-size: 13px;
+}
+@media (min-width: 500px) {
+  div.content-secreto_4 .container.secreto_4 div div img.tres {
+    margin: auto !important;
+    padding: 20px;
+  }
 }
 /* =========================== SECRETO #5 */
 div.content-secreto_5 .container.secreto_5 {
@@ -1615,6 +1652,25 @@ div.content-secreto_5 .container.secreto_5 div div div.img img {
   width: 90%;
   margin: auto;
   display: block;
+}
+@media (min-width: 500px) {
+  div.content-secreto_5 .container.secreto_5 div div div.img p {
+    margin-left: 510px;
+    margin-top: 50px;
+  }
+  div.content-secreto_5 .container.secreto_5 div div div.img img {
+    width: 70%;
+    margin-top: 25px;
+  }
+  div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 img {
+    margin-left: 400px !important;
+  }
+  div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 img.adn {
+    margin-left: 0px !important;
+  }
+  div.content-secreto_5 .container.secreto_5 div div div.row div.col-50 p {
+    margin-left: 0px !important;
+  }
 }
 /* =========================== NUEVO LUJO 2 */
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 {
@@ -2049,11 +2105,6 @@ li.italic {
   }
   .vc ul {
     width: 400px !important;
-  }
-}
-@media (max-width: 420px) {
-  img.tres {
-    margin-left: -25% !important;
   }
 }
 @media (min-width: 766px) {
