@@ -149,6 +149,7 @@ angular.module('starter.controllers', [])
 		}else{
 			Contenido.css('display','block');
 		}
+		console.log(this);
 	}
 })
 .controller('SecretosBaseCtrl', function($scope, $ionicNavBarDelegate) {
