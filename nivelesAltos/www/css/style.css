@@ -255,6 +255,12 @@ div.content-Historias-vida .container.historias_vida div div div.row button.butt
   font-size: 25px;
   color: #f00;
 }
+div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-minus-circled {
+  left: 80px;
+  bottom: 25px;
+  font-size: 25px;
+  color: #f00;
+}
 div.content-Historias-vida .container.historias_vida div div img {
   margin: auto;
   display: block;
