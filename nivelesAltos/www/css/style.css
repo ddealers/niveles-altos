@@ -236,6 +236,9 @@ div.content-Historias-vida .container.historias_vida div div div.border {
 div.content-Historias-vida .container.historias_vida div div div.border.border.d {
   margin-top: 20px;
 }
+div.content-Historias-vida .container.historias_vida div div div.row {
+  margin-left: 60px;
+}
 div.content-Historias-vida .container.historias_vida div div div.row p {
   padding-top: 55px;
   font-weight: bold;
@@ -246,17 +249,18 @@ div.content-Historias-vida .container.historias_vida div div div.row p span.porc
   float: left;
 }
 div.content-Historias-vida .container.historias_vida div div div.row img.uno {
-  width: 100%;
+  width: 75%;
   margin-left: -15px;
+  margin-top: 20px;
 }
 div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
-  left: 80px;
+  left: 45px;
   bottom: 25px;
   font-size: 25px;
   color: #f00;
 }
 div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-minus-circled {
-  left: 80px;
+  left: 45px;
   bottom: 25px;
   font-size: 25px;
   color: #f00;
@@ -267,6 +271,24 @@ div.content-Historias-vida .container.historias_vida div div img {
   padding: 10px;
   width: 40%;
 }
+div.content-Historias-vida .container.historias_vida div div img.cuatro {
+  width: 75px !important;
+  position: absolute;
+  left: 28px;
+  top: -10px;
+}
+div.content-Historias-vida .container.historias_vida div div img.tres {
+  width: 95px !important;
+  position: absolute;
+  left: 50px;
+  top: 110px !important;
+}
+div.content-Historias-vida .container.historias_vida div div img.linea {
+  position: absolute;
+  top: 75px;
+  width: 35%;
+  left: 5px;
+}
 div.content-Historias-vida .container.historias_vida div div div.none {
   display: none;
 }
@@ -275,6 +297,16 @@ div.content-Historias-vida .container.historias_vida div div div.none div.block 
 }
 div.content-Historias-vida .container.historias_vida div div div.none div.block img {
   width: 100%;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div ul.imagen {
+  margin-left: -25px !important;
+  width: 72%;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div ul.imagen li {
+  font-size: 10px;
+}
+div.content-Historias-vida .container.historias_vida div div div.none div .imagen.li {
+  margin-top: 0px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div ul {
   width: 84%;
@@ -303,19 +335,28 @@ div.content-Historias-vida .container.historias_vida div div div.none div div.ro
   width: 100px;
   display: block;
 }
+div.content-Historias-vida .container.historias_vida div div div.none div ul.primero {
+  list-style: inherit;
+  width: 72%;
+  padding-bottom: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
 div.content-Historias-vida .container.historias_vida div div div.none div ul {
   list-style: inherit;
-  width: 84%;
-  margin: auto;
+  width: 58%;
   padding-bottom: 20px;
+  margin-top: -35px;
+  margin-left: 115px;
 }
 div.content-Historias-vida .container.historias_vida div div div.none div ul li {
   padding-bottom: 0px;
   font-size: 12px;
 }
 div.content-Historias-vida .container.historias_vida div div img.dos {
-  width: 100%;
+  width: 75%;
   margin-left: -15px;
+  margin-top: 20px;
 }
 @media (min-width: 500px) {
   div.content-Historias-vida .container.historias_vida div div div.row img.uno {
