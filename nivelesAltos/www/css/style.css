@@ -249,7 +249,7 @@ div.content-Historias-vida .container.historias_vida div div div.row img.uno {
   width: 100%;
   margin-left: -15px;
 }
-div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
+div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-minus-circled {
   left: 80px;
   bottom: 25px;
   font-size: 25px;
@@ -259,6 +259,7 @@ div.content-Historias-vida .container.historias_vida div div img {
   margin: auto;
   display: block;
   padding: 10px;
+  width: 40%;
 }
 div.content-Historias-vida .container.historias_vida div div div.none {
   display: none;
@@ -1294,6 +1295,9 @@ div.content-secreto_2 .container.secreto_2 div div p.bold {
   font-size: 20px;
   margin-top: 20px;
 }
+div.content-secreto_2 .container.secreto_2 div div img.hoja {
+  width: 10%;
+}
 div.content-secreto_2 .container.secreto_2 div div div h4 {
   background: #49c3d7;
   padding: 10px;
@@ -1502,6 +1506,9 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris
   font-style: italic;
 }
 @media (min-width: 500px) {
+  div.content-secreto_3 .container.secreto_3 div div h4.h4 {
+    margin-left: 275px !important;
+  }
   div.content-secreto_3 .container.secreto_3 div div div.none div.block ul {
     margin: auto;
     width: 250px;
@@ -1529,8 +1536,9 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris
   }
   div.content-secreto_3 .container.secreto_3 div div img.cas {
     position: absolute;
-    top: 200px;
-    left: 30px;
+    top: 255px;
+    left: 20px;
+    width: 32%;
   }
   div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-plus-circled.plus {
     top: 11px;
@@ -2013,20 +2021,14 @@ div.content-boy .container.boy ul li.c {
   right: 1%;
   font-size: 18px;
 }
-div.content-boy .container.boy ul li.n {
-  bottom: 10%;
-  font-size: 32px;
-  left: 7%;
-  line-height: 25px;
-}
 div.content-boy .container.boy ul li.s {
   top: 47%;
   left: 3%;
   font-size: 30px;
 }
 div.content-boy .container.boy ul li.t {
-  bottom: 4%;
-  right: 2%;
+  bottom: 12%;
+  left: 4%;
   font-size: 20px;
 }
 div.content-boy .container.boy ul li.i {
