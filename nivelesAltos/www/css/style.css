@@ -71,7 +71,7 @@ ion-nav-view {
 }
 .grande {
   color: #3aadc1;
-  font-size: 32px !important;
+  font-size: 30px !important;
   text-align: center;
   font-weight: bold;
   padding-top: 20px;
@@ -944,6 +944,16 @@ div.content-C_medios .container.medios {
 div.content-C_medios .container.medios div div p.italic {
   text-align: center;
   margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'GothamUltraItalic';
+}
+div.content-C_medios .container.medios div div .lee {
+  border-top: 1px solid #fbdc44;
+  margin: auto;
+  width: 80%;
+  padding-top: 30px;
 }
 div.content-C_medios .container.medios div div img {
   width: 50%;
@@ -976,14 +986,6 @@ div.content-C_medios .container.medios div div div.top p.left {
 }
 div.content-C_medios .container.medios div div p {
   text-align: center;
-}
-div.content-C_medios .container.medios div div p.lee {
-  font-style: italic;
-  border-top: 1px solid #fbdc44;
-  margin: auto;
-  width: 80%;
-  margin-top: 10px;
-  padding-top: 30px;
 }
 div.content-C_medios .container.medios div div p.Portada {
   width: 80%;
@@ -2104,7 +2106,7 @@ div.content-boy .container.boy ul li.h {
   font-size: 26px;
 }
 div.content-boy .container.boy ul li.a {
-  top: 30%;
+  top: 42%;
   left: 3%;
   font-size: 20px;
 }
@@ -2114,13 +2116,13 @@ div.content-boy .container.boy ul li.c {
   font-size: 18px;
 }
 div.content-boy .container.boy ul li.s {
-  top: 47%;
+  top: 69%;
   left: 3%;
   font-size: 30px;
 }
 div.content-boy .container.boy ul li.t {
   bottom: 12%;
-  left: 4%;
+  right: 4%;
   font-size: 20px;
 }
 div.content-boy .container.boy ul li.i {
