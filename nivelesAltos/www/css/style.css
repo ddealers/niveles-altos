@@ -1499,6 +1499,17 @@ div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion
   font-size: 20px;
   color: #28ade3;
 }
+div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-minus-circled {
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  right: 0px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  font-size: 20px;
+  color: #28ade3;
+}
 div.content-secreto_3 .container.secreto_3 div div div.none {
   display: none;
 }
@@ -1637,6 +1648,16 @@ div.content-secreto_3 .container.secreto_3 div div div.none div.block div p.gris
   div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-plus-circled.plus {
     top: 11px;
   }
+  div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-minus-circled.plus {
+    top: 11px;
+    margin-left: 363px;
+    font-size: 40px;
+  }
+  div.content-secreto_3 .container.secreto_3 div div button.button.button-icon.ion-minus-circled {
+    top: 0px;
+    margin-left: 363px;
+    font-size: 40px;
+  }
 }
 /* =========================== SECRETO #4 */
 div.content-secreto_4 .container.secreto_4 {
@@ -1676,6 +1697,7 @@ div.content-secreto_4 .container.secreto_4 div div div img.tres {
   display: block;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left: 55px !important;
 }
 div.content-secreto_4 .container.secreto_4 div div div p.mex {
   font-size: 22px;
