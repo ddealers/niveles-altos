@@ -180,11 +180,16 @@ angular.module('starter.controllers', [])
 		$ionicNavBarDelegate.back();
 	}
 	$scope.muestra=function(index){
+		var boton = angular.element(event.target);
 		var Contenido=angular.element(document.querySelector("#nl_cont"+index));
 		if(Contenido.css('display')=='block'){
 			Contenido.css('display','none');
+			boton.removeClass('ion-minus-circled');
+			boton.addClass('ion-plus-circled');
 		}else{
 			Contenido.css('display','block');
+			boton.removeClass('ion-plus-circled');
+			boton.addClass('ion-minus-circled');
 		}
 	}
 })
