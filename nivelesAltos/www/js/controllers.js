@@ -27,21 +27,34 @@ angular.module('starter.controllers', [])
 		$scope.popoverCMin = popover;
 	});
 	$scope.openPopover = function($event, popover){
-		$scope[popover].show($event);
 		var boton = angular.element(event.target);
-		boton.addClass('ion-minus-circled');
-		boton.removeClass('ion-plus-circled');
+		$scope[popover].boton = boton;
+		$scope[popover].show($event);
+		$scope[popover].boton.addClass('ion-minus-circled');
+		$scope[popover].boton.removeClass('ion-plus-circled');
 	}
 	$scope.closePopover = function(popover){
 		$scope[popover].hide();
 	}
+	$scope.$on('popover.hidden', function(){
+		if($scope.popoverAB.boton){
+			$scope.popoverAB.boton.removeClass('ion-minus-circled');
+			$scope.popoverAB.boton.addClass('ion-plus-circled');
+		}
+		if($scope.popoverC.boton){
+			$scope.popoverC.boton.removeClass('ion-minus-circled');
+			$scope.popoverC.boton.addClass('ion-plus-circled');
+		}
+		if($scope.popoverCMin.boton){
+			$scope.popoverCMin.boton.removeClass('ion-minus-circled');
+			$scope.popoverCMin.boton.addClass('ion-plus-circled');
+		}
+	});
 	$scope.$on('$destroy', function(){
+		console.log('destroy');
 		$scope.popoverAB.remove();
 		$scope.popoverC.remove();
 		$scope.popoverCMin.remove();
-		var boton = angular.element(event.target);
-		boton.addClass('ion-plus-circled');
-		boton.removeClass('ion-minus-circled');
 	});
 })
 .controller('CaracteristicasBaseCtrl', function($scope, $ionicNavBarDelegate) {
