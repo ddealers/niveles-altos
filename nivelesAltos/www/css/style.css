@@ -538,6 +538,35 @@ div.content-C_estado_civil .container.estado_civil div div img.grafica {
   margin: auto;
   display: block;
 }
+div.content-C_estado_civil .container.estado_civil div div p.hijo {
+  background: #e6c11f;
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+}
+div.content-C_estado_civil .container.estado_civil div div p.p {
+  font-size: 19px;
+  width: 76%;
+  margin: auto;
+  line-height: 25px;
+  font-weight: 200;
+  border-bottom: 1px solid #fbdc44;
+  padding-bottom: 15px;
+  text-align: center;
+}
+div.content-C_estado_civil .container.estado_civil div div p.p span.seis-tres.bold {
+  font-size: 35px;
+}
+div.content-C_estado_civil .container.estado_civil div div p span.lettering {
+  font-size: 20px;
+}
+div.content-C_estado_civil .container.estado_civil div div p span.lettering-dos {
+  font-size: 25px;
+}
 div.content-C_estado_civil .container.estado_civil div div div.ul-li {
   position: relative;
 }
@@ -552,6 +581,10 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   bottom: 10px;
 }
 @media (min-width: 500px) {
+  div.content-C_estado_civil .container.estado_civil div div p.hijo {
+    font-size: 30px;
+    line-height: 40px;
+  }
   div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle {
     text-align: center;
   }
@@ -567,69 +600,62 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   }
 }
 /* =========================== DEMOGRÁFICOS Y EDUCACIÓN */
-div.content-C_demograficas .container.demograficos_edu {
-  border: 1px solid #36bece;
-  margin: 10px;
-  border-radius: 10px;
-  padding-bottom: 20px;
-}
-div.content-C_demograficas .container.demograficos_edu div div p {
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-div.content-C_demograficas .container.demograficos_edu div div div.row {
-  margin-top: 20px;
-}
-div.content-C_demograficas .container.demograficos_edu div div p.hijo {
-  background: #e6c11f;
-  width: 75%;
-  margin: auto;
-  padding: 10px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 15px;
-}
-div.content-C_demograficas .container.demograficos_edu div div img.grafica {
-  width: 65%;
-  margin: auto;
-  display: block;
-}
-div.content-C_demograficas .container.demograficos_edu div div img.dos {
-  width: 65%;
-  margin: auto;
-  display: block;
-}
-div.content-C_demograficas .container.demograficos_edu div div p.p {
-  font-size: 19px;
-  width: 76%;
-  margin: auto;
-  line-height: 25px;
-  font-weight: 200;
-  border-bottom: 1px solid #fbdc44;
-  padding-bottom: 15px;
-}
-div.content-C_demograficas .container.demograficos_edu div div p.p span.seis-tres.bold {
-  font-size: 35px;
-}
-div.content-C_demograficas .container.demograficos_edu div div p span.lettering {
-  font-size: 20px;
-}
-div.content-C_demograficas .container.demograficos_edu div div p span.lettering-dos {
-  font-size: 25px;
-}
-@media (min-width: 500px) {
-  div.content-C_demograficas .container.demograficos_edu div div p.hijo {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  div.content-C_demograficas .container.demograficos_edu div div img.grafica {
-    width: 40%;
-  }
-  div.content-C_demograficas .container.demograficos_edu div div img.dos {
-    width: 40%;
-  }
-}
+/*div.content-C_demograficas
+	.container.demograficos_edu
+		border: 1px solid #36bece;
+		margin: 10px;
+		border-radius: 10px;
+		padding-bottom 20px
+		div
+			div
+				p
+					text-align center
+					font-size: 16px;
+					letter-spacing: 1px;
+				div.row
+					margin-top 20px
+				p.hijo
+					background #E6C11F
+					width: 75%;
+					margin: auto;
+					padding: 10px;
+					color: #fff;
+					font-weight bold
+					font-size 15px
+				img.grafica
+					width: 65%;
+					margin: auto;
+					display: block;
+				img.dos
+					width: 65%;
+					margin: auto;
+					display: block;
+				p.p
+					font-size: 19px;
+					width: 76%;
+					margin: auto;
+					line-height: 25px;
+					font-weight: 200;
+					border-bottom 1px solid #FBDC44
+					padding-bottom 15px
+					span.seis-tres.bold
+						font-size 35px
+				p
+					span.lettering 
+						font-size: 20px;
+				p
+					span.lettering-dos 
+						font-size: 25px;
+		@media(min-width: 500px)
+			div
+				div
+					p.hijo
+						font-size: 30px;
+						line-height: 40px;
+					img.grafica
+						width 40%
+					img.dos
+						width 40%*/
 /* =========================== HOGAR */
 div.content-C_hogar .container.hogar {
   border: 1px solid #36bece;

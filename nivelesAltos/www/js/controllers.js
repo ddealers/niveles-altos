@@ -28,6 +28,9 @@ angular.module('starter.controllers', [])
 	});
 	$scope.openPopover = function($event, popover){
 		$scope[popover].show($event);
+		var boton = angular.element(event.target);
+		boton.addClass('ion-minus-circled');
+		boton.removeClass('ion-plus-circled');
 	}
 	$scope.closePopover = function(popover){
 		$scope[popover].hide();
@@ -36,6 +39,9 @@ angular.module('starter.controllers', [])
 		$scope.popoverAB.remove();
 		$scope.popoverC.remove();
 		$scope.popoverCMin.remove();
+		var boton = angular.element(event.target);
+		boton.addClass('ion-plus-circled');
+		boton.removeClass('ion-minus-circled');
 	});
 })
 .controller('CaracteristicasBaseCtrl', function($scope, $ionicNavBarDelegate) {
