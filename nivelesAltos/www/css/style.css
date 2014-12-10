@@ -227,6 +227,7 @@ div.content-NSE .container.NSE div div h3 {
 }
 div.content-NSE .container.NSE div div img.puertas {
   width: 100%;
+  margin-left: -6px;
 }
 /* =========================== HISTORIAS DE VIDA */
 div.content-Historias-vida .container.historias_vida {
