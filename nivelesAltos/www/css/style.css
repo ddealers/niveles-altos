@@ -16,7 +16,7 @@ html {
 h1 {
   color: #444;
   font-weight: bold;
-  font-family: 'GothamUltraItalic';
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 h1.h1t {
   margin-top: 7px !important;
@@ -244,14 +244,14 @@ div.content-Historias-vida .container.historias_vida div div div.row p {
   font-weight: bold;
 }
 div.content-Historias-vida .container.historias_vida div div div.row p span.porcentaje {
-  font-size: 50px;
+  font-size: 35px;
   margin-left: 25% !important;
   float: left;
 }
 div.content-Historias-vida .container.historias_vida div div div.row img.uno {
-  width: 75%;
-  margin-left: -15px;
-  margin-top: 20px;
+  width: 95%;
+  margin-left: -40px;
+  margin-top: 10px;
 }
 div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
   left: 45px;
@@ -272,16 +272,16 @@ div.content-Historias-vida .container.historias_vida div div img {
   width: 40%;
 }
 div.content-Historias-vida .container.historias_vida div div img.cuatro {
-  width: 75px !important;
+  width: 90px !important;
   position: absolute;
-  left: 28px;
-  top: -10px;
+  left: 20px;
+  top: -25px;
 }
 div.content-Historias-vida .container.historias_vida div div img.tres {
-  width: 95px !important;
+  width: 125px !important;
   position: absolute;
-  left: 50px;
-  top: 110px !important;
+  left: 20px;
+  top: 95px !important;
 }
 div.content-Historias-vida .container.historias_vida div div img.linea {
   position: absolute;
@@ -354,9 +354,9 @@ div.content-Historias-vida .container.historias_vida div div div.none div ul li 
   font-size: 12px;
 }
 div.content-Historias-vida .container.historias_vida div div img.dos {
-  width: 75%;
-  margin-left: -15px;
-  margin-top: 20px;
+  width: 95%;
+  margin-left: -40px;
+  margin-top: 10px;
 }
 @media (min-width: 500px) {
   div.content-Historias-vida .container.historias_vida div div img.linea {
@@ -667,6 +667,12 @@ div.content-C_hogar .container.hogar div div p {
   text-align: center;
   font-size: 18px;
 }
+div.content-C_hogar .container.hogar div div p.gris {
+  text-align: right;
+  font-size: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 div.content-C_hogar .container.hogar div div p.p {
   text-align: center;
   font-size: 20px;
@@ -941,6 +947,12 @@ div.content-C_medios .container.medios {
   border-radius: 10px;
   padding-bottom: 20px;
 }
+div.content-C_medios .container.medios div div p.gris {
+  text-align: right;
+  font-size: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 div.content-C_medios .container.medios div div p.italic {
   text-align: center;
   margin-top: 20px;
@@ -1055,6 +1067,12 @@ div.content-C_internet .container.internet {
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+}
+div.content-C_internet .container.internet div div p.gris {
+  text-align: right;
+  font-size: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 div.content-C_internet .container.internet div div p.grande.text {
   width: 90%;
@@ -1176,6 +1194,13 @@ div.content-C_telefonia .container.telefonia {
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+}
+div.content-C_telefonia .container.telefonia div div p.gris.up {
+  text-align: right;
+  font-size: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: -40px;
 }
 div.content-C_telefonia .container.telefonia div div p.azul {
   text-align: center;
@@ -2158,6 +2183,12 @@ div.content-dlr_group .container.dlr_group {
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+}
+div.content-dlr_group .container.dlr_group div div img {
+  width: 35%;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
 }
 div.content-dlr_group .container.dlr_group div div p {
   margin: auto;

@@ -112,13 +112,13 @@ angular.module('starter.controllers', [])
 	$scope.chart4 = [
 		{
 			value: 3,
-			label: "No",
+			label: "No ve TV de paga",
 			color: "#00c6d9",
 			highlight: "#00e9ff"
 		},
 		{
 			value: 97,
-			label: "Si",
+			label: "Si ve TV de paga",
 			color: "#e7c500",
 			highlight: "#ffd900"
 		}
@@ -138,7 +138,7 @@ angular.module('starter.controllers', [])
 		}
 	];
 	$scope.chart6 = {
-		labels: ["Casa","Móvil","Trabajo","Internet Móvil","Wi-fi Gratis","Escuela"],
+		labels: ["Casa","Móvil","Trabajo","Internet Móvil","Wi-fi gratis","Escuela"],
 		datasets: [
 			{
 				fillColor: "#e7c500",
