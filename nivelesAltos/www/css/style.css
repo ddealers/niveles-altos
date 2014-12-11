@@ -542,6 +542,10 @@ div.content-C_estado_civil .container.estado_civil div div div.border.yellow div
   top: -5px;
   left: 50px;
 }
+div.content-C_estado_civil .container.estado_civil div div img.dos {
+  margin: auto;
+  display: block;
+}
 div.content-C_estado_civil .container.estado_civil div div div.border-un {
   border-top: 1px solid #fbdc44;
   width: 80%;
@@ -635,6 +639,9 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   bottom: 10px;
 }
 @media (min-width: 500px) {
+  div.content-C_estado_civil .container.estado_civil div div img.dos {
+    margin-top: 100px;
+  }
   div.content-C_estado_civil .container.estado_civil div div p.hijo {
     font-size: 30px;
     line-height: 40px;
@@ -2037,6 +2044,14 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div p span.amarillo {
     display: block;
     margin: auto;
   }
+  div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.lis.t {
+    margin: auto;
+    display: block;
+    width: 550px !important;
+  }
+  div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div .button.button-icon.icon.ion-checkmark-circled {
+    left: 180px !important;
+  }
 }
 /* =========================== NUEVO LUJO 3 */
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 {
@@ -2133,6 +2148,14 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p span.amarillo {
   div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.row div.col-50 button {
     display: block;
     margin: auto;
+  }
+  div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.lis.t {
+    margin: auto;
+    display: block;
+    width: 550px !important;
+  }
+  div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div .button.button-icon.icon.ion-checkmark-circled {
+    left: 180px !important;
   }
 }
 /* =========================== ACTIVIDADES */
@@ -2418,7 +2441,7 @@ div.content-dlr_group .container.dlr_group div div p.con span.name {
   }
 }
 /* =========================== login */
-img {
+ion-content.has-header.content-Login img {
   width: 35%;
   margin: auto;
   display: block;
