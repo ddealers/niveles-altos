@@ -2248,15 +2248,12 @@ div.content-boy .container.boy {
 /*background url(../img/fondo.png)*/
   background: #36bece url("../img/fondoazul.png");
 }
-<<<<<<< HEAD
 div.content-boy .container.boy img.logo {
   position: relative !important;
   padding-top: 350px;
   width: 17%;
   margin-right: 230px;
 }
-=======
->>>>>>> 4caacafb09437527e98973cce6636be2133c1362
 div.content-boy .container.boy img {
   margin: auto;
   display: block;
@@ -2315,7 +2312,7 @@ div.content-boy .container.boy ul li.c {
   font-size: 18px;
 }
 div.content-boy .container.boy ul li.s {
-  top: 69%;
+  top: 63%;
   left: 3%;
   font-size: 30px;
 }
