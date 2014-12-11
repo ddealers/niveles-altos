@@ -11,9 +11,9 @@ div.content-nuevo_lujo_2
 						h1.h1t TERMÓMETRO DEL NUEVO LUJO
 						div.row
 							div.col-50
-								button(ng-click="gotoBuy()") TERMÓMETRO<br>BUY
+								md-button.md-raised(ng-click="gotoBuy()") TERMÓMETRO<br>BUY
 							div.col-50
-								button(ng-click="gotoBuyInto()") TERMÓMETRO<br>BUY INTO
+								md-button.md-raised(ng-click="gotoBuyInto()") TERMÓMETRO<br>BUY INTO
 						h4 TERMÓMETRO BUY
 						p.italic Ubica los atributos de la arquitectura de la marca que hay que fortalecer, mantener o afinar.
 						p.p ATRIBUTOS BUY
@@ -21,57 +21,81 @@ div.content-nuevo_lujo_2
 							span.bold ARTESANÍA<br>
 							|El producto de mi marca es único por la intervención humana, desde su concepción hasta su ejecución.
 							p
-								input(value="1",type="radio",name="g1",ng-model="data.artesania")
-								| 1
-								input(value="2",type="radio",name="g1",ng-model="data.artesania")
-								| 2
-								input(value="3",type="radio",name="g1",ng-model="data.artesania")
-								| 3
-								input(value="4",type="radio",name="g1",ng-model="data.artesania")
-								| 4
+								md-radio-group(ng-model="data.artesania")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g1",ng-model="data.artesania")
+									| 1
+									input(value="2",type="radio",name="g1",ng-model="data.artesania")
+									| 2
+									input(value="3",type="radio",name="g1",ng-model="data.artesania")
+									| 3
+									input(value="4",type="radio",name="g1",ng-model="data.artesania")
+									| 4
 						p.li
 							span.bold ENFOQUE<br>
 							|El producto de mi marca es líder o 
 							span.italic puller 
 							|de la categoría por ser o tener una oferta única.
 							p
-								input(value="1",type="radio",name="g2",ng-model="data.enfoque")
-								| 1
-								input(value="2",type="radio",name="g2",ng-model="data.enfoque")
-								| 2
-								input(value="3",type="radio",name="g2",ng-model="data.enfoque")
-								| 3
-								input(value="4",type="radio",name="g2",ng-model="data.enfoque")
-								| 4
+								md-radio-group(ng-model="data.enfoque")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g2",ng-model="data.enfoque")
+									| 1
+									input(value="2",type="radio",name="g2",ng-model="data.enfoque")
+									| 2
+									input(value="3",type="radio",name="g2",ng-model="data.enfoque")
+									| 3
+									input(value="4",type="radio",name="g2",ng-model="data.enfoque")
+									| 4
 						p.li
 							span.bold HISTORIA<br>
 							|El producto de mi marca se ha convertido en ícono, su gran valor diferencial es la reputación. Combina preservación con innovación.
 							p
-								input(value="1",type="radio",name="g3",ng-model="data.historia")
-								| 1
-								input(value="2",type="radio",name="g3",ng-model="data.historia")
-								| 2
-								input(value="3",type="radio",name="g3",ng-model="data.historia")
-								| 3
-								input(value="4",type="radio",name="g3",ng-model="data.historia")
-								| 4
+								md-radio-group(ng-model="data.historia")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g3",ng-model="data.historia")
+									| 1
+									input(value="2",type="radio",name="g3",ng-model="data.historia")
+									| 2
+									input(value="3",type="radio",name="g3",ng-model="data.historia")
+									| 3
+									input(value="4",type="radio",name="g3",ng-model="data.historia")
+									| 4
 						p.li
 							span.bold RAREZA<br>
 							|El producto de mi marca es único por su individualización y personalización, sólo unos cuantos acceden a él.
 							p
-								input(value="1",type="radio",name="g4",ng-model="data.rareza")
-								| 1
-								input(value="2",type="radio",name="g4",ng-model="data.rareza")
-								| 2
-								input(value="3",type="radio",name="g4",ng-model="data.rareza")
-								| 3
-								input(value="4",type="radio",name="g4",ng-model="data.rareza")
-								| 4
+								md-radio-group(ng-model="data.rareza")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g4",ng-model="data.rareza")
+									| 1
+									input(value="2",type="radio",name="g4",ng-model="data.rareza")
+									| 2
+									input(value="3",type="radio",name="g4",ng-model="data.rareza")
+									| 3
+									input(value="4",type="radio",name="g4",ng-model="data.rareza")
+									| 4
 						p.li.lis.gris 
 							span.bold PROMEDIO: 
 							|Puntos sumados y divididos entre 4.
 						div.total
-							p.bold.lis.t TOTAL {{ total }}.
+							p.bold.lis.t TOTAL: {{ total }}
 							button.button.button-icon.icon.ion-checkmark-circled
 						div
 							p.gris
