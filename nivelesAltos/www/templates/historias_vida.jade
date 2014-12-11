@@ -10,83 +10,143 @@ div.content-Historias-vida
 					div
 						h1.h1t HISTORIAS DE VIDA
 						div.row
-							div.col.col-50
-								p
-									span.rojo.porcentaje 25%
-							div.col.col-50
-								img.uno(src="./img/Imagen4.png" ng-click="abre(1, $event)")
-								button.button.button-icon.ion-plus-circled(ng-click="abre(1, $event)")
-						div.row#hv_cont1.none
-							div.vc			
-								ul.primero
-									li Su riqueza viene de varias generaciones atrás.
-									li.bold Mitigan su FOMO 
-										span.italic (preocupación porque otros puedan estar pasándola muy bien y disfrutando de experiencias sin ellos) 
-										|a través de la discreción y sutileza en la demostración de la riqueza.
-									li Culturalmente y socialmente refinados.
-									li No les gusta llamar la atención y prefieren las marcas de siempre
-							div.col.col-50.fix
-								img.cuatro(src="./img/Imagen5.png")
-							div.col.col-50.block.fixd
-								ul.imagen 
-									li Capitalizó su imagen, es una figura pública.
-									li Prefiere lo de moda para mitigar su FOMO y mantenerse en el spotlight mediático. 
-							div.col.col-50.fix
-								img.tres(src="./img/Imagen6.png")
-							div.col.col-50.block.fixd
-								ul.imagen.li 
-									li Socialmente le gusta llamar la atención.
-									li Mitiga su FOMO a través de una amplia red de contactos que le permita accesar a otras esferas. 		
-						div.none
-							div.block
+							div.col.col-33
+								img.linea(src="./img/linea.png")
+							div.col.col-67
 								div.row
-									div.col
-										img.chica(src="./img/Imagen5.png")
-									div.col.col-75
-										ul
-											li Capitalizó su imagen, es una figura pública.
-											li 
-												span.bold Prefiere lo de moda para mitigar su FOMO y mantenerse en el 
-												span.italic.bold spotlight 
-												span.bold mediático.
+									div.col.col-33
+										p.rojo 25%
+									div.col.col-67
+										img.uno(src="./img/Imagen4.png")
+										md-button.button.button-icon.ion-plus-circled(ng-click="abre(1, $event)")
+								div.row#hv_cont1
+									ul
+										li Su riqueza viene de varias generaciones atrás.
+										li.bold Mitigan su FOMO 
+											span.italic (preocupación porque otros puedan estar pasándola muy bien y disfrutando de experiencias sin ellos) 
+											|a través de la discreción y sutileza en la demostración de la riqueza.
+										li Culturalmente y socialmente refinados.
+										li No les gusta llamar la atención y prefieren las marcas de siempre
+									div.row
+										div.col.col-50
+											img(src="./img/Imagen5.png")
+										div.col.col-50
+											ul
+												li Capitalizó su imagen, es una figura pública.
+												li Prefiere lo de moda para mitigar su FOMO y mantenerse en el spotlight mediático.
+									div.row
+										div.col.col-50
+											img(src="./img/Imagen6.png")
+										div.col.col-50
+											ul
+												li Socialmente le gusta llamar la atención.
+												li Mitiga su FOMO a través de una amplia red de contactos que le permita accesar a otras esferas. 
+
 								div.row
-									div.col
-										img.chica2(src="./img/Imagen6.png")
-									div.col-75
-										ul
-											li Socialmente le gusta llamar la atención.
-											li 
-												span.bold Mitiga su FOMO a través de una amplia red de contactos que le permita accesar a otras esferas.
+									div.col.col-33
+										p.azul 43%
+									div.col.col-67
+										img.uno(src="./img/Imagen7.png")
+										md-button.button.button-icon.ion-plus-circled(ng-click="abre(2, $event)")
+								div.row#hv_cont2
+									ul
+										li Su riqueza viene del trabajo y esfuerzo de años. Es directo en la demostración de la riqueza.
+										li Culturalmente y socialmente hábiles.
+										li 
+											span.bold Mitigan su FOMO  a través de la demostración de su inteligencia y que están 
+											span.italic.bold at the top of their game.
+								div.row
+									div.col.col-33
+										p.azul 32%
+									div.col.col-67
+										img.uno(src="./img/Imagen8.png")
+										md-button.button.button-icon.ion-plus-circled(ng-click="abre(3, $event)")
+								div.row#hv_cont3
+									ul
+										li Su riqueza viene de la astucia, relaciones u otros eventos de pocos años atrás.
+										li Les gusta demostrar su riqueza.
+										li
+											span.bold Socialmente, les gusta llamar la atención y para mitigar su FOMO se apoyan de logros y marcas de moda.
+
+						//
+							div.row
+								div.col.col-50
+									p
+										span.rojo.porcentaje 25%
+								div.col.col-50
+									img.uno(src="./img/Imagen4.png" ng-click="abre(1, $event)")
+									button.button.button-icon.ion-plus-circled(ng-click="abre(1, $event)")
+							div.row#hv_cont1.none
+								div.vc
+									ul.primero
+										li Su riqueza viene de varias generaciones atrás.
+										li.bold Mitigan su FOMO 
+											span.italic (preocupación porque otros puedan estar pasándola muy bien y disfrutando de experiencias sin ellos) 
+											|a través de la discreción y sutileza en la demostración de la riqueza.
+										li Culturalmente y socialmente refinados.
+										li No les gusta llamar la atención y prefieren las marcas de siempre
+								div.col.col-50
+									img.cuatro(src="./img/Imagen5.png")
+								div.col.col-50
+									ul.imagen 
+										li Capitalizó su imagen, es una figura pública.
+										li Prefiere lo de moda para mitigar su FOMO y mantenerse en el spotlight mediático. 
+								div.col.col-50.fix
+									img.tres(src="./img/Imagen6.png")
+								div.col.col-50.block.fixd
+									ul.imagen.li 
+										li Socialmente le gusta llamar la atención.
+										li Mitiga su FOMO a través de una amplia red de contactos que le permita accesar a otras esferas. 		
+							div.none
+								div.block
+									div.row
+										div.col
+											img.chica(src="./img/Imagen5.png")
+										div.col.col-75
+											ul
+												li Capitalizó su imagen, es una figura pública.
+												li 
+													span.bold Prefiere lo de moda para mitigar su FOMO y mantenerse en el 
+													span.italic.bold spotlight 
+													span.bold mediático.
+									div.row
+										div.col
+											img.chica2(src="./img/Imagen6.png")
+										div.col-75
+											ul
+												li Socialmente le gusta llamar la atención.
+												li 
+													span.bold Mitiga su FOMO a través de una amplia red de contactos que le permita accesar a otras esferas.
+									div.d
+							div.row
+								div.col-50
+									p
+										span.azul.porcentaje 43%
+								div.col-50
+									img.dos(src="./img/Imagen7.png" ng-click="abre(2, $event)")
+									button.button.button-icon.ion-plus-circled(ng-click="abre(2, $event)")
+							div.none(id="hv_cont2")
+								div.block
+									ul
+										li Su riqueza viene del trabajo y esfuerzo de años. Es directo en la demostración de la riqueza.
+										li Culturalmente y socialmente hábiles.
+										li 
+											span.bold Mitigan su FOMO  a través de la demostración de su inteligencia y que están 
+											span.italic.bold at the top of their game.
 								div.d
-						div.row
-							div.col-50
-								p
-									span.azul.porcentaje 43%
-							div.col-50
-								img.dos(src="./img/Imagen7.png" ng-click="abre(2, $event)")
-								button.button.button-icon.ion-plus-circled(ng-click="abre(2, $event)")
-						div.none(id="hv_cont2")
-							div.block
-								ul
-									li Su riqueza viene del trabajo y esfuerzo de años. Es directo en la demostración de la riqueza.
-									li Culturalmente y socialmente hábiles.
-									li 
-										span.bold Mitigan su FOMO  a través de la demostración de su inteligencia y que están 
-										span.italic.bold at the top of their game.
-							div.d
-						div.row
-							div.col-50
-								p
-									span.azul.porcentaje 32%
-							div.col-50
-								img.dos(src="./img/Imagen8.png" ng-click="abre(3, $event)")
-								button.button.button-icon.ion-plus-circled(ng-click="abre(3, $event)")
-						div.none(id="hv_cont3")
-							div.block
-								ul
-									li Su riqueza viene de la astucia, relaciones u otros eventos de pocos años atrás.
-									li Les gusta demostrar su riqueza.
-									li
-										span.bold Socialmente, les gusta llamar la atención y para mitigar su FOMO se apoyan de logros y marcas de moda.
-						img.linea(src="./img/linea.png")
+							div.row
+								div.col-50
+									p
+										span.azul.porcentaje 32%
+								div.col-50
+									img.dos(src="./img/Imagen8.png" ng-click="abre(3, $event)")
+									button.button.button-icon.ion-plus-circled(ng-click="abre(3, $event)")
+							div.none(id="hv_cont3")
+								div.block
+									ul
+										li Su riqueza viene de la astucia, relaciones u otros eventos de pocos años atrás.
+										li Les gusta demostrar su riqueza.
+										li
+											span.bold Socialmente, les gusta llamar la atención y para mitigar su FOMO se apoyan de logros y marcas de moda.
+							img.linea(src="./img/linea.png")
 

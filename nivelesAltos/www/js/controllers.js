@@ -163,15 +163,20 @@ angular.module('starter.controllers', [])
 .controller('HistoriasVidaCtrl', function($scope, $ionicNavBarDelegate) {
 	$scope.abre=function(index, event){
 		var boton = angular.element(event.target);
-		var Contenido=angular.element(document.querySelector("#hv_cont"+index));
-		if(Contenido.css('display')=='block'){
-			Contenido.css('display','none');
-			boton.removeClass('ion-minus-circled');
-			boton.addClass('ion-plus-circled');
+		var secc1 = angular.element(document.querySelector(".historias_vida .col:nth-child(1)"));
+		var secc2 = angular.element(document.querySelector(".historias_vida .col:nth-child(2)"));
+		console.log(secc1, secc2);
+		var contenido=angular.element(document.querySelector("#hv_cont"+index));
+		if(contenido.css('display')=='block'){
+			contenido.css('display','none');
+			secc1.removeClass('col-10').addClass('col-33');
+			secc2.removeClass('col-90').addClass('col-67');
+			boton.removeClass('ion-minus-circled').addClass('ion-plus-circled');
 		}else{
-			Contenido.css('display','block');
-			boton.removeClass('ion-plus-circled');
-			boton.addClass('ion-minus-circled');
+			contenido.css('display','block');
+			secc1.removeClass('col-33').addClass('col-10');
+			secc2.removeClass('col-67').addClass('col-90');
+			boton.removeClass('ion-plus-circled').addClass('ion-minus-circled');
 		}
 	}
 })

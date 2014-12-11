@@ -11,9 +11,9 @@ div.content-nuevo_lujo_3
 						h1.h1t TERMÓMETRO DEL NUEVO LUJO
 						div.row
 							div.col-50
-								button(ng-click="gotoBuy()") TERMÓMETRO<br>BUY
+								md-button.md-raised(ng-click="gotoBuy()") TERMÓMETRO<br>BUY
 							div.col-50
-								button(ng-click="gotoBuyInto()") TERMÓMETRO<br>BUY INTO
+								md-button.md-raised(ng-click="gotoBuyInto()") TERMÓMETRO<br>BUY INTO
 						h4 TERMÓMETRO BUY INTO
 						p.italic Ubica los atributos de la arquitectura de la marca que hay que fortalecer, mantener o afinar.
 						p.p ATRIBUTOS BUY INTO 
@@ -21,55 +21,79 @@ div.content-nuevo_lujo_3
 							span.bold TOUGH & ROUGH<br>
 							|Mi marca convierte al cliente en un explorador fuera<br>de su burbuja socioeconómica tradicional, tanto a<br>nivel objetual como.
 							p
-								input(value="1",type="radio",name="g1",ng-model="data.tough")
-								| 1
-								input(value="2",type="radio",name="g1",ng-model="data.tough")
-								| 2
-								input(value="3",type="radio",name="g1",ng-model="data.tough")
-								| 3
-								input(value="4",type="radio",name="g1",ng-model="data.tough")
-								| 4
+								md-radio-group(ng-model="data.though")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g1",ng-model="data.tough")
+									| 1
+									input(value="2",type="radio",name="g1",ng-model="data.tough")
+									| 2
+									input(value="3",type="radio",name="g1",ng-model="data.tough")
+									| 3
+									input(value="4",type="radio",name="g1",ng-model="data.tough")
+									| 4
 						p.li
 							span.bold TIEMPO<br>
 							|	Mi marca rompe la rutina, prioriza el tiempo libre y<br>propone nuevos momentos de disfrute.
 							p
-								input(value="1",type="radio",name="g2",ng-model="data.tiempo")
-								| 1
-								input(value="2",type="radio",name="g2",ng-model="data.tiempo")
-								| 2
-								input(value="3",type="radio",name="g2",ng-model="data.tiempo")
-								| 3
-								input(value="4",type="radio",name="g2",ng-model="data.tiempo")
-								| 4
+								md-radio-group(ng-model="data.tiempo")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g2",ng-model="data.tiempo")
+									| 1
+									input(value="2",type="radio",name="g2",ng-model="data.tiempo")
+									| 2
+									input(value="3",type="radio",name="g2",ng-model="data.tiempo")
+									| 3
+									input(value="4",type="radio",name="g2",ng-model="data.tiempo")
+									| 4
 						p.li
 							span.bold ESPECIALIZACIÓN<br>
 							|Mi marca convierte al cliente en un experto refinado<br>en una categoría. Es una herramienta para<br>profundizar en conocimiento.
 							p
-								input(value="1",type="radio",name="g3",ng-model="data.especial")
-								| 1
-								input(value="2",type="radio",name="g3",ng-model="data.especial")
-								| 2
-								input(value="3",type="radio",name="g3",ng-model="data.especial")
-								| 3
-								input(value="4",type="radio",name="g3",ng-model="data.especial")
-								| 4
+								md-radio-group(ng-model="data.especial")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g3",ng-model="data.especial")
+									| 1
+									input(value="2",type="radio",name="g3",ng-model="data.especial")
+									| 2
+									input(value="3",type="radio",name="g3",ng-model="data.especial")
+									| 3
+									input(value="4",type="radio",name="g3",ng-model="data.especial")
+									| 4
 						p.li
 							span.bold SOLUCIÓN<br>
 							|Mi marca es una solución sorpresiva para el cliente.<br>Conjugara su individualidad con el<br>crear o recrear una oferta o experiencia única.
 							p
-								input(value="1",type="radio",name="g4",ng-model="data.solucion")
-								| 1
-								input(value="2",type="radio",name="g4",ng-model="data.solucion")
-								| 2
-								input(value="3",type="radio",name="g4",ng-model="data.solucion")
-								| 3
-								input(value="4",type="radio",name="g4",ng-model="data.solucion")
-								| 4
+								md-radio-group(ng-model="data.solucion")
+									md-radio-button(value="1") 1
+									md-radio-button(value="2") 2
+									md-radio-button(value="3") 3
+									md-radio-button(value="4") 4
+								//
+									input(value="1",type="radio",name="g4",ng-model="data.solucion")
+									| 1
+									input(value="2",type="radio",name="g4",ng-model="data.solucion")
+									| 2
+									input(value="3",type="radio",name="g4",ng-model="data.solucion")
+									| 3
+									input(value="4",type="radio",name="g4",ng-model="data.solucion")
+									| 4
 						p.li.lis.gris 
 							span.bold PROMEDIO: 
 							|Suma los puntos y dividelos entre 4.
 						div.total
-							p.bold.lis.t TOTAL {{ total }}.
+							p.bold.lis.t TOTAL: {{ total }}
 							button.button.button-icon.icon.ion-checkmark-circled
 						div
 							p.gris

@@ -255,213 +255,233 @@ div.content-Historias-vida .container.historias_vida {
   margin: 10px;
   border-radius: 10px;
   padding-bottom: 20px;
+/*
+		div
+			div
+				div.border
+					padding 0px
+					margin-bottom 15px
+					&.border.d
+						margin-top 20px
+				div.row
+					margin-left 60px
+					p
+						padding-top: 55px;
+						font-weight: bold;
+						span.porcentaje
+							font-size 35px
+							margin-left: 25%!important;
+							float: left
+					img.uno
+						width 95%
+						margin-left: -40px;
+						margin-top 10px
+					button.button.button-icon.ion-plus-circled
+						left: 45px;
+						bottom: 25px;
+						font-size: 25px;
+						color: red;
+					button.button.button-icon.ion-minus-circled
+						left: 45px;
+						bottom: 25px;
+						font-size: 25px;
+						color: red;
+				img
+					margin: auto
+					display block
+					padding 10px
+					width 40%
+				img.cuatro
+						width 90px !important
+						position: absolute;
+						left: 20px;
+						top: -25px
+				img.tres
+						width: 125px !important;
+						position: absolute;
+						left: 20px;
+						top: 95px !important;
+				img.linea
+					position: absolute;
+					top: 75px;
+					width: 35%;
+					left: 5px;
+				div.none
+					display none
+					div.block
+						display block
+						img 
+							width 100%
+					div
+						ul.imagen 
+							margin-left -25px !important
+							width 72%
+							li 
+								font-size 10px
+						.imagen.li
+							margin-top 0px
+						ul
+							width 84%
+							margin-left 25px
+							li
+								padding-bottom 5px
+								list-style: initial;
+								font-size: 12px;
+						div.row
+							img.chica
+								width: 100px;
+							ul
+								margin-left: 40px;
+								font-size: 16px
+								padding-bottom: 20px;
+								list-style: inherit;
+								width 150px
+								li 
+									margin-bottom: 0px;
+									font-size 12px
+					
+							img.chica2
+								width 100px
+								display block
+						ul.primero
+							list-style: inherit;
+							width: 72%;
+							padding-bottom 20px
+							margin-left: 30px;
+							margin-bottom: 30px;
+						ul
+							list-style: inherit;
+							width: 58%;
+							padding-bottom 20px
+							margin-top -35px
+							margin-left 115px
+							li 
+								padding-bottom 0px
+								font-size 12px
+				img.dos
+					width: 95%;
+					margin-left: -40px;
+					margin-top 10px
+		@media(min-width: 500px)
+			div
+				div
+					img.linea
+						width 25%
+					img.cuatro
+						left 100px
+						width 40% !important
+						top -55px
+					img.tres
+						left 88px
+						width 54% !important
+						top 65px !important
+					div.row	
+						img.uno
+							width 70%	
+						img.dos
+							width 70%
+						p
+							padding-top 130px 
+							span.porcentaje
+								font-size 100px
+								margin-left 131px !important
+						button.button.button-icon.ion-plus-circled
+							left 165px !important
+						button.button.button-icon.ion-minus-circled
+							left 165px !important
+							font-size 40px
+					div.none
+						.vc
+							ul 
+								margin-left 165px !important 
+								margin-bottom 55px !important
+						div.block
+							margin-top 0px
+							ul 
+								width 325px
+								margin-left 220px
+								li 
+									font-size 20px
+									padding-bottom 15px
+							div.row
+								img.chica
+									width 135px
+									margin-top: -40px;
+								img.chica2
+									width 165px
+									margin-top: -40px;
+								ul
+									width 450px
+									margin-left 40px
+									margin-bottom 25px
+									li 
+										font-size 20px
+							div.vc
+								margin-top: 0px;
+								margin-left: 40px;
+								padding-bottom 20px
+								ul
+									li
+										font-size: 20px;
+										width: 58%;
+										margin-bottom: 15px;
+						
+								
+/* =========================== Estado Civil y Educación */
 }
-div.content-Historias-vida .container.historias_vida div div div.border {
-  padding: 0px;
-  margin-bottom: 15px;
+div.content-Historias-vida .container.historias_vida img {
+  width: 100% !important;
 }
-div.content-Historias-vida .container.historias_vida div div div.border.border.d {
-  margin-top: 20px;
+div.content-Historias-vida .container.historias_vida .col {
+  position: relative;
 }
-div.content-Historias-vida .container.historias_vida div div div.row {
-  margin-left: 60px;
+div.content-Historias-vida .container.historias_vida .col .row .col-33 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-div.content-Historias-vida .container.historias_vida div div div.row p {
-  padding-top: 55px;
+div.content-Historias-vida .container.historias_vida .col .row .col-33 p {
   font-weight: bold;
-}
-div.content-Historias-vida .container.historias_vida div div div.row p span.porcentaje {
-  font-size: 35px;
-  margin-left: 25% !important;
-  float: left;
-}
-div.content-Historias-vida .container.historias_vida div div div.row img.uno {
-  width: 95%;
-  margin-left: -40px;
-  margin-top: 10px;
-}
-div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
-  left: 45px;
-  bottom: 25px;
-  font-size: 25px;
-  color: #f00;
-}
-div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-minus-circled {
-  left: 45px;
-  bottom: 25px;
-  font-size: 25px;
-  color: #f00;
-}
-div.content-Historias-vida .container.historias_vida div div img {
-  margin: auto;
-  display: block;
-  padding: 10px;
-  width: 40%;
-}
-div.content-Historias-vida .container.historias_vida div div img.cuatro {
-  width: 90px !important;
-  position: absolute;
-  left: 20px;
-  top: -25px;
-}
-div.content-Historias-vida .container.historias_vida div div img.tres {
-  width: 125px !important;
-  position: absolute;
-  left: 20px;
-  top: 95px !important;
-}
-div.content-Historias-vida .container.historias_vida div div img.linea {
-  position: absolute;
-  top: 75px;
-  width: 35%;
-  left: 5px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none {
-  display: none;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div.block {
-  display: block;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div.block img {
-  width: 100%;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul.imagen {
-  margin-left: -25px !important;
-  width: 72%;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul.imagen li {
-  font-size: 10px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div .imagen.li {
-  margin-top: 0px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul {
-  width: 84%;
-  margin-left: 25px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul li {
-  padding-bottom: 5px;
-  list-style: initial;
-  font-size: 12px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div div.row img.chica {
-  width: 100px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div div.row ul {
-  margin-left: 40px;
-  font-size: 16px;
-  padding-bottom: 20px;
-  list-style: inherit;
-  width: 150px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div div.row ul li {
-  margin-bottom: 0px;
-  font-size: 12px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div div.row img.chica2 {
-  width: 100px;
-  display: block;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul.primero {
-  list-style: inherit;
-  width: 72%;
-  padding-bottom: 20px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul {
-  list-style: inherit;
-  width: 58%;
-  padding-bottom: 20px;
-  margin-top: -35px;
-  margin-left: 115px;
-}
-div.content-Historias-vida .container.historias_vida div div div.none div ul li {
-  padding-bottom: 0px;
-  font-size: 12px;
-}
-div.content-Historias-vida .container.historias_vida div div img.dos {
-  width: 95%;
-  margin-left: -40px;
-  margin-top: 10px;
+  font-size: 22px;
 }
 @media (min-width: 500px) {
-  div.content-Historias-vida .container.historias_vida div div img.linea {
-    width: 25%;
-  }
-  div.content-Historias-vida .container.historias_vida div div img.cuatro {
-    left: 100px;
-    width: 40% !important;
-    top: -55px;
-  }
-  div.content-Historias-vida .container.historias_vida div div img.tres {
-    left: 88px;
-    width: 54% !important;
-    top: 65px !important;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.row img.uno {
-    width: 70%;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.row img.dos {
-    width: 70%;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.row p {
-    padding-top: 130px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.row p span.porcentaje {
-    font-size: 100px;
-    margin-left: 131px !important;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-plus-circled {
-    left: 165px !important;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.row button.button.button-icon.ion-minus-circled {
-    left: 165px !important;
-    font-size: 40px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none .vc ul {
-    margin-left: 165px !important;
-    margin-bottom: 55px !important;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block {
-    margin-top: 0px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block ul {
-    width: 325px;
-    margin-left: 220px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block ul li {
-    font-size: 20px;
-    padding-bottom: 15px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica {
-    width: 135px;
-    margin-top: -40px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row img.chica2 {
-    width: 165px;
-    margin-top: -40px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul {
-    width: 450px;
-    margin-left: 40px;
-    margin-bottom: 25px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block div.row ul li {
-    font-size: 20px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block div.vc {
-    margin-top: 0px;
-    margin-left: 40px;
-    padding-bottom: 20px;
-  }
-  div.content-Historias-vida .container.historias_vida div div div.none div.block div.vc ul li {
-    font-size: 20px;
-    width: 58%;
-    margin-bottom: 15px;
+  div.content-Historias-vida .container.historias_vida .col .row .col-33 p {
+    font-size: 65px;
   }
 }
-/* =========================== Estado Civil y Educación */
+div.content-Historias-vida .container.historias_vida .col .row .col-67 button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: inherit !important;
+  font-size: 25px;
+  color: #f00;
+}
+div.content-Historias-vida .container.historias_vida .col .row#hv_cont1,
+div.content-Historias-vida .container.historias_vida .col .row#hv_cont2,
+div.content-Historias-vida .container.historias_vida .col .row#hv_cont3 {
+  display: none;
+}
+div.content-Historias-vida .container.historias_vida .col .row .row .col-50 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.content-Historias-vida .container.historias_vida .col .row .row .col-50 ul {
+  font-size: 10px;
+  margin-left: 5px;
+}
+@media (min-width: 500px) {
+  div.content-Historias-vida .container.historias_vida .col .row .row .col-50 ul {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+}
+div.content-Historias-vida .container.historias_vida .col ul {
+  list-style: inherit;
+}
 div.content-C_estado_civil .container.estado_civil {
   border: 1px solid #36bece;
   margin: 10px;
@@ -1968,6 +1988,9 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div p.li {
   border-top: solid 1px;
   padding-top: 5px;
 }
+div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div md-radio-button .md-on {
+  background-color: #36bece;
+}
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div input {
   margin: 0 5px 0 20px;
 }
@@ -1985,7 +2008,6 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total p.lis {
   font-weight: 200;
 }
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total p.lis.t {
-  padding: 10px;
   color: #36bece;
   font-size: 26px;
   padding-right: 22px;
@@ -1995,7 +2017,7 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total p.lis.t {
   width: 210px;
 }
 div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.total .button.button-icon.icon.ion-checkmark-circled {
-  bottom: 43px;
+  bottom: 46px;
   left: 17px;
   color: #36bece;
 }
@@ -2063,6 +2085,9 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div p.li {
   border-top: solid 1px;
   padding-top: 5px;
 }
+div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div md-radio-button .md-on {
+  background-color: #36bece;
+}
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div input {
   margin: 0 5px 0 20px;
 }
@@ -2080,7 +2105,6 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total p.lis {
   font-weight: 200;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total p.lis.t {
-  padding: 10px;
   color: #36bece;
   font-size: 26px;
   padding-right: 22px;
@@ -2090,7 +2114,7 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total p.lis.t {
   width: 210px;
 }
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.total .button.button-icon.icon.ion-checkmark-circled {
-  bottom: 43px;
+  bottom: 46px;
   left: 17px;
   color: #36bece;
 }
@@ -2221,16 +2245,18 @@ div.content-boy .scroll {
 }
 div.content-boy .container.boy {
   height: 100%;
-  background: #36bece;
 /*background url(../img/fondo.png)*/
   background: #36bece url("../img/fondoazul.png");
 }
+<<<<<<< HEAD
 div.content-boy .container.boy img.logo {
   position: relative !important;
   padding-top: 350px;
   width: 17%;
   margin-right: 230px;
 }
+=======
+>>>>>>> 4caacafb09437527e98973cce6636be2133c1362
 div.content-boy .container.boy img {
   margin: auto;
   display: block;
@@ -2240,6 +2266,14 @@ div.content-boy .container.boy img {
   right: 0;
   bottom: 0;
   width: 50%;
+}
+div.content-boy .container.boy img.logo {
+  margin: 0;
+  top: inherit;
+  right: inherit;
+  bottom: 15px;
+  left: 15px;
+  width: 17%;
 }
 div.content-boy .container.boy ul li {
   position: absolute;

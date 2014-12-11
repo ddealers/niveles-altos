@@ -209,6 +209,49 @@ div.content-Historias-vida
 		margin: 10px;
 		border-radius: 10px;
 		padding-bottom 20px
+		img
+			width 100% !important
+		.col
+			position relative
+			.row
+				.col-33
+					position relative
+					display flex
+					align-items center
+					justify-content center
+					p
+						font-weight bold
+						font-size 22px
+						@media(min-width: 500px)
+							font-size 65px
+				.col-67
+					button 
+						position absolute
+						bottom 0
+						right 0
+						left inherit !important
+						font-size 25px
+						color red
+				&#hv_cont1
+				&#hv_cont2
+				&#hv_cont3
+					display none
+				.row
+					.col-50
+						position relative
+						display flex
+						align-items center
+						justify-content center
+						ul
+							font-size 10px
+							margin-left 5px
+							@media(min-width: 500px)
+								font-size 12px
+								margin-left 20px
+			ul
+				list-style inherit
+				
+		/*
 		div
 			div
 				div.border
@@ -1734,7 +1777,10 @@ div.content-nuevo_lujo_2
 					margin-bottom: 15px;
 					line-height: 25px;
 					border-top: solid 1px;
-					padding-top: 5px;
+					padding-top: 5px
+				md-radio-button
+					.md-on
+						background-color #36bece
 				input
 					margin 0 5px 0 20px
 				div.total
@@ -1749,7 +1795,6 @@ div.content-nuevo_lujo_2
 						margin-left: 20px;
 						font-weight: 200;
 						&.t 
-							padding: 10px;
 							color: #36bece;
 							font-size: 26px;
 							padding-right: 22px;
@@ -1758,7 +1803,7 @@ div.content-nuevo_lujo_2
 							margin-top: 10px;
 							width: 210px;
 					.button.button-icon.icon.ion-checkmark-circled
-						bottom: 43px;
+						bottom: 46px;
 						left: 17px;
 						color: #36bece;					
 				div
@@ -1823,6 +1868,9 @@ div.content-nuevo_lujo_3
 					line-height: 25px;
 					border-top: solid 1px;
 					padding-top: 5px;
+				md-radio-button
+					.md-on
+						background-color #36bece
 				input
 					margin 0 5px 0 20px
 				div.total
@@ -1837,7 +1885,6 @@ div.content-nuevo_lujo_3
 						margin-left: 20px;
 						font-weight: 200;
 						&.t 
-							padding: 10px;
 							color: #36bece;
 							font-size: 26px;
 							padding-right: 22px;
@@ -1846,7 +1893,7 @@ div.content-nuevo_lujo_3
 							margin-top: 10px;
 							width: 210px;
 					.button.button-icon.icon.ion-checkmark-circled
-						bottom: 43px;
+						bottom: 46px;
 						left: 17px;
 						color: #36bece;	
 				div
@@ -1965,14 +2012,16 @@ div.content-boy
 		height 100%
 	.container.boy
 		height 100%
-		background #36bece
 		/*background url(../img/fondo.png)*/
 		background: #36bece url(../img/fondoazul.png);	
+<<<<<<< HEAD
 		img.logo
 			position: relative !important;
 			padding-top: 350px;
 			width: 17%;
 			margin-right: 230px;
+=======
+>>>>>>> 4caacafb09437527e98973cce6636be2133c1362
 		img 
 			margin auto
 			display block
@@ -1982,6 +2031,13 @@ div.content-boy
 			right 0
 			bottom 0
 			width 50%
+			&.logo
+				margin 0
+				top inherit
+				right inherit
+				bottom 15px
+				left 15px
+				width 17%
 		ul
 			li 
 				position absolute
