@@ -193,6 +193,41 @@ angular.module('starter.controllers', [])
 		}
 	}
 })
+.controller('ActividadesCtrl', function($scope){
+	$scope.options = {
+		animation: true,
+		animationEasing: "easeOutQuart",
+		showScale: true,
+		responsive: true,
+		scaleShowLabels: false,
+		tooltipFontSize: 12,
+		maintainAspectRatio: true
+	}
+	$scope.chart = {
+		labels: [
+		"Compras",
+		"Evento social",
+		"Lugar de moda",
+		"Festival de Música",
+		"Check up anual",
+		"Médico especializado",
+		"Deporte extremo",
+		"Festival de cine",
+		"Inauguración de un hotel",
+		"Evento deportivo",
+		"Gala benéfica",
+		"Compra de una casa/propiedad",
+		"Ninguna de las anteriores"],
+		datasets: [
+			{
+				fillColor: "#e7c500",
+				strokeColor: "#999",
+				highlightFill: "#ffd900",
+				data:[82,55,42,37,19,17,17,15,14,14,13,10,4]
+			}
+		]
+	}
+})
 .controller('TermoCtrl', function($scope, $state) {
 	var getTotal = function(){
 		var a = parseInt($scope.data.artesania),

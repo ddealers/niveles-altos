@@ -231,6 +231,7 @@ angular.module('starter', ['ionic', 'angles', 'starter.controllers'])
       views: {
         'menuContent' :{
           templateUrl: "templates/actividades.html",
+          controller: "ActividadesCtrl"
         }
       }
     })
