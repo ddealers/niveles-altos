@@ -227,7 +227,7 @@ div.content-NSE .container.NSE div div h3 {
 }
 div.content-NSE .container.NSE div div img.puertas {
   width: 100%;
-  margin-left: -6px;
+  margin-left: -6;
 }
 /* =========================== HISTORIAS DE VIDA */
 div.content-Historias-vida .container.historias_vida {
@@ -2127,6 +2127,12 @@ div.content-boy .container.boy {
 /*background url(../img/fondo.png)*/
   background: #36bece url("../img/fondoazul.png");
 }
+div.content-boy .container.boy img.logo {
+  position: relative !important;
+  padding-top: 358px;
+  width: 17%;
+  margin-right: 230px;
+}
 div.content-boy .container.boy img {
   margin: auto;
   display: block;
@@ -2242,6 +2248,14 @@ div.content-dlr_group .container.dlr_group div div p.con {
 div.content-dlr_group .container.dlr_group div div p.con span.name {
   font-style: normal;
   font-weight: bold;
+}
+/* =========================== login */
+img {
+  width: 35%;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 li.italic {
   font-style: italic;
