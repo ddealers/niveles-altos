@@ -229,6 +229,26 @@ div.content-NSE .container.NSE div div img.puertas {
   width: 100%;
   margin-left: -6;
 }
+@media (min-width: 500px) {
+  div.content-NSE .container.NSE div div p.gris {
+    text-align: center;
+  }
+  div.content-NSE .container.NSE div div button.btnA {
+    left: 50% !important;
+    font-size: 20px !important;
+  }
+  div.content-NSE .container.NSE div div button.btnC {
+    left: 55% !important;
+    font-size: 20px !important;
+  }
+  div.content-NSE .container.NSE div div button.btnCMin {
+    left: 58% !important;
+    font-size: 20px !important;
+  }
+  div.content-NSE .container.NSE div div img.puertas {
+    width: 70%;
+  }
+}
 /* =========================== HISTORIAS DE VIDA */
 div.content-Historias-vida .container.historias_vida {
   border: 1px solid #36bece;
@@ -602,14 +622,22 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle {
     text-align: center;
   }
+  div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle span.azul.nueve {
+    margin-left: 100px;
+  }
   div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle img.flecha {
-    left: 200px;
+    left: 228px;
+    width: 20%;
+    top: -25px;
   }
   div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle p.vive {
-    margin-left: -18px;
+    margin-left: 100px;
   }
   div.content-C_estado_civil .container.estado_civil div div div.border-un p.grande.ocho {
     margin-left: 150px !important;
+    text-align: center;
+  }
+  div.content-C_estado_civil .container.estado_civil div div p.ley {
     text-align: center;
   }
 }
@@ -756,6 +784,12 @@ div.content-C_hogar .container.hogar div div div.col-75 ul li span.position {
   div.content-C_hogar .container.hogar div div p.left {
     margin-left: 279px;
   }
+  div.content-C_hogar .container.hogar div div p.gris {
+    text-align: center;
+  }
+  div.content-C_hogar .container.hogar div div div.col-75 ul {
+    margin-left: 260px;
+  }
 }
 /* =========================== OCUPACIONES */
 div.content-C_ocupaciones .container.ocupaciones {
@@ -792,7 +826,7 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll {
 }
 div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
   position: absolute;
-  top: 23px;
+  top: 0px;
   left: 90px;
 }
 div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.sector {
@@ -837,6 +871,17 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col ul {
   }
   div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
     left: 313px;
+    width: 50px;
+    top: 0px;
+  }
+  div.content-C_ocupaciones .container.ocupaciones div div div.col-75 {
+    padding-left: 150px;
+  }
+  div.content-C_ocupaciones .container.ocupaciones div div p.giro {
+    text-align: center;
+    margin: auto 185px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 /* =========================== SERVICIOS BANCARIOS */
@@ -1038,6 +1083,8 @@ div.content-C_medios .container.medios div div div.row div.col {
 }
 div.content-C_medios .container.medios div div div.row div.col ul li {
   padding-bottom: 10px;
+  text-align: right;
+  padding-right: 12px;
 }
 div.content-C_medios .container.medios div div div.border.amarillo {
   border-top: 1px solid #fbdc44;
@@ -1057,22 +1104,29 @@ div.content-C_medios .container.medios div div div.border.amarillo p.pp {
     font-size: 20px;
   }
   div.content-C_medios .container.medios div div div.top p.left {
-    margin-left: 305px;
+    text-align: center;
   }
   div.content-C_medios .container.medios div div div.row div.col-75 ul.gris {
-    margin-left: 300px;
+    margin-left: 75px;
   }
   div.content-C_medios .container.medios div div div.row div.col-75 ul.gris li {
     padding-bottom: 10px;
     border: solid 1px;
     padding: 10px;
     margin-bottom: 5px;
-    width: 335px;
+    width: 535px;
+  }
+  div.content-C_medios .container.medios div div div.row div.col ul {
+    margin-right: 120px;
   }
   div.content-C_medios .container.medios div div div.row div.col ul li {
     margin-left: -125px;
     margin-bottom: 17px;
     margin-top: 5px;
+    text-align: right;
+  }
+  div.content-C_medios .container.medios div div p.gris {
+    text-align: center;
   }
 }
 /* =========================== INTERNET Y REDES SOCIALES */
@@ -1191,6 +1245,9 @@ div.content-C_internet .container.internet div div div.row.red div.col.por ul li
     padding-top: 15px;
     font-size: 20px;
   }
+  div.content-C_internet .container.internet div div div.row.dispositivos {
+    margin-left: 115px;
+  }
   div.content-C_internet .container.internet div div div.row div.col ul li img.img {
     margin-left: 5px;
   }
@@ -1200,6 +1257,9 @@ div.content-C_internet .container.internet div div div.row.red div.col.por ul li
   }
   div.content-C_internet .container.internet div div div.row.red div.col-50.redesS ul li img.rs {
     width: 18%;
+  }
+  div.content-C_internet .container.internet div div p.gris {
+    text-align: center;
   }
 }
 /* =========================== TELEFONÍA CELULAR */
@@ -1282,6 +1342,13 @@ div.content-C_telefonia .container.telefonia div div div.img div.row div.col ul 
     padding-top: 15px;
     font-size: 20px;
   }
+  div.content-C_telefonia .container.telefonia div div div.img p.gris {
+    text-align: center;
+    margin: 30px;
+  }
+  div.content-C_telefonia .container.telefonia div div div.img div.row div.col-75 ul.gris {
+    margin-left: 100px;
+  }
 }
 /* =========================== TELEFONÍA CELULAR */
 div.content-C_tecnologia .container.tecnologia {
@@ -1303,16 +1370,16 @@ div.content-C_tecnologia .container.tecnologia div div div.row div.col ul li img
   width: 70%;
 }
 div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li {
-  padding-top: 25.5px;
+  padding-top: 32.5px;
 }
 div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.u {
-  padding-top: 10.5px;
+  padding-top: 36.5px;
 }
 div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.d {
-  padding-top: 30.5px;
+  padding-top: 45.5px;
 }
 div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.s {
-  padding-top: 8.5px;
+  padding-top: 39.5px;
 }
 @media (min-width: 500px) {
   div.content-C_tecnologia .container.tecnologia div div p {
@@ -1338,6 +1405,9 @@ div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.
   }
   div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.si {
     padding-top: 100.5px !important;
+  }
+  div.content-C_tecnologia .container.tecnologia div div div.col ul li img {
+    width: 59% !important;
   }
 }
 /* =========================== SECRETO #1 */
@@ -1481,6 +1551,15 @@ div.content-secreto_2 .container.secreto_2 div div div img.img {
   width: 185px;
   margin-top: 35px;
 }
+@media (min-width: 500px) {
+  div.content-secreto_2 .container.secreto_2 div div p.gris {
+    text-align: center;
+    margin-left: 0px !important;
+  }
+  div.content-secreto_2 .container.secreto_2 div div div.row ul.gris {
+    margin-left: 135px !important;
+  }
+}
 /* =========================== SECRETO #3 */
 div.content-secreto_3 .container.secreto_3 {
   border: 1px solid #36bece;
@@ -1496,6 +1575,9 @@ div.content-secreto_3 .container.secreto_3 div div p.bold {
   font-size: 20px;
   margin-top: 20px;
   font-weight: bold;
+}
+div.content-secreto_3 .container.secreto_3 div div img.cas {
+  width: 80%;
 }
 div.content-secreto_3 .container.secreto_3 div div div p {
   font-weight: 200;
@@ -1730,13 +1812,12 @@ div.content-secreto_4 .container.secreto_4 div div div img.dos {
   display: block;
   margin-bottom: 20px;
 }
-div.content-secreto_4 .container.secreto_4 div div div img.tres {
+div.content-secreto_4 .container.secreto_4 div div div img.tress {
   width: 240px;
   margin: auto;
   display: block;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 55px !important;
 }
 div.content-secreto_4 .container.secreto_4 div div div p.mex {
   font-size: 22px;
@@ -1752,8 +1833,8 @@ div.content-secreto_4 .container.secreto_4 div div div p.black {
   font-size: 13px;
 }
 @media (min-width: 500px) {
-  div.content-secreto_4 .container.secreto_4 div div img.tres {
-    margin: auto !important;
+  div.content-secreto_4 .container.secreto_4 div div img.tress {
+    margin: auto;
     padding: 20px;
   }
 }
@@ -1929,6 +2010,12 @@ div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div p span.amarillo {
   font-weight: bold;
   font-style: italic;
 }
+@media (min-width: 500px) {
+  div.content-nuevo_lujo_2 .container.nuevo_lujo_2 div div div.row div.col-50 button {
+    display: block;
+    margin: auto;
+  }
+}
 /* =========================== NUEVO LUJO 3 */
 div.content-nuevo_lujo_3 .container.nuevo_lujo_3 {
   border: 1px solid #36bece;
@@ -2018,6 +2105,12 @@ div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div p span.amarillo {
   font-weight: bold;
   font-style: italic;
 }
+@media (min-width: 500px) {
+  div.content-nuevo_lujo_3 .container.nuevo_lujo_3 div div div.row div.col-50 button {
+    display: block;
+    margin: auto;
+  }
+}
 /* =========================== ACTIVIDADES */
 div.content-actividades .container.actividades {
   border: 1px solid #36bece;
@@ -2077,6 +2170,11 @@ div.content-actividades .container.actividades div div div.row ul li span.positi
   right: 15px;
   color: #807f7f;
 }
+@media (min-width: 500px) {
+  div.content-actividades .container.actividades div div div.borde {
+    margin-left: 55px;
+  }
+}
 /* =========================== MENU CARACTERISTICAS DE CONSUMO */
 div.content-submenuCaracteristicas ion-view .button.button-icon.icon {
   left: 0px;
@@ -2129,7 +2227,7 @@ div.content-boy .container.boy {
 }
 div.content-boy .container.boy img.logo {
   position: relative !important;
-  padding-top: 358px;
+  padding-top: 350px;
   width: 17%;
   margin-right: 230px;
 }
@@ -2197,6 +2295,40 @@ div.content-boy .container.boy ul li.i {
   right: 5%;
   font-size: 20px;
 }
+@media (min-width: 500px) {
+  div.content-boy .container.boy img.logo {
+    padding-top: 730px;
+    width: 20%;
+    margin-right: 540px;
+  }
+  div.content-boy .container.boy ul li.c {
+    top: 32%;
+    right: 5%;
+    font-size: 30px;
+  }
+  div.content-boy .container.boy ul li.h {
+    top: 12%;
+    right: 15%;
+    font-size: 30px;
+  }
+  div.content-boy .container.boy ul li.t {
+    bottom: 22%;
+    right: 18%;
+    font-size: 30px;
+  }
+  div.content-boy .container.boy ul li.s {
+    top: 62%;
+    left: 10%;
+    font-size: 30px;
+  }
+  div.content-boy .container.boy ul li.a {
+    left: 10%;
+    font-size: 30px;
+  }
+  div.content-boy .container.boy ul li.ns {
+    top: 21%;
+  }
+}
 /* =========================== dlR group */
 div.content-dlr_group .container.dlr_group {
   border: 1px solid #36bece;
@@ -2248,6 +2380,11 @@ div.content-dlr_group .container.dlr_group div div p.con {
 div.content-dlr_group .container.dlr_group div div p.con span.name {
   font-style: normal;
   font-weight: bold;
+}
+@media (min-width: 500px) {
+  div.content-dlr_group .container.dlr_group div div img {
+    width: 17%;
+  }
 }
 /* =========================== login */
 img {
