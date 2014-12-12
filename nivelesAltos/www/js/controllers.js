@@ -1,13 +1,22 @@
 angular.module('starter.controllers', [])
-.controller('LoginCtrl', function($scope, $state){
+.controller('LoginCtrl', function($scope, $state, $mdDialog){
 	$scope.loginData = {};
 	$scope.doLogin = function(){
-		$state.go('app.inicio');
-		/*
-		if($scope.loginData.code === 'NivelesAltos'){
-			$state.go('app.inicio');
+		if($scope.loginData.code != null){
+			var data = '{"iv":"akXmhXkbzuSI1goV6A/kbQ==","v":1,"iter":1000,"ks":128,"ts":64,"mode":"ccm","adata":"","cipher":"aes","salt":"w3lZz4lYxbI=","ct":"7Ww+czWegM0b9a9y5OYPdIxWCQ=="}';
+			var code = sjcl.decrypt("NivelesAltos", data);
+			if(code == $scope.loginData.code){
+				$state.go('app.inicio');
+			}else{
+				$mdDialog.show(
+					$mdDialog.alert()
+					.title('Error')
+					.content('El keycode introducido no es válido.')
+			        .ariaLabel('Password notification')
+			        .ok('Intentar nuevamente')
+				);
+			}
 		}
-		*/
 	}
 })
 .controller('NSECtrl', function($scope, $ionicNavBarDelegate, $ionicPopover){

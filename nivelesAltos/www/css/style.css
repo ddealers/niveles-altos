@@ -9,6 +9,10 @@ body,
 html {
   size: 100%;
 }
+body p,
+html p {
+  line-height: normal;
+}
 .popover {
   max-height: 160px;
 }
@@ -227,7 +231,6 @@ div.content-NSE .container.NSE div div h3 {
 }
 div.content-NSE .container.NSE div div img.puertas {
   width: 100%;
-  margin-left: -6;
 }
 @media (min-width: 500px) {
   div.content-NSE .container.NSE div div p.gris {
@@ -247,6 +250,8 @@ div.content-NSE .container.NSE div div img.puertas {
   }
   div.content-NSE .container.NSE div div img.puertas {
     width: 70%;
+    margin: auto;
+    display: block;
   }
 }
 /* =========================== HISTORIAS DE VIDA */
@@ -452,7 +457,7 @@ div.content-Historias-vida .container.historias_vida .col .row .col-33 p {
 }
 div.content-Historias-vida .container.historias_vida .col .row .col-67 button {
   position: absolute;
-  bottom: 0;
+  bottom: -15px;
   right: 0;
   left: inherit !important;
   font-size: 25px;
@@ -655,7 +660,6 @@ div.content-C_estado_civil .container.estado_civil div div div.ul-li ul.porcen2 
   div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle img.flecha {
     left: 228px;
     width: 20%;
-    top: -25px;
   }
   div.content-C_estado_civil .container.estado_civil div div div.border.yellow div.col-50.fle p.vive {
     margin-left: 100px;
@@ -899,7 +903,7 @@ div.content-C_ocupaciones .container.ocupaciones div div div.col ul {
   div.content-C_ocupaciones .container.ocupaciones div div div.col-50 p.coll img {
     left: 313px;
     width: 50px;
-    top: 0px;
+    top: 25s ize 100% px;
   }
   div.content-C_ocupaciones .container.ocupaciones div div div.col-75 {
     padding-left: 150px;
@@ -2271,12 +2275,6 @@ div.content-boy .container.boy {
 /*background url(../img/fondo.png)*/
   background: #36bece url("../img/fondoazul.png");
 }
-div.content-boy .container.boy img.logo {
-  position: relative !important;
-  padding-top: 350px;
-  width: 17%;
-  margin-right: 230px;
-}
 div.content-boy .container.boy img {
   margin: auto;
   display: block;
@@ -2351,9 +2349,7 @@ div.content-boy .container.boy ul li.i {
 }
 @media (min-width: 500px) {
   div.content-boy .container.boy img.logo {
-    padding-top: 730px;
     width: 20%;
-    margin-right: 540px;
   }
   div.content-boy .container.boy ul li.c {
     top: 32%;
@@ -2447,6 +2443,9 @@ ion-content.has-header.content-Login img {
   display: block;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+ion-content.has-header.content-Login input[type="password"] {
+  text-align: center;
 }
 li.italic {
   font-style: italic;
