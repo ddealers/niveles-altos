@@ -37,6 +37,7 @@ angular.module('starter', ['ionic', 'angles', 'ngMaterial', 'starter.controllers
       url: "/app",
       abstract: true,
       templateUrl: "templates/menu.html",
+      controller: "AppCtrl"
     })
     .state('app.inicio', {
       url: "/inicio",

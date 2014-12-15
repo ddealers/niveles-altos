@@ -1,4 +1,10 @@
 angular.module('starter.controllers', [])
+.controller('AppCtrl', function($scope, $state){
+	$scope.closeSession = function(){
+		localStorage.clear();
+		$state.go('login');
+	}
+})
 .controller('LoginCtrl', function($scope, $state, $http, $mdDialog){
 	$scope.loginData = {};
 	$scope.doLogin = function(){
