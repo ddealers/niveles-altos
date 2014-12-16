@@ -79,7 +79,6 @@ ion-nav-view {
   text-align: center;
   font-weight: bold;
   padding-top: 20px;
-  margin-bottom: 10px;
 }
 /* =========================== MENU */
 .button.button-positive {
@@ -1394,51 +1393,26 @@ div.content-C_tecnologia .container.tecnologia div div p {
   font-weight: 200;
   margin: 20px;
 }
-div.content-C_tecnologia .container.tecnologia div div div.row {
-  margin-left: 25px;
+div.content-C_tecnologia .container.tecnologia div div .col img {
+  width: 100%;
 }
-div.content-C_tecnologia .container.tecnologia div div div.row div.col ul li img {
-  width: 70%;
+div.content-C_tecnologia .container.tecnologia div div .col-75 {
+  position: relative;
 }
-div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li {
-  padding-top: 32.5px;
-}
-div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.u {
-  padding-top: 36.5px;
-}
-div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.d {
-  padding-top: 45.5px;
-}
-div.content-C_tecnologia .container.tecnologia div div div.row div.col-75 ul li.s {
-  padding-top: 39.5px;
+div.content-C_tecnologia .container.tecnologia div div .col-75 p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 180px;
+  height: 25px;
+  font-size: 14px;
 }
 @media (min-width: 500px) {
   div.content-C_tecnologia .container.tecnologia div div p {
     font-size: 20px;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li {
-    font-size: 20px;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.u {
-    padding-top: 44.5px !important;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.d {
-    padding-top: 115.5px !important;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.c {
-    padding-top: 140.5px !important;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.s {
-    padding-top: 95.5px !important;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.ci {
-    padding-top: 100.5px !important;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col-75 ul li.si {
-    padding-top: 100.5px !important;
-  }
-  div.content-C_tecnologia .container.tecnologia div div div.col ul li img {
-    width: 59% !important;
   }
 }
 /* =========================== SECRETO #1 */
