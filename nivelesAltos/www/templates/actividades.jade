@@ -1,7 +1,7 @@
 div.content-actividades
 	ion-view(title="Actividades")
 		ion-nav-buttons(side="left")
-			button.button.button-icon.icon.ion-ios7-arrow-left(menu-toggle="left")
+			button.button.button-icon.icon.ion-ios7-drag(menu-toggle="left")
 		ion-nav-buttons(side="right")
 			button.button.button-icon.icon.ion-coffee
 		ion-content.has-header
@@ -9,10 +9,6 @@ div.content-actividades
 				div
 					div
 						h1.h1t VACACIONES Y VIAJES
-						h2 MOTIVOS DE VIAJE (%)
-						div.row
-								div.col-offset-10.col-80
-									canvas(barchart options="options" data="chart" width="100" height="250")
 						h2 Aproximadamente
 						p.p TOMAN AL AÑO 
 							span.azul 28 DÍAS<br>
@@ -53,6 +49,9 @@ div.content-actividades
 						h1.azul MOTIVOS DE VIAJE
 							//
 								SLIDER
+						div.row
+								div.col-offset-10.col-80
+									canvas(barchart options="options" data="chart" width="100" height="250")
 						p.azul.bold REALIZAN HASTA 12 ACTIVIDADES DIFERENTES EN UN MES
 						div.row
 							ul 
