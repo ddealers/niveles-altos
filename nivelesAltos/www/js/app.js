@@ -251,6 +251,6 @@ angular.module('starter', ['ionic', 'angles', 'ngMaterial', 'starter.controllers
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/inicio');
+  $urlRouterProvider.otherwise('/login');
 });
 
